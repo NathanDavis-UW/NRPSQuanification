@@ -12,4 +12,3 @@ This is a program that allows you to create tree with html 5 or javascript, they
 
 ## MLTreeMap
 This is given a set of DNA sequences and then creates a tree of life based around how similar they are based on key enzymes, Phylogenetic markers, functional markers. They then visualize this as a tree. This could be useful to see how others have created tree programs and possibly to harness to some extent on this project
-
