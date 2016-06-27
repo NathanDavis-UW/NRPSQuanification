@@ -1,8 +1,8 @@
 # Categorization of Programs
 ## Jupyter
-
-## anit-smash
-
+Jupyter is a program that lets you share code from 40 different coding languages with a focus on application to stem and science more spefically. 
+## anti-smash
+anti smash is a program that combines a variety of differnt tools with the purpose of location secondaryt metablolism of bacteria and fungi. These can be used to find anitbbioticsm cholesterol-lowering drugs, and anti tumor drugs. This is how we can find most or four nrps for the diversity tree.
 ## Blast
 Is a program used ot find similar regions on multiple different amino acid sequences. It can then infer fucional and evolutionary relationships.
 ## python
