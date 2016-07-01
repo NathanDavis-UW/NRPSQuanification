@@ -37,7 +37,6 @@ class Sequence:
                 seq.append(K())
             elif char == 'S':
                 seq.append(S())
-                print(seq[0].getBpr())
             elif char == 'R':
                 seq.append(R())
             elif char == 'H':
@@ -64,32 +63,39 @@ class Sequence:
             for k in range(6):
                 st.append(seq[i + k])
             count = 0
+
             while k > 0 and st[k].getAint() != -1:
-                k -= 1
                 if st[k].getAint() == 1:
                     count += 1
-            if count > 4 and k == 0:
+                k -= 1
+            if st[k].getAint() == 1:
+                count += 1
+            if count > 3 and k == 0:
                 full = len(self.Aextend(st, seq, i))
                 self.a.append([i, i + full])
                 i += full;
             else:
-                i = i + 5 - k
+                i += 1
         return self.a
 
     def Aextend(self, st, seq, i):
         av = 0.0;
         avnum = 0
+        avfin = 0
         for int in range(len(st) - 1):
             avnum += 1
-            av = (av + st[int].getApr()) / avnum
+            av = (av + st[int].getApr())
+            avfin = av / avnum
         int += 1
         avnum += 1
-        av = (av + seq[i + int].getApr()) / avnum
-        while av < .36 and not seq[i + int].getAint() == -1 and i + int < len(seq) - 1:
+        av = (av + seq[i + int].getApr())
+        avfin = av / avnum
+        while avfin < .3 and not seq[i + int].getAint() == -1 and i + int < len(seq) - 1:
             st.append(seq[i + int])
             int += 1
             avnum += 1
-            av = (av + seq[i + int].getApr()) / avnum
+            av = (av + seq[i + int].getApr())
+            avfin = av / avnum
         return st
 
 
@@ -124,7 +130,7 @@ class Sequence:
         avnum += 1
         av = (av + seq[i + int].getBpr())
         avfin = av / avnum
-        while avfin < .26 and not seq[i + int].getBint() == -1 and i + int < len(seq) - 1:
+        while avfin < .25 and not seq[i + int].getBint() == -1 and i + int < len(seq) - 1:
             st.append(seq[i + int])
             int += 1
             avnum += 1

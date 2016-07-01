@@ -1,0 +1,14 @@
+<application>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/anaconda3/bin/python" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/anaconda3/bin/python" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

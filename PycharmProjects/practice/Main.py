@@ -14,7 +14,7 @@ for i in range(len(s) - 1):
             sys.stdout.write('A')
         else:
             sys.stdout.write(' ')
-        if a[k][0] == i and len(a) - 1 < k:
+        if a[k][1] == i and k < len(a) - 1 :
             k += 1
 print('\n')
 k = 0
