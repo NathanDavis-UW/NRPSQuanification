@@ -1,0 +1,16 @@
+search_command = 'Search'
+search_database = 'nucleotide'
+return_format = 'FASTA'
+search_term = 'NRPS AND Condensation AND matK[Gene]'
+
+my_browser = 'firefox'
+from Bio import Entrez
+Entrez.email = 'n.j.davis.college@gmail.com'
+handle = Entrez.esearch(db=search_database, term=search_term)
+record = Entrez.read(handle)
+for id in record["IdList"]:
+    new_handle = Entrez.efetch(db=search_database, id=id, rettype="gb", retmode="text")
+    new_record = (new_handle.read())
+    print(new_record)
+
+#def extract_condensation():

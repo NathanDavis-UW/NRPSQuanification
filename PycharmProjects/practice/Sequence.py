@@ -50,7 +50,7 @@ class Sequence:
             elif char == 'N':
                 seq.append(N())
             elif char == 'G':
-                seq.append(G())
+                seqappend(G())
             elif char == 'P':
                 seq.append(P())
         return seq
