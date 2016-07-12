@@ -6,6 +6,8 @@ Obtain a database containing all of the nrps that will be looked at
 Tools to do this:
 
 + IMGABC
++ NCBI
++ Biopython
 
 ##Step 2: Analyze for Function
 Analyze to find import fuctions attached to amino acid strands
