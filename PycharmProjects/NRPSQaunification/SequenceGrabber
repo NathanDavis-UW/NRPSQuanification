@@ -1,16 +1,22 @@
+import os
+
+from Bio import Entrez
+
 search_command = 'Search'
 search_database = 'nucleotide'
 return_format = 'FASTA'
-search_term = 'NRPS AND Condensation AND matK[Gene]'
-
+search_term = 'NRPS AND Adenylylation'
 my_browser = 'firefox'
-from Bio import Entrez
 Entrez.email = 'n.j.davis.college@gmail.com'
 handle = Entrez.esearch(db=search_database, term=search_term)
 record = Entrez.read(handle)
-for id in record["IdList"]:
-    new_handle = Entrez.efetch(db=search_database, id=id, rettype="gb", retmode="text")
-    new_record = (new_handle.read())
-    print(new_record)
+for i_d in record["IdList"]:
+    filename = "NRPSAdenylylationInfo_" + i_d + ".gbk"
+    if not os.path.isfile(filename):
+        new_handle = Entrez.efetch(db=search_database, id=i_d, rettype="gb", retmode="text")
+        out_handle = open(filename, "w")
+        out_handle.write(new_handle.read())
+        out_handle.close()
+        new_handle.close()
 
-#def extract_condensation():
+
