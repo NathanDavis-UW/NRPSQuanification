@@ -8,3 +8,4 @@
     + only use domains that make nrps's
 + CDS
     + see if /note includes anything of value 
+    + filter by /product as this will give whther it is a adenylation or condensation protein at all
