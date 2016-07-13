@@ -5,13 +5,13 @@ from Bio import Entrez
 search_command = 'Search'
 search_database = 'nucleotide'
 return_format = 'FASTA'
-search_term = 'NRPS AND Adenylylation'
+search_term = 'non-ribosomal peptide synthetase'
 my_browser = 'firefox'
 Entrez.email = 'n.j.davis.college@gmail.com'
 handle = Entrez.esearch(db=search_database, term=search_term)
 record = Entrez.read(handle)
 for i_d in record["IdList"]:
-    filename = "NRPSAdenylylationInfo_" + i_d + ".gbk"
+    filename = "NRPSGeneralInfo_" + i_d + ".gbk"
     if not os.path.isfile(filename):
         new_handle = Entrez.efetch(db=search_database, id=i_d, rettype="gb", retmode="text")
         out_handle = open(filename, "w")
