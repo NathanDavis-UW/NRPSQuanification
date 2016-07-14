@@ -1,20 +1,31 @@
+import os
+
+from Bio import SeqIO
 from Bio.Blast import NCBIXML
 
-#record = SeqIO.read("rootNRPS", format="fasta")
-#result_handle = NCBIWWW.qblast("blastn", "nt", record.seq)
-#save_file = open("my_blast.xml", "w")
-#save_file.write(result_handle.read())
-#save_file.close()
-#result_handle.close()
-result_handle = open("my_blast.xml")
-blast_record = NCBIXML.read(result_handle)
-i = 0
-for alignment in blast_record.alignments:
-    for hsp in alignment.hsps:
-        i += 1
-        f = open("result" + str(i), 'w')
-        f.write('sequence:' + str(alignment.title) +'\n')
-        f.write('length:' + str(alignment.length) + '\n')
-        f.write(str(hsp.query[0:len(hsp.sbjct)]) + '\n')
-        f.write(str(hsp.match[0:len(hsp.sbjct)]) + '\n')
-        f.write(str(hsp.sbjct[0:len(hsp.sbjct)]) + '\n')
+import BLASTWriter
+
+root_dir = "RootNRPSs"
+BLASTWriter.create_dir(root_dir)
+xml_dir = "BLASTXML"
+BLASTWriter.create_dir(xml_dir)
+stan_dir = "BLASTStandard"
+BLASTWriter.create_dir(stan_dir)
+fas_dir = "BLASTFASTA"
+main_dir = []
+for [dirpath, dirname, filename] in os.walk(root_dir):
+    main_dir.extend(filename)
+for file in main_dir:
+    if file[0:len(file)-4] not in os.listdir(stan_dir):
+        record = SeqIO.read(os.path.join(root_dir, file), format="gb")
+        #BLASTExecute.blast_execute(record)
+        result_handle = open(os.path.join(xml_dir, "BLAST-" + record.name + ".xml"))
+        blast_record = NCBIXML.read(result_handle)
+        i = 0
+        e_threshold = .001
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+                if hsp.expect < e_threshold:
+                    i += 1
+                    BLASTWriter.write_blast_standard(i, alignment, hsp, record)
+                    BLASTWriter.write_blast_fasta(i, alignment, hsp, record)
