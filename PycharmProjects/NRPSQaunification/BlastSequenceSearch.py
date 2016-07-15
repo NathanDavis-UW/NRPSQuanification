@@ -21,11 +21,18 @@ for file in main_dir:
         #BLASTExecute.blast_execute(record)
         result_handle = open(os.path.join(xml_dir, "BLAST-" + record.name + ".xml"))
         blast_record = NCBIXML.read(result_handle)
-        i = 0
-        e_threshold = .001
+        k = 0
+        e_threshold = .00000001
+        rec_dir = record.name
         for alignment in blast_record.alignments:
+            k += 1
+            i = 0
+            al_dir = alignment.title[:alignment.title.index(" ")]
+            BLASTWriter.create_dir(os.path.join(stan_dir, os.path.join(rec_dir, al_dir)))
+            BLASTWriter.create_dir(os.path.join(fas_dir, os.path.join(rec_dir, al_dir)))
+            BLASTWriter.write_full_standard(k, alignment, record)
             for hsp in alignment.hsps:
                 if hsp.expect < e_threshold:
                     i += 1
-                    BLASTWriter.write_blast_standard(i, alignment, hsp, record)
-                    BLASTWriter.write_blast_fasta(i, alignment, hsp, record)
+                    BLASTWriter.write_blast_standard(i, alignment, hsp, rec_dir)
+                    BLASTWriter.write_blast_fasta(i, alignment, hsp, rec_dir)
