@@ -1,4 +1,4 @@
-LOCUS       NW_003020110           57482 bp    dna     linear   UNK
+LOCUS       NW_003020110           57482 bp    dna     linear   UNK 
 ACCESSION   NW_003020110
 FEATURES             Location/Qualifiers
      CDS             join(1..2,100..340,421..506,588..1146)
