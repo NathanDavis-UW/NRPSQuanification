@@ -1,0 +1,9 @@
+sequence: gi|30407128|emb|AL646053.1|-29
+length: 78
+description: Ralstonia solanacearum GMI1000 megaplasmid partial sequence
+e: 1.69103e-11
+weighted e: 1.6910300000000002e+26
+score: 94.0
+ACCAGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGC
+|||| |||| |||| |||||||  ||||||||||| ||| |||||||||| ||||||| |||| || |||||||||| |||
+ACCA-CACC-ACCTGGCCTACGTGATCTACACCTCGGGCTCCACCGGCCGCCCCAAGGGCGTGATGGTCGAACACCGTGGC

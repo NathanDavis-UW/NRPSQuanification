@@ -1,0 +1,65 @@
+LOCUS       EU078169                1072 bp    mRNA    linear   PLN 17-SEP-2008
+DEFINITION  Penicillium chrysogenum C-4 methylsterol oxidase (erg25) mRNA,
+            complete cds.
+ACCESSION   EU078169
+VERSION     EU078169.1  GI:158515756
+KEYWORDS    .
+SOURCE      Penicillium chrysogenum
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 1072)
+  AUTHORS   Wang,F.Q., Zhao,Y., Dai,M., Liu,J., Zheng,G.Z., Ren,Z.H. and
+            He,J.G.
+  TITLE     Cloning and functional identification of C-4 methyl sterol oxidase
+            genes from the penicillin-producing fungus Penicillium chrysogenum
+  JOURNAL   FEMS Microbiol. Lett. 287 (1), 91-99 (2008)
+   PUBMED   18707625
+REFERENCE   2  (bases 1 to 1072)
+  AUTHORS   Wang,F.-Q., Zhao,Y., Dai,M., Liu,J., Zheng,G.-Z., Ren,Z.-H. and
+            He,J.-G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2007) Department of Bioresources, Institute of
+            Antibiotic, NCPC, 388 East Heping Road, Shijiazhuang, Hebei 050015,
+            China
+FEATURES             Location/Qualifiers
+     source          1..1072
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:5076"
+     gene            1..1072
+                     /gene="erg25"
+     CDS             146..1033
+                     /gene="erg25"
+                     /codon_start=1
+                     /product="C-4 methylsterol oxidase"
+                     /protein_id="ABW69661.1"
+                     /db_xref="GI:158515757"
+                     /translation="MNSTVLPPGTYWGQYQDITKSNTQLSVAERLWVAWYAWVQNDVL
+                     ATGIMSFLIHELFYFGRSLPWIFIDSLDFFNRYKIQSSKVPSLREQWDCAKFVLLSHF
+                     TVELPQIWLFHPMAQFFGLSTSIPFPSPWTMTYQIAIFFVMEDTWHYFFHRALHWGPL
+                     YKAIHKVHHQYSAPFGLAAEYASPIEVMILGFGTVSSPILWCAFTGNLHILTMYIWIV
+                     LRLFQAVDAHSGYEFPWSLHHFLPFWAGADHHDLHHEKFIGNYSSSFRWWDYLLDTDY
+                     TPDALKRRREQKVKAKKTQ"
+ORIGIN      
+        1 aggagccatc cgagccccac atagtactct cccccagatc actttatttg tttagttacg
+       61 gagtactccc cttttcacga aatagtcttc tccttctctc agcccctgct tcttctctct
+      121 tattcaagac ctgctaggaa ccacaatgaa ttctaccgtg ctgccccccg gcacctattg
+      181 gggccaatat caggatatca ccaaatccaa tacccagctg agcgtggcag agaggttgtg
+      241 ggtcgcatgg tatgcgtggg tgcagaacga tgtcctggcc accggcatca tgtcctttct
+      301 catccacgag ttgttctact tcggccgctc tcttccgtgg atcttcattg atagcttgga
+      361 tttcttcaac agatacaaga ttcaaagtag caaagtacct tcattacgcg agcaatggga
+      421 ttgcgccaag ttcgtgcttc tgagccactt caccgtcgaa cttcctcaaa tctggctttt
+      481 ccacccaatg gcccagttct tcggtctatc aacatcgatt ccttttccgt ctccctggac
+      541 tatgacgtat cagattgcga tatttttcgt gatggaggac acttggcact attttttcca
+      601 ccgagctctt cattggggtc cactctacaa ggctattcac aaagttcacc atcagtattc
+      661 cgcaccattt ggtttggccg ccgaatatgc ttctcctatt gaagtgatga ttctcggctt
+      721 cgggaccgtc agctccccga tcctctggtg tgctttcacc ggtaacctgc atattctcac
+      781 tatgtacatc tggattgtgt tgcgcttgtt ccaggctgtt gatgcccaca gtggctacga
+      841 atttccttgg agtcttcacc atttcttgcc tttctgggct ggtgctgatc atcacgacct
+      901 ccaccatgag aaattcattg ggaactactc aagcagcttc cgctggtggg actacctcct
+      961 tgacaccgac tacactccgg atgccctgaa gcgccgaagg gagcaaaagg tgaaggcaaa
+     1021 gaagacacaa tgatctgaac gttagcagtg acagtctgcc tatttctctt ca
+//
+

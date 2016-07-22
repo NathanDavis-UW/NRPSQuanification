@@ -1,0 +1,76 @@
+LOCUS       XM_002569072             930 bp    mRNA    linear   PLN 14-AUG-2009
+DEFINITION  Penicillium chrysogenum Wisconsin 54-1255 hypothetical protein
+            (Pc21g21430) mRNA, complete cds.
+ACCESSION   XM_002569072
+VERSION     XM_002569072.1  GI:255956730
+KEYWORDS    RefSeq.
+SOURCE      Penicillium rubens Wisconsin 54-1255
+  ORGANISM  Penicillium rubens Wisconsin 54-1255
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 930)
+  AUTHORS   van den Berg,M.A., Albang,R., Albermann,K., Badger,J.H.,
+            Daran,J.M., Driessen,A.J., Garcia-Estrada,C., Fedorova,N.D.,
+            Harris,D.M., Heijne,W.H., Joardar,V., Kiel,J.A., Kovalchuk,A.,
+            Martin,J.F., Nierman,W.C., Nijland,J.G., Pronk,J.T., Roubos,J.A.,
+            van der Klei,I.J., van Peij,N.N., Veenhuis,M., von Dohren,H.,
+            Wagner,C., Wortman,J. and Bovenberg,R.A.
+  TITLE     Genome sequencing and analysis of the filamentous fungus
+            Penicillium chrysogenum
+  JOURNAL   Nat. Biotechnol. 26 (10), 1161-1168 (2008)
+   PUBMED   18820685
+REFERENCE   2  (bases 1 to 930)
+  AUTHORS   van den Berg,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2007) van den Berg M.A., DAI/INNO (624-0270), DSM
+            Anti-Infectives, Alexander Fleminglaan 1, Delftn, 2613 AX,
+            NETHERLANDS
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003020110).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..930
+                     /organism="Penicillium rubens Wisconsin 54-1255"
+                     /mol_type="mRNA"
+                     /strain="Wisconsin 54-1255"
+                     /db_xref="taxon:500485"
+                     /chromosome="1"
+                     /clone="Pc00c21"
+     gene            <1..>930
+                     /locus_tag="Pc21g21430"
+                     /db_xref="GeneID:8304970"
+     CDS             1..930
+                     /locus_tag="Pc21g21430"
+                     /note="Pc21g21430"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="XP_002569118.1"
+                     /db_xref="GI:255956731"
+                     /db_xref="GeneID:8304970"
+                     /translation="MMRAFTLRRSLAYLLPARPFLSVRPKPAPAAFQSRVGFPNLALP
+                     STSRSFQSSPTSREKWISSEVILFELKDRKIEKWGWVFYRTTYKDDEAWDIFKQKLNI
+                     SVRSIVNLDPRSELNEAIFDKLEFVFMEDKAKFDGASKAELRAHFQEWVANNFSAENP
+                     GADQKLLYDDEPVSRYRFFFEIDEDALRSCGSGGSGHANFLDGFWSSSGGRSGDVSRA
+                     AQNDPEQLQNQADAVEGCSDVGWMRMDMAFFMDTHFYAGMSGSIDLTWPFFYECPPAI
+                     VPNSKLILLMQIQNLSRRRPTSSQKDYALDHLL"
+ORIGIN      
+        1 atgatgagag cgttcactct caggcgttcg cttgcttatc tacttcccgc tcgcccgttt
+       61 ctttctgtgc gccccaagcc agcccctgct gcgttccaaa gcagagtagg attccccaat
+      121 ttggctctgc cttcaacatc acgaagcttt cagtcatcac ctacctccag agagaaatgg
+      181 atttcatcag aggtcatact cttcgagctc aaagatcgaa aaatagaaaa atggggctgg
+      241 gtcttctacc ggaccacata caaagatgac gaagcctggg atatctttaa gcaaaagctc
+      301 aacatttcag tgcgctcaat cgtcaacctt gacccccgat cagaactcaa tgaagccatt
+      361 ttcgacaaac tcgaatttgt cttcatggaa gacaaggcaa agttcgatgg agcttccaag
+      421 gcggagctac gcgcccactt ccaagaatgg gtagccaata atttctcggc tgagaaccca
+      481 ggcgctgatc aaaagctcct atatgacgat gaaccagttt caagatatcg attcttcttc
+      541 gaaattgacg aggatgcatt acgcagctgt ggctccggag gttcaggcca tgccaacttc
+      601 ttagatggct tttggtcgtc gagtggaggc cgctctggtg atgtcagccg tgccgcacaa
+      661 aatgatcccg aacagctgca gaatcaagcg gacgctgttg aaggctgctc ggatgttggg
+      721 tggatgagaa tggacatggc atttttcatg gacactcatt tctacgcagg catgagcgga
+      781 tcgatagatc ttacgtggcc tttcttttac gagtgccctc ctgccattgt accgaacagt
+      841 aagcttatcc tgctgatgca aattcagaat ttgtctcgta ggagacctac gtccagccag
+      901 aaggattatg ccctagatca cctgctctaa
+//
+

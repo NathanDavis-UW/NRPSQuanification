@@ -1,0 +1,105 @@
+LOCUS       XM_016738349            1869 bp    mRNA    linear   PLN 11-MAY-2016
+DEFINITION  Penicillium expansum hypothetical protein mRNA.
+ACCESSION   XM_016738349
+VERSION     XM_016738349.1  GI:1026954206
+DBLINK      BioProject: PRJNA319326
+            BioSample: SAMN02928573
+KEYWORDS    RefSeq.
+SOURCE      Penicillium expansum
+  ORGANISM  Penicillium expansum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+REFERENCE   1  (bases 1 to 1869)
+  AUTHORS   Ballester,A.R., Marcet-Houben,M., Levin,E., Sela,N.,
+            Selma-Lazaro,C., Carmona,L., Wisniewski,M., Droby,S.,
+            Gonzalez-Candelas,L. and Gabaldon,T.
+  TITLE     Genome, Transcriptome, and Functional Analyses of Penicillium
+            expansum Provide New Insights Into Secondary Metabolism and
+            Pathogenicity
+  JOURNAL   Mol. Plant Microbe Interact. 28 (3), 232-248 (2015)
+   PUBMED   25338147
+REFERENCE   2  (bases 1 to 1869)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAY-2016) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1869)
+  AUTHORS   Ballester,A.-R., Marcet-Houben,M., Levin,E., Sela,N.,
+            Selma-Lazaro,C., Carmona,L., Wisniewski,M., Droby,S.,
+            Gonzalez-Candelas,L. and Gabaldon,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2014) Bioinformatics and Genomics Department,
+            Center for Genomic Regulation (Barcelona), Dr Aiguader 88,
+            Barcelona, Barcelona 08003, Spain
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_015971157).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..1869
+                     /organism="Penicillium expansum"
+                     /mol_type="mRNA"
+                     /strain="MD-8"
+                     /isolation_source="fruit"
+                     /host="apple"
+                     /db_xref="taxon:27334"
+                     /chromosome="Unknown"
+                     /country="USA"
+                     /collection_date="1992"
+     gene            <1..>1869
+                     /locus_tag="PEX2_010720"
+                     /db_xref="GeneID:27673768"
+     CDS             1..1869
+                     /locus_tag="PEX2_010720"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="XP_016603703.1"
+                     /db_xref="GI:1026954207"
+                     /db_xref="GeneID:27673768"
+                     /translation="MTFNRPLPISGAWEHPDAYIEALLRFSTTSVLFMNLCGGVHMVD
+                     FLTREPDLYTEILPKDWIYFFEQHDIQNIIRLLLREDIDHLRGAGEPSVDQSSRTWNG
+                     GEFPPQSLLEYISNVRLLTLQREMCISSSKRIDLPKQVAMHMNRKKVHEVECFSQHVA
+                     SLSDTVSKRRGEPVTHIVDLGSGQNYLGRTLASSPYYKHIIAIERKHQYISGAKGMDV
+                     RAKLAKNPNAQYFHKDKTSSDGHNGTLEVTVSEMTDTSQPTIEASQVSDVPFFEMLGE
+                     ISLQPDELLRSPTKSPLREKLPKPEIHTRGTLSYIEHEIQDGHLEPIIDHIIYPPPAE
+                     VSDEKGKEESDPRLMVVSLHSCGNLVHHGLRSLLLNSSVVAVAMIGCCYNLLTERLGP
+                     TTHDLPILQSLHPRLKETGTSYDPHGFPMSKYYENYRSPGATSGMKLNITARALAVQA
+                     PYNWGVNDSEVSFTRHFFRALLQRILVDRNILPRPSMPEEAFSDGTYPEARTNSIIIG
+                     ALPKAAFKSFTAYIRAATIKMSRDPIYGSQVQEHIATLTDEEIHCYETQYLHARKHMS
+                     VVWSLMAFSAQLVEAIIVVDRWQFLREQDSVKDCWVQPVFDYSESPRNLAVIGLKQ"
+ORIGIN      
+        1 atgactttca atcgcccctt acccatctct ggggcatggg agcaccccga tgcctacatt
+       61 gaggccctgc tccgcttctc tactacgtcg gtgctcttta tgaatttgtg cggtggcgtg
+      121 catatggtcg actttttgac ccgggagccc gacctctata cagaaatcct gccaaaagat
+      181 tggatatatt tcttcgaaca gcatgatatt caaaatatta ttcgtctact cctacgagag
+      241 gacattgatc acctacgagg cgccggcgag ccttcagtag atcaaagcag ccgtacttgg
+      301 aacggaggag aattccctcc ccagagcctg ttggaataca tttccaatgt ccgtctactg
+      361 acacttcaac gagaaatgtg tatctcatct tcaaagagga tcgatttacc aaagcaagtt
+      421 gctatgcata tgaaccgaaa aaaagtacat gaggttgaat gtttttctca acatgtcgca
+      481 tctctatcag acactgtcag taagcgccga ggtgagccag tcactcatat tgtggatctt
+      541 gggtcaggac agaactacct tggacggaca ctggccagtt cgccttacta caagcatatc
+      601 atcgcaattg agcgcaagca tcagtacatc agcggtgcta agggcatgga tgttcgagcc
+      661 aagttggcaa agaacccgaa cgctcaatat tttcacaagg acaaaacttc gtccgatggc
+      721 cacaacggaa ctctggaagt gactgtttct gaaatgacgg atacctccca accaacgata
+      781 gaggcttcgc aggtctctga tgtccctttt tttgagatgc tgggcgagat tagtcttcaa
+      841 cctgacgagc tactcagatc tcccaccaaa agcccattac gagaaaagct gccgaagccg
+      901 gagatccata cccgcggtac tctaagctat attgagcatg aaattcaaga tggtcactta
+      961 gagcccatta ttgaccacat catatatcca ccccctgctg aggtttctga tgagaaagga
+     1021 aaagaagaaa gcgatcctag attgatggta gtttccctcc actcttgcgg aaacctcgtt
+     1081 caccacggtc tacgatccct gcttctaaat tcttcggttg tggctgtcgc tatgatcggc
+     1141 tgttgctaca atctcttgac ggaacgcctc ggcccaacta cacatgacct ccctattctt
+     1201 caatctcttc accctcggct gaaagagact ggaacatcat acgacccgca tggattccca
+     1261 atgtccaaat actacgagaa ttaccgaagt cccggagcaa cgagcggcat gaagcttaac
+     1321 atcacagctc gtgcactcgc agtgcaagct ccatataatt ggggcgtcaa tgacagtgaa
+     1381 gtttccttta cccgtcactt cttccgtgct cttctccagc gcatcctcgt tgatcgaaat
+     1441 attctcccta ggccctctat gccggaagag gccttctctg acggaactta cccagaggct
+     1501 agaaccaact ctattatcat cggggcattg cctaaagctg ccttcaagtc ctttactgca
+     1561 tatattcgtg ctgcgacgat caaaatgagt cgagacccga tatatggttc ccaggtgcag
+     1621 gagcatattg ctaccttgac tgatgaggag attcactgct acgagactca atacctccac
+     1681 gcaaggaaac atatgagtgt tgtttggagc ttaatggcgt tcagtgctca acttgttgag
+     1741 gctatcattg ttgtggatcg gtggcaattc cttcgtgaac aggactcggt caaagactgc
+     1801 tgggttcagc cagtgtttga ctacagtgag agtccgcgta acttggcggt cattggacta
+     1861 aaacaatga
+//
+

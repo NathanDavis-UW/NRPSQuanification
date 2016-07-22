@@ -7,6 +7,7 @@ tree_dir = "Tree"
 nrps_dir = "NRPS"
 bla_dir = "BLAST"
 
+
 def create_csv():
     create_dir(csv_dir, nrps_dir)
     main_dir = []

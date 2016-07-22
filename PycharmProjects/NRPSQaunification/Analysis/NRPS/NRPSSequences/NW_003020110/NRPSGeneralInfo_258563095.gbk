@@ -1,0 +1,76 @@
+LOCUS       XM_002582247             897 bp    mRNA    linear   PLN 16-SEP-2009
+DEFINITION  Uncinocarpus reesii 1704 C-4 methylsterol oxidase, mRNA.
+ACCESSION   XM_002582247
+VERSION     XM_002582247.1  GI:258563095
+KEYWORDS    RefSeq.
+SOURCE      Uncinocarpus reesii 1704
+  ORGANISM  Uncinocarpus reesii 1704
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Onygenales; Onygenaceae;
+            Uncinocarpus.
+REFERENCE   1  (bases 1 to 897)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Ma,L.-J.,
+            Henn,M., Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M.,
+            Kleber,M., Mauceli,E., Brockman,W., Rounsley,S., Young,S.,
+            LaButti,K., Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M.,
+            Engels,R., Montgomery,P., Pearson,M., Howarth,C., Larson,L.,
+            Luoma,S., White,J., O'Leary,S., Kodira,C., Zeng,Q., Yandava,C.,
+            Alvarado,L., Taylor,J. and Johannesson,H.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Uncinocarpus reesii strain 1704 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 897)
+  AUTHORS   Taylor,J. and Johannesson,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2005) Department of Plant and Microbial Biology,
+            UC-Berkeley, 111 Koshland Hall, Berkeley, CA 94720-3102, USA
+REFERENCE   3  (bases 1 to 897)
+  AUTHORS   Lander,E., Birren,B. and Ma,L.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02141, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003052496).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..897
+                     /organism="Uncinocarpus reesii 1704"
+                     /mol_type="mRNA"
+                     /strain="1704"
+                     /db_xref="taxon:336963"
+     gene            <1..>897
+                     /locus_tag="UREG_07066"
+                     /db_xref="GeneID:8444592"
+     CDS             1..897
+                     /locus_tag="UREG_07066"
+                     /codon_start=1
+                     /product="C-4 methylsterol oxidase"
+                     /protein_id="XP_002582293.1"
+                     /db_xref="GI:258563096"
+                     /db_xref="GeneID:8444592"
+                     /translation="MSVSLCFFAPLPPEFYRAAPRHLLGPISGYHQIQYPPERGREIN
+                     DVLATGIMSFVIHELFYFGRSLPWTFIDSLGLFKRYKIQSSKVPSLREQWDCAKFVLL
+                     SHFTVELPQIWLFHPMAQFCGLSTSIPFPSPWTMTYQIAIFFVMEDTWHYFFHRALHW
+                     GPLYKAIHKIHHQYSAPFGLAAEYASPIEVMILGFGTVSCPILWCAFTGNLHILTMYI
+                     WIVLRLFQAIDAHSGYEFPWSLHHFLPFWAGADHHDVHHEKFIGNYSSSFRWWDYLLD
+                     TEYTPDALKRRRGKKMKAKKTQ"
+ORIGIN      
+        1 atgtctgtgt ctctctgctt ttttgcaccc ctcccccctg aattttaccg tgctgccccc
+       61 cggcacctat tggggccaat atcaggatat caccaaatcc aatacccacc tgagcgtggc
+      121 agagagatta atgatgtcct agccaccggc atcatgtcct tcgtcatcca cgagttgttc
+      181 tactttggcc gctctcttcc gtggaccttc atcgatagct tgggtctctt caagagatac
+      241 aagattcaaa gtagcaaagt accttcatta cgcgagcaat gggattgcgc caagtttgtg
+      301 cttctgagcc acttcaccgt cgaacttcct cagatctggc ttttccaccc aatggcccag
+      361 ttctgcggtc tatcaacatc tattcctttt ccgtccccct ggactatgac atatcagatt
+      421 gcaatatttt tcgtgatgga ggacacttgg cactattttt tccaccgagc tcttcattgg
+      481 ggtccactct acaaggctat tcacaaaatt caccatcagt attccgcacc atttggtttg
+      541 gccgccgaat atgcttctcc tattgaagtg atgattctcg gcttcgggac cgtcagctgc
+      601 ccgatcctct ggtgtgcttt caccggtaac ctgcatattc tcactatgta tatctggatt
+      661 gtgttgcgct tgttccaggc tatcgatgcc cacagtggct acgagtttcc ttggagtctt
+      721 caccatttct tgcctttctg ggctggtgct gatcatcacg acgtccacca tgagaaattc
+      781 attgggaatt actcaagcag cttccgctgg tgggactacc tccttgacac cgaatacact
+      841 ccggatgccc tgaagcgccg aagagggaaa aagatgaagg caaagaagac acaatga
+//
+

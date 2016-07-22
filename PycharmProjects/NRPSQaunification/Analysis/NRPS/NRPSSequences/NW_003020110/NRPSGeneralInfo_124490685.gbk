@@ -1,0 +1,87 @@
+LOCUS       EF041820                1167 bp    DNA     linear   PLN 14-JUL-2016
+DEFINITION  Penicillium chrysogenum PcbC (pcbC) gene, partial cds; pcbC-pcbAB
+            intergenic spacer, complete sequence; and PcbAB (pcbAB) gene,
+            partial cds.
+ACCESSION   EF041820
+VERSION     EF041820.1  GI:124490685
+KEYWORDS    .
+SOURCE      Penicillium chrysogenum (Penicillium notatum)
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 1167)
+  AUTHORS   Kosalkova,K., Rodriguez-Saiz,M., Barredo,J.L. and Martin,J.F.
+  TITLE     Binding of the PTA1 transcriptional activator to the divergent
+            promoter region of the first two genes of the penicillin pathway in
+            different Penicillium species
+  JOURNAL   Curr. Genet. 52 (5-6), 229-237 (2007)
+   PUBMED   17924108
+REFERENCE   2  (bases 1 to 1167)
+  AUTHORS   Kosalkova,K., Rodriguez-Saiz,M., Barredo,J.L. and Martin,J.F.
+  TITLE     Fragment NcoI of pcbAB-pcbC intergenic region
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1167)
+  AUTHORS   Kosalkova,K., Rodriguez-Saiz,M., Barredo,J.L. and Martin,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2006) INBIOTEC, Parque Cientifico de la Granja,
+            C/ Real, 1, Leon 24006, Spain
+FEATURES             Location/Qualifiers
+     source          1..1167
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="genomic DNA"
+                     /strain="ATCC 9478"
+                     /db_xref="ATCC:9478"
+                     /db_xref="taxon:5076"
+                     /note="NcoI fragment; Fleming strain;
+                     synonym: Penicillium notatum"
+     gene            complement(<1..>4)
+                     /gene="pcbC"
+     mRNA            complement(<1..>4)
+                     /gene="pcbC"
+                     /product="PcbC"
+     CDS             complement(<1..4)
+                     /gene="pcbC"
+                     /codon_start=1
+                     /product="PcbC"
+                     /protein_id="ABN12760.1"
+                     /db_xref="GI:124490687"
+                     /translation="M"
+     misc_feature    5..1019
+                     /note="pcbC-pcbAB intergenic spacer"
+     gene            <1020..>1167
+                     /gene="pcbAB"
+     mRNA            <1020..>1167
+                     /gene="pcbAB"
+                     /product="PcbAB"
+     CDS             1020..>1167
+                     /gene="pcbAB"
+                     /codon_start=1
+                     /product="PcbAB"
+                     /protein_id="ABN12759.1"
+                     /db_xref="GI:124490686"
+                     /translation="MTQLKPPNGTTPIGFSATTSLNASGSSSVKNGTIKPSNGIFKPS
+                     TRDTM"
+ORIGIN      
+        1 ccatggtgtc tagaaaaata atggtgaaaa cttgagggcg tggacaacga cgaagagagg
+       61 gcttggcaaa gggacagggg aagttctcct gcagatgaca atgagtgaag agtatggacg
+      121 caatggaaac gacctgagct ctcttcctct gtgcctgagc gggggcgggg tgtttatgct
+      181 gagacaacct ggagacctta tacgcttgca gcccagatgc ttactggatg gggccgctgg
+      241 agccagtgta aaattagtaa ccgtatctcg aagtcggagg gtctttggtg gtctgagatt
+      301 tcagtcggtc cgcaccgtgg catttgcaga cggtgcgatc aggccaatcg ttgatgctcg
+      361 ggcagagcaa cactcccccg ctcgaagact agtaagtact tatcattatc gtgccagaaa
+      421 acggggccat agatacccaa gtaacaccgt cgagtcaatc gggctcgtgg gcccagccaa
+      481 gccacgagag agtaggcaac gtgcactcaa cgacggcgat gttccaaggt aaaccggcac
+      541 gtagaaaatg tccggaccac cttggctctc gttgcagcgt gttgaatctt cagccaccat
+      601 aagtcgatag catccggtta gtgtgcaacg tgggtctgtc tcattctgct cggttcttgg
+      661 caccagaatc gggcgtagtt tgcccgctgc caagtcgcgg ggccgcttgg ctgtccctgt
+      721 tgtgggattt cccgatgcaa catgcagata catgtagtcg acagttgaca gagccaatgg
+      781 catcggatct gccgtagacc gtgctagacg aaagtctcca tcttgtctgt gggcagtgtc
+      841 tcagtcgccc agattctcga tggagattgg ccaggtcagc catatatacc ctgcaatggc
+      901 agaccaatgc agcgggccca gtataaggaa ttcccctcga gcttgtctgt gattgcgttt
+      961 tttctaacac ttattgttgc atccgatccg tccctaccaa ttattggtca ttgacagaca
+     1021 tgactcaact gaagccaccg aacggaacca cgccgatagg cttctcggcc actacatccc
+     1081 tgaacgccag tgggagctcg agtgtgaaaa atgggaccat caaacccagc aatggcatct
+     1141 tcaagcccag tactagggac accatgg
+//
+

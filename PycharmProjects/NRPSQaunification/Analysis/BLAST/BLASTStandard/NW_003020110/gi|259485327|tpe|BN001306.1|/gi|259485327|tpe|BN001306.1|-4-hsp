@@ -1,0 +1,9 @@
+sequence: gi|259485327|tpe|BN001306.1|-4
+length: 58
+description: TPA_asm: Aspergillus nidulans FGSC A4 chromosome VI
+e: 7.16039e-12
+weighted e: 7.160389999999999e+25
+score: 98.0
+GCTTAAGTACGGCCAAGCAGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATATA
+|||||||||||||  ||| ||||||||||||||||||||||||||||||||||||| ||
+GCTTAAGTACGGCTGAGCGGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATGTA

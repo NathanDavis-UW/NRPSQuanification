@@ -1,0 +1,111 @@
+LOCUS       PECAAT                  2287 bp    DNA     linear   PLN 25-MAY-1994
+DEFINITION  P.chrysogenum acyl-coenzyme A:
+            6-aminopenicillanic-acid-acyltransferase (aat) gene, complete cds.
+ACCESSION   M31454
+VERSION     M31454.1  GI:169173
+KEYWORDS    acyl-coenzyme A:6-aminopenicillanic-acid-acyltransferase.
+SOURCE      Penicillium chrysogenum
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 2287)
+  AUTHORS   Barredo,J.L., van Solingen,P., Diez,B., Alvarez,E., Cantoral,J.M.,
+            Kattevilder,A., Smaal,E.B., Groenen,M.A., Veenstra,A.E. and
+            Martin,J.F.
+  TITLE     Cloning and characterization of the acyl-coenzyme A:
+            6-aminopenicillanic-acid-acyltransferase gene of Penicillium
+            chrysogenum
+  JOURNAL   Gene 83 (2), 291-300 (1989)
+   PUBMED   2555269
+FEATURES             Location/Qualifiers
+     source          1..2287
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="genomic DNA"
+                     /strain="AS-P-78"
+                     /db_xref="taxon:5076"
+     gene            join(475..510,575..749,818..969,1039..1749)
+                     /gene="aat"
+     CDS             join(475..510,575..749,818..969,1039..1749)
+                     /gene="aat"
+                     /note="40 kD precursor"
+                     /codon_start=1
+                     /product="acyl-coenzyme A:6-aminopenicillanic-
+                     acid-acyltransferase"
+                     /protein_id="AAA33692.1"
+                     /db_xref="GI:169174"
+                     /translation="MLHILCQGTPFEIGYEHGSAAKAVIARSIDFAVDLIRGKTKKTD
+                     EELKQVLSQLGRVIEERWPKYYEEIRGIAKGAERDVSEIVMLNTRTEFAYGLKAARDG
+                     CTTAYCQLPNGALQGQNWDFFSATKENLIRLTIRQAGLPTIKFITEAGIIGKVGFNSA
+                     GVAVNYNALHLQGLRPTGVPSHIALRIALESTSPSQAYDRIVEQGGMAASAFIMVGNG
+                     HEAFGLEFSPTSIRKQVLDANGRMVHTNHCLLQHGKNEKELDPLPDSWNRHQRMEFLL
+                     DGFDGTKQAFAQLWADEDNYPFSICRAYEEGKSRGATLFNIIYDHARREATVRLGRPT
+                     NPDEMFVMRFDEEDERSALNARL"
+     mat_peptide     join(910..969,1039..1746)
+                     /gene="aat"
+                     /product="acyl-coenzyme A:6-aminopenicillanic-
+                     acid-acyltransferase"
+                     /note="29 kD protein"
+     exon            <475..510
+                     /gene="aat"
+                     /number=1
+     intron          511..574
+                     /gene="aat"
+                     /number=1
+     exon            575..749
+                     /gene="aat"
+                     /number=2
+     intron          750..817
+                     /gene="aat"
+                     /number=2
+     exon            818..969
+                     /gene="aat"
+                     /number=3
+     intron          970..1038
+                     /gene="aat"
+                     /number=3
+     exon            1039..>1749
+                     /gene="aat"
+                     /number=4
+ORIGIN      1 bp upstream of HindIII site.
+        1 aagctttcag gcaacctagg caacccaata ggaaccaagt gataggccca cctgctttct
+       61 atctagtctg gacggttgct attggctcga tcattgttta ccatcccggc aaaaagctct
+      121 acagagttgt gctatttcta ttcctgtctt ggcatgtcca ggctggctgt tatcgcctcc
+      181 gtggtgaacc ctcttcatgc aagaggtcag tcaataatgc gcttcaccgt tctcgacgaa
+      241 acttggcatc catgctcaat ccagctcctc ggcaagacta ggcggatgca gcagggatac
+      301 tcgaggtgcc ccagttgatg tcccatcagt gtcatgctat ggtcccagat tggtggctac
+      361 ggccaatata aatctcagca tgcagttccg cctgcatgat catccccagg acgcgtttgt
+      421 catctccgtc agccaggtct cagttgttta cccatcttcc gacccgcagc agaaatgctt
+      481 cacatcctct gtcaaggcac tccctttgaa gtaagtgctg cactgaatac cagatttttt
+      541 ccttctgaat cttccgagtt ctgacctgat ccagatcggc tacgaacatg gctctgctgc
+      601 caaagccgtg atagccagaa gcattgactt cgccgtcgat ctcatccgag ggaaaacgaa
+      661 gaagacggac gaagagctta aacaggtact ctcgcaactg gggcgcgtga tcgaggaaag
+      721 atggcccaaa tactacgagg agattcgcgg tgagtgccac ttcggtcttt cctacatttt
+      781 ctgcaccaat gctgaccgat gacccccgaa aaaccaggta ttgcaaaggg cgctgaacgc
+      841 gatgtctccg agattgtcat gcttaatacc cgcacggaat ttgcatacgg gctcaaggca
+      901 gcccgtgatg gctgcaccac tgcctattgt caacttccaa atggagccct ccagggccaa
+      961 aactgggatg tacgttaaga gattttacct cctcatttta ttcaatcgaa tttgcgccga
+     1021 ctaatttggt tgttcaagtt cttttctgcc accaaagaga acctgatccg gttaacgatc
+     1081 cgtcaggccg gacttcccac catcaaattc ataaccgagg ctggaatcat cgggaaggtt
+     1141 ggatttaaca gtgcgggcgt cgccgtcaat tacaacgccc ttcaccttca gggtcttcga
+     1201 cccaccggag ttccttcgca tattgccctc cgcatagcgc tcgaaagcac ttctccttcc
+     1261 caggcctatg accggatcgt ggagcaaggc ggaatggccg ccagcgcttt tatcatggtg
+     1321 ggcaatgggc acgaggcatt tggtttggaa ttctccccca ccagcatccg aaagcaggtg
+     1381 ctcgacgcga atggtaggat ggtgcacacc aaccactgct tgcttcagca cggcaaaaat
+     1441 gagaaagagc tcgatccctt accggactca tggaatcgcc accagcgtat ggagttcctc
+     1501 ctcgacgggt tcgacggcac caaacaggca tttgcccagc tctgggccga cgaagacaat
+     1561 tatcccttta gcatctgccg cgcttacgag gagggcaaga gcagaggcgc gactctgttc
+     1621 aatatcatct acgaccatgc ccgtagagag gcaacggtgc ggcttggccg gccgaccaac
+     1681 cctgatgaga tgtttgtcat gcggtttgac gaggaggacg agaggtctgc gctcaacgcc
+     1741 aggctttgaa ggctcttcat gacgagccaa tgcatctttt gtatgtagct tcaaccgact
+     1801 ccgtcttcac ttcttcgccc gcactgccta ccgtttgtac catctgactc atataaatgt
+     1861 ctagccccta cctacactat acctaaggga gagaagcgta gagtgattaa cgtacgggcc
+     1921 tatagtaccc cgatctctag atagaacatt tagtagagat taggatgcct aactaattta
+     1981 acttgagcat tgtcccgttc atattgattt tcagtccatt atacactctt aatcgtttcc
+     2041 cggtagaagc ctgatatata cgaccatagg gtgtggagaa cagggcttcc cgtctgcttg
+     2101 gccgtactta agctatatat tctacacggc caatactcaa tgtgccctta gcacctaagc
+     2161 ggcactctag ggtaagtgcg ggtgatatag gtgagaagtc ttaagactga agacaggata
+     2221 tcacgcgtta ccctcgaccg tacctactac cttcaatatc aactctttca ggatggacag
+     2281 ggtcgac
+//
+

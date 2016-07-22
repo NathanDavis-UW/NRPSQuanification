@@ -1,0 +1,58 @@
+LOCUS       PECIPS                   996 bp    DNA     linear   PLN 27-APR-1993
+DEFINITION  P.chrysogenum IPS gene encoding isopenicillin N synthetase,
+            complete cds.
+ACCESSION   M15083
+VERSION     M15083.1  GI:169181
+KEYWORDS    isopenicillin N synthetase.
+SOURCE      Penicillium chrysogenum
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 996)
+  AUTHORS   Carr,L.G., Skatrud,P.L., Scheetz,M.E. II, Queener,S.W. and
+            Ingolia,T.D.
+  TITLE     Cloning and expression of the isopenicillin N synthetase gene from
+            Penicillium chrysogenum
+  JOURNAL   Gene 48 (2-3), 257-266 (1986)
+   PUBMED   3104145
+COMMENT     Original source text: P.chrysogenum (23X-80-269-37-2) DNA, clone
+            pXL2.
+            Draft entry and clean copy of sequence [1] kindly provided by
+            T.D.Ingolia (06-APR-1987).
+FEATURES             Location/Qualifiers
+     source          1..996
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:5076"
+     CDS             1..996
+                     /note="isopenicillin N synthetase"
+                     /codon_start=1
+                     /protein_id="AAA33696.1"
+                     /db_xref="GI:169182"
+                     /translation="MASTPKANVPKIDVSPLFGDNMEEKMKVARAIDAASRDTGFFYA
+                     VNHGVDVKRLSNKTREFHFSITDEEKWDLAIRAYNKEHQDQIRAGYYLSIPEKKAVES
+                     FCYLNPNFKPDHPLIQSKTPTHEVNVWPDEKKHPGFREFAEQYYWDVFGLSSALLRGY
+                     ALALGKEEDFFSRHFKKEDALSSVVLIRYPYLNPIPPAAIKTAEDGTKLSFEWHEDVS
+                     LITVLYQSDVANLQVEMPQGYLDIEADDNAYLVNCGSYMAHITNNYYPAPIHRVKWVN
+                     EERQSLPFFVNLGFNDTVQPWDPSKEDGKTDQRPISYGDYLQNGLVSLINKNGQT"
+ORIGIN      1 bp downstream of NcoI site.
+        1 atggcttcca cccccaaggc caatgtcccc aagatcgacg tgtcgcccct gttcggcgac
+       61 aatatggagg agaagatgaa ggttgcccgc gcgattgacg ctgcctcgcg cgacaccggc
+      121 ttcttctacg cggtcaacca cggtgtggat gtgaagcgac tctcgaacaa gaccagggag
+      181 ttccactttt ctatcacaga cgaagagaag tgggacctcg cgattcgcgc ctacaacaag
+      241 gagcaccagg accagatccg tgccggatac tacctgtcca ttccggagaa aaaggccgtg
+      301 gaatccttct gctacctgaa ccccaacttc aagcccgacc accctctcat ccagtcgaag
+      361 actcccactc acgaggtcaa cgtgtggccg gacgagaaga agcatccggg cttccgcgag
+      421 ttcgccgagc aatactactg ggatgtgttc gggctctcgt ctgccttgct gcgaggctat
+      481 gctctggcgc tgggcaagga ggaggacttc tttagccgcc acttcaagaa ggaagacgcg
+      541 ctctcctcgg ttgttctgat tcgttacccg tacctgaacc ccatcccacc tgccgccatt
+      601 aagacggcgg aggacggcac caaattgagt ttcgaatggc atgaggacgt gtcgctcatt
+      661 accgtcctgt accagtcaga cgtggcgaac ctgcaggtgg agatgcccca gggttacctc
+      721 gatatcgagg cggacgacaa cgcctacctg gtcaattgcg gcagctacat ggcacacatc
+      781 accaacaact actaccccgc tcccatccac cgggtcaagt gggtgaacga ggagcgccaa
+      841 tccctcccgt tcttcgtcaa tctgggattt aatgataccg tccagccgtg ggatcctagc
+      901 aaggaagacg gcaagaccga tcagcggcca atctcgtacg gcgactatct gcagaacgga
+      961 ttagttagtc taatcaacaa gaacggccag acatga
+//
+

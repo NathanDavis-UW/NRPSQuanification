@@ -1,0 +1,83 @@
+LOCUS       XM_015553178            1077 bp    mRNA    linear   PLN 11-FEB-2016
+DEFINITION  Aspergillus nomius NRRL 13137 acyl-coenzyme A:Isopenicillin N
+            acyltransferase PenDE mRNA.
+ACCESSION   XM_015553178
+VERSION     XM_015553178.1  GI:992085629
+DBLINK      BioProject: PRJNA309724
+            BioSample: SAMN02768702
+KEYWORDS    RefSeq.
+SOURCE      Aspergillus nomius NRRL 13137
+  ORGANISM  Aspergillus nomius NRRL 13137
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus.
+REFERENCE   1  (bases 1 to 1077)
+  AUTHORS   Moore,M.G., Shannon,B.M. and Brian,M.M.
+  TITLE     The Genome of the Aflatoxigenic Filamentous Fungus Aspergillus
+            nomius
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1077)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2016) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1077)
+  AUTHORS   Moore,M.G., Shannon,B.M. and Brian,M.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2014) Food and Feed Safety, USDA-ARS-SRRC, 1100
+            Robert E Lee Blvd, New Orleans, LA 70122, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_015378212).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..1077
+                     /organism="Aspergillus nomius NRRL 13137"
+                     /mol_type="mRNA"
+                     /strain="NRRL 13137"
+                     /isolation_source="plant tissue"
+                     /host="wheat"
+                     /db_xref="taxon:1509407"
+                     /chromosome="Unknown"
+                     /country="USA: Peoria, Illinois"
+                     /lat_lon="40.6936 N 89.589 W"
+                     /collection_date="1987"
+     gene            <1..>1077
+                     /locus_tag="ANOM_007922"
+                     /db_xref="GeneID:26809726"
+     CDS             1..1077
+                     /locus_tag="ANOM_007922"
+                     /codon_start=1
+                     /product="acyl-coenzyme A:Isopenicillin N acyltransferase
+                     PenDE"
+                     /protein_id="XP_015406361.1"
+                     /db_xref="GI:992085630"
+                     /db_xref="GeneID:26809726"
+                     /translation="MLQVTCQGTPFEIGYQHGSTAKAVIAKSLKFAVGLIRGKTKKTE
+                     DELKQILTELGSVIEKRWPRYYEEIRGIAKGAERDVSEIVMLNTRTEFAYGLVEARDG
+                     CTTVYCKLANGALQGQNWDVLLYCHQRESDPVDHRQPGLPTIKMITEAGIIGKVGFNS
+                     AGVAVNYNALHLQGLRPSGLPSHLALRMALESTSPSQAYDRIVEQGGMAASAFIMVGN
+                     GQEAYGLEFSPISLRKQVLDAKGRLVHTNHCLLNHGENSKELDPLPDSWSRHQRMEHL
+                     LDGFDGTKEAFSRLWEDEDNYPFSICRAYEEGKSRGSTLFNIMYDHTRREATVRFGRP
+                     KNPDETFVLRFDEEDKRSALNAKL"
+ORIGIN      
+        1 atgcttcaag ttacttgtca aggcaccccc ttcgagattg ggtaccaaca tggctcaacc
+       61 gccaaagctg ttatcgccaa atccctcaaa ttcgccgtcg gtcttatccg agggaaaacc
+      121 aagaaaacag aagacgagct taagcagatc ctgacggagc tgggaagtgt gattgagaag
+      181 agatggccca gatattacga ggagattcgc ggtattgcaa agggcgccga acgcgatgtc
+      241 tccgagatcg tcatgctcaa tacacgcacg gaatttgcat atggcctcgt cgaggcccgt
+      301 gatggctgca ccaccgtcta ttgcaagctt gccaatggag cgctacaggg ccagaactgg
+      361 gatgtacttc tttactgcca ccaaagagaa tctgatccag ttgaccatcg ccaacccggc
+      421 ctacccacca ttaagatgat tacggaagct ggaattatcg gcaaggttgg atttaacagt
+      481 gcgggggttg ccgtcaacta caatgctctt caccttcagg gcctgcggcc ctctggactt
+      541 ccttcgcatc ttgccctccg catggcgctt gagagcactt ccccttccca ggcctatgac
+      601 cggatcgtgg agcaaggtgg aatggccgcc agcgccttta tcatggtcgg caacgggcaa
+      661 gaggcatacg ggctggaatt ctcccccatc agcctccgaa agcaggtgct cgacgcgaag
+      721 ggcaggctgg tgcacaccaa ccactgtttg ctcaaccacg gtgaaaattc gaaagaactc
+      781 gatcctctac cggactcgtg gagtcgccat cagcgtatgg agcatctcct cgatgggttc
+      841 gatggtacca aagaagcatt ctctcgcctc tgggaggatg aagacaatta cccctttagc
+      901 atctgtcggg catatgagga gggcaaaagc aggggatcca ctttgttcaa catcatgtac
+      961 gatcatactc gtcgagaggc aactgtacgt tttggccggc cgaagaaccc ggatgaaaca
+     1021 tttgtcctgc ggtttgacga ggaggacaaa aggtctgccc tcaatgctaa actttga
+//
+

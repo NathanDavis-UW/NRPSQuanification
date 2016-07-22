@@ -1,0 +1,62 @@
+LOCUS       XM_001825396             996 bp    mRNA    linear   PLN 03-MAR-2011
+DEFINITION  Aspergillus oryzae RIB40 isopenicillin N synthase, mRNA.
+ACCESSION   XM_001825396
+VERSION     XM_001825396.1  GI:169781969
+KEYWORDS    RefSeq.
+SOURCE      Aspergillus oryzae RIB40
+  ORGANISM  Aspergillus oryzae RIB40
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus.
+REFERENCE   1  (bases 1 to 996)
+  AUTHORS   Sawano,T., Tanaka,T., Machida,M. and Yamada,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUN-2004) Contact:Toshihiko Sawano National Institute
+            of Technology and Evaluation, Genome Analysis Center, Department Of
+            Biotechnology; 2-49-10 Nishihara, Shibuya-ku, Tokyo 151-0066, Japan
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_001884677).
+            Derived by automatic computational analysis using gene prediction
+            method: Multi-Genome Gnomon.
+FEATURES             Location/Qualifiers
+     source          1..996
+                     /organism="Aspergillus oryzae RIB40"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:510516"
+     gene            1..996
+                     /locus_tag="AOR_1_922074"
+                     /db_xref="GeneID:5997543"
+     CDS             1..996
+                     /locus_tag="AOR_1_922074"
+                     /codon_start=1
+                     /product="isopenicillin N synthase"
+                     /protein_id="XP_001825448.1"
+                     /db_xref="GI:169781970"
+                     /db_xref="GeneID:5997543"
+                     /translation="MASTLKANVPKIDVSPLFGDNMEEKMKAARAIDAASRDTGFFYA
+                     INHGIDVNRLSQKTKEFHMSITDEEKWDLAIRAYNKEHQDQIRAGYYLSIPGKKAVES
+                     FCYLNPNFKSDHPRIQSKTPTHEVNVWPDETKHPGFREFAEQYYWDVFGLSTALLRGY
+                     ALALGKEEDFFSRHFKKDDALSSVVLIRYPFLDPYPPAAIKTAADGTKLSFEWHEDVS
+                     LITVLYQSNVQNLQVETPQGYLDIEANDTGYLINCGSYMAHITNNYYPAPIHRVKWVN
+                     EERQSLPFFVNLGFDETIQPWDPRSPDGKTDKEPVSYGQYLQNGLVSLINKNGQT"
+ORIGIN      
+        1 atggcttcca ctctcaaggc caatgtcccc aagatcgatg tgtcgccctt gtttggtgac
+       61 aatatggagg agaagatgaa ggcggcgcgc gcaattgacg ctgcttcacg cgacaccggc
+      121 ttcttctatg cgatcaacca tggaatcgat gtgaatcgac tctcgcagaa gaccaaggag
+      181 ttccacatgt ccattacaga tgaagagaaa tgggaccttg ccattcgcgc ctacaacaag
+      241 gagcaccagg accagatccg ggccgggtac tatttatcta tcccaggcaa aaaggctgtg
+      301 gaatccttct gctatctaaa ccctaacttc aagagcgacc accctcgcat tcaatcgaag
+      361 acacctactc acgaggtcaa cgtgtggccc gacgagacga agcatccggg cttccgcgaa
+      421 ttcgccgagc agtactactg ggatgtgttc gggctctcga cggctctgct gcgaggctat
+      481 gctctggcac tgggcaaaga ggaggacttc ttcagccgcc actttaagaa ggatgacgcc
+      541 ctctcctcgg tcgttctcat ccgctaccca tttttagacc cctacccacc agccgccatc
+      601 aagaccgcag cggacggcac caaattaagt tttgaatggc atgaagatgt gtcgctcatc
+      661 accgtcctgt accagtccaa cgtgcagaac ctgcaagtgg agacccctca aggctacctt
+      721 gacatcgagg cgaacgacac cggctacctg atcaactgcg gcagctacat ggcacacatc
+      781 accaacaact actaccccgc ccctattcat cgggtcaaat gggtgaacga ggagcgccaa
+      841 tcccttccat tttttgtcaa tttgggcttt gacgagacaa tccagccgtg ggacccacgt
+      901 agccccgacg gcaagaccga caaggagcca gtctcctacg gccagtatct gcagaatggc
+      961 ctagttagtt tgatcaacaa gaatggtcag acctaa
+//
+

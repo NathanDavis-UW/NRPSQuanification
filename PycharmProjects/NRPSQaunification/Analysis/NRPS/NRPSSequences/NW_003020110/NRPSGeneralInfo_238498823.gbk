@@ -1,0 +1,71 @@
+LOCUS       XM_002380606            1074 bp    mRNA    linear   PLN 19-JAN-2010
+DEFINITION  Aspergillus flavus NRRL3357 acyl-coenzyme A:Isopenicillin N
+            acyltransferase PenDE, mRNA.
+ACCESSION   XM_002380606
+VERSION     XM_002380606.1  GI:238498823
+KEYWORDS    RefSeq.
+SOURCE      Aspergillus flavus NRRL3357
+  ORGANISM  Aspergillus flavus NRRL3357
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus.
+REFERENCE   1  (bases 1 to 1074)
+  AUTHORS   Nierman,W.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2007) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 1074)
+  AUTHORS   Nierman,W.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUN-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockville, MD 20850, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_002477244).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..1074
+                     /organism="Aspergillus flavus NRRL3357"
+                     /mol_type="mRNA"
+                     /strain="NRRL3357"
+                     /db_xref="taxon:332952"
+     gene            <1..>1074
+                     /locus_tag="AFLA_070880"
+                     /db_xref="GeneID:7914450"
+     CDS             1..1074
+                     /locus_tag="AFLA_070880"
+                     /note="encoded by transcript AFLA_070880A"
+                     /codon_start=1
+                     /product="acyl-coenzyme A:Isopenicillin N acyltransferase
+                     PenDE"
+                     /protein_id="XP_002380647.1"
+                     /db_xref="GI:238498824"
+                     /db_xref="GeneID:7914450"
+                     /translation="MLQVTCQGTPFEIGYQHGSTAKAVIAKSINFAVGLIRGKTKKTE
+                     DELKQILMELGSVIEKRWPRYHEEIRGIAKGAERDVSEIIMLNTRTEFAYGLVEARDG
+                     CTTVYCKLSNGALQGQNWDFFSATKENLIQLTIRQPGLPTIKMITEAGIIGKVGFNSA
+                     GVAVNYNALHLQGLRPTGLPSHLALRMALESTSPSQAYDRIVEQGGMAASAFIMVGNG
+                     QEAYGLEFSPISLRKQVLDAKGRLVHTNHCLLNHGENAKELDPLPDSWSRHQRMENLL
+                     DRFDGTKEAFSRLWEDEDNYPFSICRAYEEGKSRGATLFNIMYDHARREATVRFGRPK
+                     NPDETFVLQFDDEDKRSALNAKL"
+ORIGIN      
+        1 atgcttcagg ttacttgcca aggcaccccc ttcgagattg ggtaccaaca tggctcgacc
+       61 gccaaagctg tgatcgccaa atctattaac ttcgccgtcg gtctcatccg agggaaaacg
+      121 aagaagacgg aggacgagct taagcagatt ctcatggagc tgggaagcgt gattgagaaa
+      181 agatggccca gatatcatga ggagattcgc ggtatcgcaa agggtgccga acgcgatgtt
+      241 tccgagatta ttatgctcaa tacccgcaca gaatttgcat atggcctggt cgaagcccgt
+      301 gatggctgca ctaccgttta ttgtaaactt tccaacggag cactacaggg tcaaaactgg
+      361 gatttcttct ccgccaccaa agagaatctg atccagttga ccatccgtca acccggcctg
+      421 cccaccatca agatgatcac ggaagctgga attatcggca aggttggatt caacagtgcg
+      481 ggagttgccg tcaactacaa tgctcttcac cttcagggcc ttcggcccac tggacttcct
+      541 tcgcatcttg ccctccgcat ggctcttgaa agcacgtctc cttcccaggc ctatgaccga
+      601 atcgtggagc aaggtggaat ggccgccagc gcctttatca tggtcggcaa cgggcaggag
+      661 gcatacgggc tggaattctc ccccatcagc ctccgaaagc aggtgctcga cgcaaagggc
+      721 agactggtgc acaccaacca ctgcttgctc aaccatggcg aaaatgcgaa agaactcgat
+      781 cctctaccgg actcgtggag tcgccatcag cgtatggaaa accttcttga ccggtttgat
+      841 ggtaccaaag aggcattttc ccggctctgg gaggatgaag acaactatcc ttttagcata
+      901 tgtcgagcat acgaggaagg taaaagtagg ggagccacct tgttcaacat tatgtacgat
+      961 cacgcccgcc gagaggcgac tgtgcgtttt ggccggccga agaacccgga tgagacgttt
+     1021 gtcttgcagt tcgacgatga ggacaaaagg tctgcgctca atgctaaact ttga
+//
+

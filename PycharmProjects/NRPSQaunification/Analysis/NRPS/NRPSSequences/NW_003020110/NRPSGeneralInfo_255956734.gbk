@@ -1,0 +1,108 @@
+LOCUS       XM_002569074            2352 bp    mRNA    linear   PLN 14-AUG-2009
+DEFINITION  Penicillium chrysogenum Wisconsin 54-1255 hypothetical protein
+            (Pc21g21450) mRNA, complete cds.
+ACCESSION   XM_002569074
+VERSION     XM_002569074.1  GI:255956734
+KEYWORDS    RefSeq.
+SOURCE      Penicillium rubens Wisconsin 54-1255
+  ORGANISM  Penicillium rubens Wisconsin 54-1255
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 2352)
+  AUTHORS   van den Berg,M.A., Albang,R., Albermann,K., Badger,J.H.,
+            Daran,J.M., Driessen,A.J., Garcia-Estrada,C., Fedorova,N.D.,
+            Harris,D.M., Heijne,W.H., Joardar,V., Kiel,J.A., Kovalchuk,A.,
+            Martin,J.F., Nierman,W.C., Nijland,J.G., Pronk,J.T., Roubos,J.A.,
+            van der Klei,I.J., van Peij,N.N., Veenhuis,M., von Dohren,H.,
+            Wagner,C., Wortman,J. and Bovenberg,R.A.
+  TITLE     Genome sequencing and analysis of the filamentous fungus
+            Penicillium chrysogenum
+  JOURNAL   Nat. Biotechnol. 26 (10), 1161-1168 (2008)
+   PUBMED   18820685
+REFERENCE   2  (bases 1 to 2352)
+  AUTHORS   van den Berg,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2007) van den Berg M.A., DAI/INNO (624-0270), DSM
+            Anti-Infectives, Alexander Fleminglaan 1, Delftn, 2613 AX,
+            NETHERLANDS
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003020110).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..2352
+                     /organism="Penicillium rubens Wisconsin 54-1255"
+                     /mol_type="mRNA"
+                     /strain="Wisconsin 54-1255"
+                     /db_xref="taxon:500485"
+                     /chromosome="1"
+                     /clone="Pc00c21"
+     gene            <1..>2352
+                     /locus_tag="Pc21g21450"
+                     /db_xref="GeneID:8304972"
+     CDS             1..2352
+                     /locus_tag="Pc21g21450"
+                     /note="Pc21g21450"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="XP_002569120.1"
+                     /db_xref="GI:255956735"
+                     /db_xref="GeneID:8304972"
+                     /translation="MWTPRAACKKAKSDASALSTLGDELEEPPKVIITESVVTALRRC
+                     TCHLITILVTIAIVTLNLKGVYLGADLMSPVRSETINLMFLQLAAKAHEIMIVNSLGL
+                     IVLHFVRSELLFGDGLPLGLVGSGLSFNNFEYFFKTEFYGSLKYIGDHGNKARRVMFV
+                     TVVIVAGLTAALAGPASAVLLVPESQDWAAGGTRFYLNGSETDFWPADLSGNLSELRS
+                     FCNGNDSTHLGICPAGGFHSLWKHWGTVNSTDFRAQDVRSYAKDLSGSNFYWPVSSAS
+                     FQVPPLYALGNSKKGDSDATTLIQPHAAAVVILQKLATDWWKASVSQRGMSPDQVDDR
+                     IISANARSGITVVRCENPQELLHSDNTVNFPSIDGRFHFSQGLPLAVQSLNNTAVDHL
+                     RFQWVHLPPQFGAASIGGVFETPWEPNEASRVVVSCTAQAGWVPSTVFTDKYNFWTGW
+                     YPWNIQYGDRTPAWSATSQAANNGRISLGDDWLNLLTPPITYLDVGSWRPSTIESILL
+                     NAGLGSSPNAIIADWLDKRSGSQDKVALLEAIICSVIVDGLSRTGSYRAFNTSGASSQ
+                     WPLANYNPLPDFEERILGNKLALEIPAVNPENLTTIEASMQISGFSFKGSLAAYLAMT
+                     VLLTHLLMATVHVIYVIRSHRTSRSWGSVAELIALSHTSQPAFDVLANTSGGIESRKT
+                     FLQMAKIRVRHTPNLPNHTRHEHVELLFENSAFPNHQRNASEHELDELHNELSHHAAT
+                     WPLNIVEIPTYTGLDPCSMSTSVGRLADDKGATDIVRPRQQYG"
+ORIGIN      
+        1 atgtggactc ctcgtgctgc atgtaagaaa gctaaaagcg atgccagcgc tctcagcacg
+       61 ctcggcgacg aattagaaga gcctccaaaa gtcatcataa ccgaatcagt ggtcacggca
+      121 ctgcgacgct gtacctgcca cctgatcact atcctggtca ccatcgcaat cgtaaccttg
+      181 aacctgaaag gcgtttactt gggagccgat ctaatgtcgc cagtgaggtc tgagaccatc
+      241 aacctcatgt tcctccagtt ggctgcgaaa gctcacgaga tcatgattgt gaatagtctc
+      301 ggccttattg ttctacactt cgtccgatcc gagctgcttt ttggggatgg actacctctc
+      361 ggcctggtag gctccggctt gagcttcaat aacttcgaat acttctttaa gacagaattt
+      421 tatggctcgt tgaaatacat cggcgatcat ggcaataaag ctaggagggt catgtttgtc
+      481 acggtcgtca ttgtggctgg gctcacggct gcactagctg ggcccgcaag tgcggtgctc
+      541 ctcgtgcccg aatcccagga ctgggccgct ggaggtactc gcttttattt gaatggatcg
+      601 gagaccgact tctggccagc cgacttgtcg ggaaacttgt cggagcttcg gtcattttgc
+      661 aacggcaacg actcgactca cctgggaatc tgtccggcag gtgggtttca ctctctatgg
+      721 aagcattggg gaactgtcaa ttccaccgac tttcgtgcgc aagatgttcg ctcttatgcg
+      781 aaggatctct ctggctcgaa cttctactgg ccggtatcca gcgcttcgtt ccaagtccct
+      841 cctctctacg cgctaggaaa cagcaaaaag ggcgacagtg atgcaaccac gctcattcaa
+      901 ccacatgcag ctgctgtggt aattttgcaa aaactcgcaa ccgattggtg gaaggcttcg
+      961 gtatcgcaac gaggcatgtc ccccgatcaa gttgatgatc ggattatttc tgccaatgcc
+     1021 aggagtggga ttaccgtcgt ccgctgtgaa aacccgcagg agctgttgca ctcagacaac
+     1081 accgtgaact tcccgtctat cgatggtcga ttccacttct cccaaggctt accacttgcc
+     1141 gtacaaagtc tcaacaatac tgctgtcgat cacttgcgat tccaatgggt tcatctgccg
+     1201 cctcaatttg gcgcagctag tattggaggt gtgtttgaga caccgtggga acccaacgag
+     1261 gcatccagag ttgtggtcag ctgcacagct caagctggat gggtcccgtc gacggtgttc
+     1321 accgacaaat acaacttctg gaccggatgg tacccgtgga acattcaata tggcgatcgc
+     1381 acgcctgcat ggtccgccac gtcacaagcc gctaataatg gtcggatatc ccttggggat
+     1441 gactggctta atctcctgac gcctccgata acctatcttg atgtgggctc ctggcgacca
+     1501 tccacgattg agagtatcct actcaatgct ggcctaggct cctctcctaa tgcaattatc
+     1561 gcagactggc ttgacaagcg atctgggagt caagacaagg ttgctctcct tgaagccatt
+     1621 atttgcagcg tgattgtgga cggtctcagc cgtaccggaa gttatcgagc gttcaatact
+     1681 tcaggagcaa gctctcagtg gccgctagca aattacaacc ctttgcctga ctttgaggaa
+     1741 cgaatcctag gaaacaagct tgccttggaa attcccgccg tcaaccccga gaacctcaca
+     1801 acaattgagg cgagcatgca aataagcggt ttctcattta aaggctccct ggcagcatat
+     1861 cttgccatga cagttctcct cactcacctc cttatggcta ctgtccacgt tatatacgtc
+     1921 attcgtagcc accgcacatc acgcagctgg ggctcggttg ccgaactcat cgctctctcg
+     1981 catacctccc agccagcatt cgatgtcttg gccaacacca gcggcggaat tgagagccgc
+     2041 aaaaccttct tgcagatggc aaaaattaga gtgaggcaca ctcccaactt gccaaaccat
+     2101 acacgtcatg aacatgttga attgttgttt gagaactcgg ccttccctaa tcaccaacgg
+     2161 aatgcctctg agcatgagct ggatgagcta cacaatgaat tgtcgcatca tgctgcaacg
+     2221 tggcctctga atatagtcga aatcccaaca tatactggtc tggatccttg cagtatgtcg
+     2281 acttctgtag ggaggcttgc tgacgacaag ggcgcaacgg acatcgttcg gcccaggcaa
+     2341 caatatgggt ga
+//
+

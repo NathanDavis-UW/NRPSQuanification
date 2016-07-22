@@ -1,0 +1,57 @@
+LOCUS       HQ234261                1249 bp    DNA     linear   PLN 26-OCT-2011
+DEFINITION  Penicillium sp. x12-91-1 non-ribosomal peptide synthetase gene,
+            partial sequence.
+ACCESSION   HQ234261
+VERSION     HQ234261.1  GI:326314748
+KEYWORDS    .
+SOURCE      Penicillium sp. x12-91-1
+  ORGANISM  Penicillium sp. x12-91-1
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+REFERENCE   1  (bases 1 to 1249)
+  AUTHORS   Zhou,K., Zhang,X., Zhang,F. and Li,Z.
+  TITLE     Phylogenetically diverse cultivable fungal community and polyketide
+            synthase (PKS), non-ribosomal peptide synthase (NRPS) genes
+            associated with the South China Sea sponges
+  JOURNAL   Microb. Ecol. 62 (3), 644-654 (2011)
+   PUBMED   21519913
+REFERENCE   2  (bases 1 to 1249)
+  AUTHORS   Zhou,K., Zhang,X. and Li,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-SEP-2010) College of Life Science and Biotechnology,
+            800 Dongchuan Road, Shanghai 200240, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1249
+                     /organism="Penicillium sp. x12-91-1"
+                     /mol_type="genomic DNA"
+                     /strain="x12-91-1"
+                     /db_xref="taxon:983363"
+     gene            <1..1249
+                     /gene="non-ribosomal peptide synthetase"
+                     /note="adenylation domain in NRPS module; A domain; coding
+                     region not determined"
+ORIGIN      
+        1 tagggcgaat tgaagctgcc cttccggcac caccggaaaa cctaagggag tcctagttga
+       61 gcaaaaggca gttcttcttc tacgcgatgc cctccgggag cggtatttcg gtcgagactg
+      121 taccaagcat catggcgtcc tgttcctgtc caactacgtc ttcgacttct ccgtcgaaca
+      181 acttgtgttg tcggtgctca gcggacacaa gctgatcgtt cccccagctg agttcgtcgc
+      241 agatgatgaa ttttacagaa tggccagcac ccacggtctc tcctatctca gcggcacacc
+      301 atccttactg cagaagatcg atctggcacg actggaccat ctgcaggttg ttaccgccgc
+      361 gggtgaagag tttcacgcca cccagtacga gaagatgcgc cgccgattca acggtcccat
+      421 ctacaatgcc tatggtgtca ccgagaccac ggtgtacaac attatcgcgg aattcacaac
+      481 gaattcgata tttgagaatg ctcttcggga agtgctccct ggtacccgag cgtatgtgct
+      541 gaacgcggca cttcagcccg tccccttcga tgctgtcgga gaactctatc ttgccggcga
+      601 cagcgttacg cgtggttatc tcaaccaacc tcttctaacg gatcagcgat tcattcccaa
+      661 ccctttctgt aacgaggagg acgtcgctat ggggcgcttc gcgcggctct acaagaccgg
+      721 cgacctggtt cgatcgcgtt tcaaccgtca gcagcagccg cagctggaat acctaggaag
+      781 aggcgatctg cagatcaaga tgaggggata ccggatcgag atttctgaag ttcagaacgt
+      841 gctcacttca agtcccggtg tccgggaggg tgcagtcgtt gccaagtatg agaacaacga
+      901 tacctattcc cggaccgctc actctctggt cggttactat accacggaca atgaaacggt
+      961 atcggaagcc gatattctca ctttcatgaa agcaaggctt ccaacgtaca tggtgccaag
+     1021 ccacctctgc tgtctggaag gcgcactgcc tgtgacgatt aacggaaagc tcgacgtccg
+     1081 gagattgccg gagattatca acgactccgc gcagtcctcg tacagcccac caaggaacat
+     1141 aatcgaggcc aagctgtgca gactgtggga atccgccttg ggaatggagc gatgcggtat
+     1201 cgacgacgac ttgttcaaac tgggaggaca caccatcacc gccatgcag
+//
+

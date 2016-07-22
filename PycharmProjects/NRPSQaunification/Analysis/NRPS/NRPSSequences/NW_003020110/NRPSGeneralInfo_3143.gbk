@@ -1,0 +1,75 @@
+LOCUS       X17436                  1585 bp    DNA     linear   PLN 18-APR-2005
+DEFINITION  P.chrysogenum isp gene for isopenicillin N synthase.
+ACCESSION   X17436
+VERSION     X17436.1  GI:3143
+KEYWORDS    ips gene; isopenicillin N synthase.
+SOURCE      Penicillium chrysogenum
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 1585)
+  AUTHORS   Barredo,J.L., Cantoral,J.M., Alvarez,E., Diez,B. and Martin,J.F.
+  TITLE     Cloning, sequence analysis and transcriptional study of the
+            isopenicillin N synthase of Penicillium chrysogenum AS-P-78
+  JOURNAL   Mol. Gen. Genet. 216 (1), 91-98 (1989)
+   PUBMED   2499766
+FEATURES             Location/Qualifiers
+     source          1..1585
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="genomic DNA"
+                     /strain="AS-P-78"
+                     /db_xref="taxon:5076"
+     gene            408..>1414
+                     /gene="ips"
+     prim_transcript 408..>1414
+                     /gene="ips"
+     CDS             419..1414
+                     /gene="ips"
+                     /codon_start=1
+                     /product="isopenicillin N synthase"
+                     /protein_id="CAA35480.1"
+                     /db_xref="GI:3144"
+                     /db_xref="GOA:P08703"
+                     /db_xref="InterPro:IPR002057"
+                     /db_xref="InterPro:IPR002283"
+                     /db_xref="InterPro:IPR005123"
+                     /db_xref="UniProtKB/Swiss-Prot:P08703"
+                     /translation="MASTPKANVPKIDVSPLFGDNMEEKMKVARAIDAASRDTGFFYA
+                     VNHGVDVKRLSNKTREFHFSITDEEKWDLAIRAYNKEHQDQIRAGYYLSIPEKKAVES
+                     FCYLNPNFKPDHPLIQSKTPTHEVNVWPDEKKHPGFREFAEQYYWDVFGLSSALLRGY
+                     ALALGKEEDFFSRHFKKEDALSSVVLIRYPYLNPYPPAAIKTAEDGTKLSFEWHEDVS
+                     LITVLYQSDVANLQVEMPQGYLDIEADDNAYLVNCGSYMAHITNNYYPAPIHRVKWVN
+                     EERQSLPFFVNLGFNDTVQPWDPSKEDGKTDQRPISYGDYLQNGLVSLINKNGQT"
+     regulatory      1474..1481
+                     /regulatory_class="polyA_signal_sequence"
+ORIGIN      
+        1 gttttctggc acggtaatga taagtactta ctagtcttcg agcgggggag tgttgctctg
+       61 cccgagcatc aacgattggc ctgatcgcac cgtctgcaaa tgccacggtg cccaccgact
+      121 gaaatctcag accaccaaag accctccgac ttcgagatac ggttactaat tttacactgg
+      181 ctccagcggc cccatccagt aagcatctgg gctgcaagcg tataatgtct ccaggttgtc
+      241 tcagcataaa caccccgccc ccgctcaggc acacaggaag agagctcagg tcgtttccat
+      301 tgcgtccata ctcttcactc attgtcatct gcaggagaac ttcccctgtc cctttgccaa
+      361 gccctctctt cgtcgttgtc cacgccttca agttttcacc attatttttc tagacaccat
+      421 ggcttccacc cccaaggcca atgtccccaa gatcgacgtg tcgcccctgt tcggcgacaa
+      481 tatggaggag aagatgaagg ttgcccgcgc gattgacgct gcctcgcgcg acaccggctt
+      541 cttctacgcg gtcaaccacg gtgtggatgt gaagcgactc tcgaacaaga ccagggagtt
+      601 ccacttttct atcacagacg aagagaagtg ggacctcgcg attcgcgcct acaacaagga
+      661 gcaccaggac cagatccgtg ccggatacta cctgtccatt ccggagaaaa aggccgtgga
+      721 atccttctgc tacctgaacc ccaacttcaa gcccgaccac cctctcatcc agtcgaagac
+      781 tcccactcac gaggtcaacg tgtggccgga cgagaagaag catccgggct tccgcgagtt
+      841 cgccgagcaa tactactggg atgtgttcgg gctctcgtct gccttgctgc gaggctatgc
+      901 tctggcgctg ggcaaggagg aggacttctt tagccgccac ttcaagaagg aagacgcgct
+      961 ctcctcggtt gttctgattc gttacccgta cctgaacccc tacccacctg ccgccattaa
+     1021 gacggcggag gacggcacca aattgagttt cgaatggcat gaggacgtgt cgctcattac
+     1081 cgtcctgtac cagtcagacg tggcgaacct gcaggtggag atgccccagg gttacctcga
+     1141 tatcgaggcg gacgacaacg cctacctggt caattgcggc agctacatgg cacacatcac
+     1201 caacaactac taccccgctc ccatccaccg ggtcaagtgg gtgaacgagg agcgccaatc
+     1261 cctcccgttc ttcgtcaatc tgggatttaa tgataccgtc cagccgtggg atcctagcaa
+     1321 ggaagacggc aagaccgatc agcggccaat ctcgtacggc gactatctgc agaacggatt
+     1381 agttagtcta atcaacaaga acggccagac atgaaagggc ccatggatgg gaccgggatg
+     1441 gaaatcccgg actctgagct aaaccgagtc gagaaaaaaa agggaggagc cgccaccatg
+     1501 ccgccacctt cgtctaccta attatccata gccgaagggt agatagacct agtcgtcgaa
+     1561 tagttattat tttcaccatc catgc
+//
+

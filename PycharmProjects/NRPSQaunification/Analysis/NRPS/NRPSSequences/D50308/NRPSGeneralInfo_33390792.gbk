@@ -1,0 +1,56 @@
+LOCUS       AY271634                 734 bp    DNA     linear   BCT 15-JUL-2005
+DEFINITION  Amycolatopsis lactamdurans isolate AAL20 putative NRPS gene,
+            partial cds.
+ACCESSION   AY271634
+VERSION     AY271634.1  GI:33390792
+KEYWORDS    .
+SOURCE      Amycolatopsis lactamdurans
+  ORGANISM  Amycolatopsis lactamdurans
+            Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;
+            Amycolatopsis.
+REFERENCE   1  (bases 1 to 734)
+  AUTHORS   Ayuso-Sacido,A. and Genilloud,O.
+  TITLE     New PCR primers for the screening of NRPS and PKS-I systems in
+            actinomycetes: detection and distribution of these biosynthetic
+            gene sequences in major taxonomic groups
+  JOURNAL   Microb. Ecol. 49 (1), 10-24 (2005)
+   PUBMED   15614464
+REFERENCE   2  (bases 1 to 734)
+  AUTHORS   Ayuso,A. and Genilloud,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2003) CIBE, Merck Sharp & Dohme de Espana. S. A.,
+            C/ Josefa Valcarcel 38, Madrid 28027, Spain
+FEATURES             Location/Qualifiers
+     source          1..734
+                     /organism="Amycolatopsis lactamdurans"
+                     /mol_type="genomic DNA"
+                     /isolate="AAL20"
+                     /db_xref="taxon:1913"
+     CDS             <1..>734
+                     /note="adenylation domain"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="putative NRPS"
+                     /protein_id="AAQ17087.1"
+                     /db_xref="GI:33390793"
+                     /translation="ZAYAMYTSGTTGVPKGVPKYHYSVVNSITDQSERYDMRRPGTER
+                     VALFASYVFEPHLRQTLIALINEQTLVIVPDDVRLDPDLFPEYIERHGVTYLNATGSV
+                     LQHFDLRRCASLKRLLLVGEELTASGLRQLREKFAGRVVNEYAFTEAAFVTAVKEFGP
+                     GVTERRDRSIGRPLRNVKWYVLSQGLKQLPIGAIGELYIGGCGVAPGYLNRDDLTAER
+                     FTANPFQTEEEKARGRNGRLYRTGDL"
+ORIGIN      
+        1 aasaagcgta cgcgatgtac acgtcgggca ccaccggtgt gcccaagggc gtgccgaagt
+       61 accactacag cgtggtgaac agcatcaccg accagtccga gcgctacgac atgcgccggc
+      121 cgggcaccga acgcgtcgcg ttgttcgcct cctacgtctt cgaaccgcac ctgcgccaga
+      181 ccctgatcgc gctgatcaac gagcagacgc tggtgatcgt ccccgacgac gtccggctcg
+      241 accccgacct cttccccgaa tacatcgagc gccacggggt cacctacctc aacgccacgg
+      301 gctcggtgct gcagcacttc gacctgcgcc ggtgcgcgag cctgaagcgg ctgctgctgg
+      361 tcggcgagga gctgaccgcc tccgggctcc ggcagctgcg cgagaagttc gccgggcgcg
+      421 tggtcaacga gtacgccttc accgaggccg cgttcgtcac cgcggtcaag gagttcggtc
+      481 ccggcgtgac cgagcggcgc gaccgcagca tcggcaggcc gctgcgcaac gtcaagtggt
+      541 acgtgctcag ccaggggctc aagcagttgc cgatcggcgc gatcggcgag ctgtacatcg
+      601 gcggctgcgg ggtcgcgccc ggctacctca accgcgacga cctgaccgcg gaacgcttca
+      661 ccgccaaccc cttccagacc gaggaggaga aggcacgcgg gcgcaacggc aggctctacc
+      721 ggaccggcga cctc
+//
+

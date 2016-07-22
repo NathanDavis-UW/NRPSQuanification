@@ -1,0 +1,75 @@
+LOCUS       XM_003169614             915 bp    mRNA    linear   PLN 15-DEC-2010
+DEFINITION  Arthroderma gypseum CBS 118893 C-4 methylsterol oxidase
+            (MGYG_08571) mRNA, complete cds.
+ACCESSION   XM_003169614
+VERSION     XM_003169614.1  GI:315040568
+KEYWORDS    RefSeq.
+SOURCE      Microsporum gypseum CBS 118893
+  ORGANISM  Microsporum gypseum CBS 118893
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Onygenales; Arthrodermataceae;
+            Microsporum.
+REFERENCE   1  (bases 1 to 915)
+  AUTHORS   Cuomo,C., Henn,M.R., Jaffe,D., Young,S., Gnerre,S., Berlin,A.,
+            Heiman,D., Hepburn,T., Sykes,S., Alvarado,L., Kodira,C.D.,
+            White,T.C., Oliver,B.G., Graser,Y., Abdel-Rahman,S., Gurr,S.J.,
+            Martinez-Rossi,N., Summerbell,R., Lander,E., Nusbaum,C., Galagan,J.
+            and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     The Genome Sequence of Arthroderma gypseum CBS 118893
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 915)
+  AUTHORS   Cuomo,C., Henn,M.R., Jaffe,D., Young,S., Gnerre,S., Berlin,A.,
+            Heiman,D., Hepburn,T., Sykes,S., Alvarado,L., Kodira,C.D.,
+            White,T.C., Oliver,B.G., Graser,Y., Abdel-Rahman,S., Gurr,S.J.,
+            Martinez-Rossi,N., Summerbell,R., Lander,E., Nusbaum,C., Galagan,J.
+            and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUN-2008) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003345193).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..915
+                     /organism="Microsporum gypseum CBS 118893"
+                     /mol_type="mRNA"
+                     /strain="CBS 118893"
+                     /db_xref="taxon:535722"
+     gene            <1..>915
+                     /locus_tag="MGYG_08571"
+                     /db_xref="GeneID:10024893"
+     CDS             1..915
+                     /locus_tag="MGYG_08571"
+                     /codon_start=1
+                     /product="C-4 methylsterol oxidase"
+                     /protein_id="XP_003169662.1"
+                     /db_xref="GI:315040569"
+                     /db_xref="GeneID:10024893"
+                     /translation="MSHIDTFSPRNSPVLPPGTYWGKYQDITIFNTHLSVAERLWVAW
+                     YAWVQNDVLATGIMSFLIHELFYFGRSLPWIFIDSLGFFKRYKIQSSKVPSLREQWDC
+                     AKFVLLSHFTVELPQIWLFHPMARFCGLSTSIPFPPLWTMIYQIAIFFVMEDTWHYFF
+                     HRALHWGPLYKTIHKIHHQYSAPFGLAAEYASPIEVMILGFGTVSCPMLWCAFTGNLH
+                     ILTMYIWIVLRLFQAIDAHSGYEFPWSLHHFLPFWAGADHHDLHHEKFIGNYSSSFRW
+                     WDYLLDTEYTPDALRRRRGTKVKAKKVQ"
+ORIGIN      
+        1 atgtcgcata ttgacacttt ttctcctagg aattctcccg tgctgccccc cggcacctat
+       61 tggggcaaat atcaggatat caccattttc aatacccacc tgagcgtggc agagagattg
+      121 tgggtcgcat ggtatgcgtg ggtgcagaat gatgtcctgg ccaccggcat catgtctttc
+      181 cttatccacg agttgttcta cttcggccgc tctcttccct ggatcttcat cgatagcttg
+      241 ggtttcttca agagatacaa gattcaaagt agcaaggtgc cttcattacg cgagcaatgg
+      301 gattgcgcca agtttgtgct tctgagtcac ttcaccgtcg aacttcctca aatctggctt
+      361 ttccacccaa tggcccggtt ctgcggtcta tcaacatcga ttccttttcc gcctctctgg
+      421 actatgatat atcagattgc aatatttttc gtgatggagg acacttggca ctattttttc
+      481 catagagctc ttcattgggg tccactctac aaaaccattc acaaaattca ccatcagtat
+      541 tccgcaccat ttggtttggc cgccgaatat gcttctccta ttgaagtgat gattcttggc
+      601 ttcgggaccg tcagctgtcc aatgctctgg tgtgctttca ccggtaacct acatattctt
+      661 actatgtata tctggattgt gttgcgcttg ttccaggcta ttgatgccca tagtggctat
+      721 gagtttcctt ggagtcttca tcatttcttg cctttctggg ctggtgctga tcaccacgac
+      781 ctccaccatg agaaattcat tgggaactac tcaagcagct tccgctggtg ggactatctc
+      841 cttgacaccg aatatactcc ggatgcccta aggcgccgaa gagggacaaa ggtgaaggca
+      901 aagaaggtgc aataa
+//
+

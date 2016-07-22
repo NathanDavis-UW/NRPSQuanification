@@ -1,0 +1,84 @@
+LOCUS       EF612265                1861 bp    mRNA    linear   PLN 19-AUG-2007
+DEFINITION  Penicillium chrysogenum penicillin gene cluster, partial sequence.
+ACCESSION   EF612265
+VERSION     EF612265.1  GI:155965110
+KEYWORDS    .
+SOURCE      Penicillium chrysogenum
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 1861)
+  AUTHORS   van den Berg,M.A., Westerlaken,I., Leeflang,C., Kerkman,R. and
+            Bovenberg,R.A.
+  TITLE     Functional characterization of the penicillin biosynthetic gene
+            cluster of Penicillium chrysogenum Wisconsin54-1255
+  JOURNAL   Fungal Genet. Biol. 44 (9), 830-844 (2007)
+   PUBMED   17548217
+REFERENCE   2  (bases 1 to 1861)
+  AUTHORS   Leeflang,C. and van den Berg,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAY-2007) DAI/INNO, DSM, Alexander Fleminglaan 1,
+            Delft, zh 2613 AX, The Netherlands
+FEATURES             Location/Qualifiers
+     source          1..1861
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="mRNA"
+                     /strain="Wisconsin54-1255"
+                     /db_xref="taxon:5076"
+     misc_feature    <1..>1861
+                     /note="penicillin gene cluster"
+     CDS             384..848
+                     /note="Orf140w"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="ABU40598.1"
+                     /db_xref="GI:155965111"
+                     /translation="MPKEISLRPQITSRVSGSQREFDDKNRSCDCCRSAKRACDLPLS
+                     TIISNNLPLSPCSMCKLRGTDCIVIWRASKQSSRNAKKFEPGHGPDVIEHCEDAVLPT
+                     TSILASSECSLARHMMSRERRSQRLSLYIDIFDIPMSKLLSERCMPPCYSLG"
+     CDS             1306..>1861
+                     /note="Orf150w"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="ABU40599.1"
+                     /db_xref="GI:155965112"
+                     /translation="MLCAEVCVFFRYGDDLPDIVTPLIGRRHSDEKPPLMQNLSTDDF
+                     ENVLELIVAFEWLVEMSQSVAIALFLRRSFTVAPTITKLNTNINRLMEEVVQGLHTKG
+                     VDNAIIARAKLETKLVIVLWSLGSAEYLVYDALSESGSLVVLLWKSLACLTLAAQNAR
+                     SGAANYADIHRHFNKTIMLIEKKKK"
+ORIGIN      
+        1 ctttttttgg tacaacatgc ctgacaattg aagtattact aaaggtatgg atatcgacga
+       61 tatggcgctt gccaacatat ctggctatcc taatgttttc gacgcgcttg gcgatagaga
+      121 tgacggttac agtcatattc cagacgggct agagcgccag ggcttgatcg cctttgctaa
+      181 tcattttggg cccattgggg atactgggtt aattcccttg tcatattctc ctgatggtag
+      241 attatgttca acttaccccg accccttgcc taacagggca gagtcgctgc agctgagggg
+      301 tgggactttg gataccgtag gcccattcga cctctcccaa tgtccggaca gcctcaggtc
+      361 tccttccgcc gaaaccggtc aaaatgccaa aggaaatttc tctgcggcct caaataacct
+      421 cgcgagtgag cggaagccag cgagaattcg acgacaaaaa ccgttcatgt gattgttgcc
+      481 gctcagcgaa aagggcatgc gatttgccct tgagtaccat tatttcaaac aaccttcctt
+      541 tatcgccgtg ttcgatgtgc aagctacggg gcacggactg tatagttata tggcgcgcga
+      601 gcaagcaatc ctctcgaaat gccaaaaagt tcgaacctgg ccatggccca gacgtcatcg
+      661 agcactgcga agatgctgtc ctccccacga cctctattct ggcgagctcc gagtgtagtc
+      721 tagcccgcca tatgatgtcc cgtgaaagac gctcacagag attgagttta tatattgaca
+      781 tcttcgatat cccgatgtcg aaacttcttt cggaaaggtg catgcctcct tgctactcct
+      841 tgggatagca gctttaacgc cattgacccg taatccacac ttggctgctc aaaccaatct
+      901 catcctctca agtatccgaa attgttggga aatgggttct tccccacaac caccagtttc
+      961 tatagtacca agtttgtttc ttacggctag cattcttgat gcgttatttc agcacgcacg
+     1021 gtcccgacca caatgtgtac aacttacctc gcgcgataat gccctgaccg aaatgtataa
+     1081 gtgggtcgct attgcgaccg gatcgcaatt tgctgtccgt gacggtgacg ctaaggaaat
+     1141 cgcaaagtct cactagcggg ctaaggacat ccaggtaaat cattccgtgt aggattgtcg
+     1201 ctgcttctct ttggaacact tttaccaccc actgaaactg gtcagagcca cgagtttgaa
+     1261 gaggatgctg cctatgcact ccacgaaggc atctgccgcc tccaaatgct atgcgctgaa
+     1321 gtatgtgttt tcttccgcta tggtgatgac ctgccggata tagttacacc tctgatcgga
+     1381 cggcgtcatt ctgatgaaaa gccacccctg atgcaaaact tgtccactga cgactttgag
+     1441 aacgtcttgg aactgatcgt agcgtttgaa tggctcgtgg agatgtctca atcagtagca
+     1501 attgctctct tcctaagacg aagttttact gttgcaccga ctatcaccaa actcaacacc
+     1561 aacatcaacc gcctaatgga ggaggtagtt caagggttgc atacgaaagg tgtggataat
+     1621 gctattattg cacgagctaa gttagagacc aagctagtga tagtgctatg gtctctaggg
+     1681 tctgcggaat atcttgtgta tgatgctttg tctgagtcag ggtctctcgt cgtcttattg
+     1741 tggaaatcac ttgcttgttt gaccttagcc gcacaaaatg cccggagcgg ggcagctaac
+     1801 tatgcagata tccaccggca ttttaataag acgataatgc ttattgaaaa aaaaaaaaaa
+     1861 a
+//
+

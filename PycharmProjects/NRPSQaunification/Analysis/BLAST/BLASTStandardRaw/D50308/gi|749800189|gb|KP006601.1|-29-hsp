@@ -1,0 +1,9 @@
+sequence: gi|749800189|gb|KP006601.1|-29
+length: 79
+description: Eleftheria terrae teixobactin gene cluster, partial sequence
+e: 1.69103e-11
+weighted e: 1.6910300000000002e+26
+score: 94.0
+ACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAAC
+|||| |||||||  ||||||||||| ||| ||||||| | |||||||| |||| ||||||||||||||  ||  ||||||
+ACCTGGCCTACGTGATCTACACCTCGGGCTCCACCGGACAGCCCAAGGGCGTGATGATCGAACACCGCAACGCGGTCAAC

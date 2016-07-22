@@ -1,0 +1,72 @@
+LOCUS       X16517                  1514 bp    DNA     linear   PLN 23-OCT-2008
+DEFINITION  Penicillium chrysogenum pcbC-penDE intergenic region.
+ACCESSION   X16517
+VERSION     X16517.1  GI:3157
+KEYWORDS    acyl-CoA:6-amino penicillanic acid (6-APA) acyltransferase;
+            isopenicillin N synthetase; pcbC gene; penDE gene.
+SOURCE      Penicillium chrysogenum
+  ORGANISM  Penicillium chrysogenum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 1514)
+  AUTHORS   Diez,B., Barredo,J.L., Alvarez,E., Cantoral,J.M., van Solingen,P.,
+            Groenen,M.A., Veenstra,A.E. and Martin,J.F.
+  TITLE     Two genes involved in penicillin biosynthesis are linked in a 5.1
+            kb SalI fragment in the genome of Penicillium chrysogenum
+  JOURNAL   Mol. Gen. Genet. 218 (3), 572-576 (1989)
+   PUBMED   2511425
+COMMENT     *source: (penDE); clone=pULJL33.
+FEATURES             Location/Qualifiers
+     source          1..1514
+                     /organism="Penicillium chrysogenum"
+                     /mol_type="genomic DNA"
+                     /strain="AS-P-78"
+                     /db_xref="taxon:5076"
+                     /clone_lib="lambda EMBL3 (pcbC) and pDJB3"
+     CDS             <1..14
+                     /codon_start=3
+                     /product="isopenicillin N synthetase (3 AA)"
+                     /protein_id="CAA34520.1"
+                     /db_xref="GI:4379345"
+                     /translation="GQT"
+     repeat_region   33..39
+                     /note="inverted repeat A"
+     repeat_region   44..50
+                     /note="inverted repeat A'"
+     CDS             1512..>1514
+                     /codon_start=1
+                     /product="acyl-CoA:6-amino penicillanic acid
+                     acyltransferase (AA 1 - 1)"
+                     /protein_id="CAA34521.1"
+                     /db_xref="GI:4379346"
+                     /translation="M"
+ORIGIN      
+        1 acggccagac atgaaagggc ccatggatgg gaccgggatg gaaatcccgg actctgagct
+       61 aaaccgagtc gagaaaaaaa agggaggagc cgccaccatg ccgccacctt cgtctaccta
+      121 attatccata gccgaagggt agatagacct agtcgtcgaa tagttattat tttcaccatc
+      181 catgccaaaa tggttaacgt gcatcgttcc tatgtgacca cgtagaccat gccagtgatt
+      241 ccatggctgc ctggcccggt ccagtagaag actgaacctc ttcgagataa caagattttt
+      301 cttattgttg tagcacgatg ggtggggtca cctcgttttc ttcagctctg gctcctgaag
+      361 atttgcgtgg tagtgagctg ttttaggaac cacctgcatt gaactaaatt agtacgaatc
+      421 agcagaagga ccacagatct gtaccagtgc gcataccacc cgggagtttg acatcgtctg
+      481 gaacttggca tgggtggagc tgcttcacag aaatacgagt ccggagtaga cgagtgtttg
+      541 cgcccccctg ttcaccactc ttgccgaccc gtatgaaaac caggagcggc ctggggatgg
+      601 gcagccgggc gggaaggcca agcagattcg gcacgagctc tccttggcag catgattcgt
+      661 ggggatggaa gatacgagat gggccctgaa gagtcaccct gggatttctt acaaaaatta
+      721 cgaacccttg cggcgattac actgtcttcc caaatccgag ggtaatgcag gtcctgcatt
+      781 agcgtacgcc ccaggtttag atcaaagtta cgtaatttat atgtaccgta tgctacacta
+      841 gcaattgctg cgcaccagga atgatgcata tactccgtac aacatactca ttagagtacc
+      901 gctagaattt gttccagtgt tttcctccga gttggtaagg gaatggacag agtatgtagt
+      961 gaagatagtg caaaccctga gcaagtaccc gcgaatcacg tggggccgtg gggcaggcac
+     1021 tagcctgggc tgcagccaag ctttcaggca acctaggcaa cccaatagga accaagtgat
+     1081 aggcccacct gctttctatc tagtctggac ggttgctatt ggctcgatca ttgtttacca
+     1141 tcccggcaaa aagctctaca gagttgtgct atttctattc ctgtcttggc atgtccaggc
+     1201 tggctgttat cgcctccgtg gtgaaccctc ttcatgcaag aggtcagtca ataatgcgct
+     1261 tcaccgttct cgacgaaact tggcatccat gctcaatcca gctcctcggc aagactaggc
+     1321 ggatgcagca gggatactcg aggtgcccca gttgatgtcc catcagtgtc atgctatggt
+     1381 cccagattgg tggctacggc caatataaat ctcagcatgc agttccgcct gcatgatcat
+     1441 ccccaggacg cgtttgtcat ctccgtcagc caggtctcag ttgtttaccc atcttccgac
+     1501 ccgcagcaga aatg
+//
+

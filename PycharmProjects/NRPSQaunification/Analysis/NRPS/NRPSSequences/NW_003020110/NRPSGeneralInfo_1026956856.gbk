@@ -1,0 +1,85 @@
+LOCUS       XM_016741790             963 bp    mRNA    linear   PLN 11-MAY-2016
+DEFINITION  Penicillium expansum Fatty acid hydroxylase mRNA.
+ACCESSION   XM_016741790
+VERSION     XM_016741790.1  GI:1026956856
+DBLINK      BioProject: PRJNA319326
+            BioSample: SAMN02928573
+KEYWORDS    RefSeq.
+SOURCE      Penicillium expansum
+  ORGANISM  Penicillium expansum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+REFERENCE   1  (bases 1 to 963)
+  AUTHORS   Ballester,A.R., Marcet-Houben,M., Levin,E., Sela,N.,
+            Selma-Lazaro,C., Carmona,L., Wisniewski,M., Droby,S.,
+            Gonzalez-Candelas,L. and Gabaldon,T.
+  TITLE     Genome, Transcriptome, and Functional Analyses of Penicillium
+            expansum Provide New Insights Into Secondary Metabolism and
+            Pathogenicity
+  JOURNAL   Mol. Plant Microbe Interact. 28 (3), 232-248 (2015)
+   PUBMED   25338147
+REFERENCE   2  (bases 1 to 963)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAY-2016) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 963)
+  AUTHORS   Ballester,A.-R., Marcet-Houben,M., Levin,E., Sela,N.,
+            Selma-Lazaro,C., Carmona,L., Wisniewski,M., Droby,S.,
+            Gonzalez-Candelas,L. and Gabaldon,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2014) Bioinformatics and Genomics Department,
+            Center for Genomic Regulation (Barcelona), Dr Aiguader 88,
+            Barcelona, Barcelona 08003, Spain
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_015971172).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..963
+                     /organism="Penicillium expansum"
+                     /mol_type="mRNA"
+                     /strain="MD-8"
+                     /isolation_source="fruit"
+                     /host="apple"
+                     /db_xref="taxon:27334"
+                     /chromosome="Unknown"
+                     /country="USA"
+                     /collection_date="1992"
+     gene            <1..>963
+                     /locus_tag="PEX2_045150"
+                     /db_xref="GeneID:27677209"
+     CDS             1..963
+                     /locus_tag="PEX2_045150"
+                     /codon_start=1
+                     /product="Fatty acid hydroxylase"
+                     /protein_id="XP_016603492.1"
+                     /db_xref="GI:1026956857"
+                     /db_xref="GeneID:27677209"
+                     /translation="MGPPQVTLAAVNSHQLEDANSTVLPPGTYWGQYEDITKANVHLS
+                     VPERLWVAWYAWIQNDVLATGIMSFAVHELFYFGRCLPWIFIDTLAEIHPIPPAIETN
+                     ILLQNKVPSLREQWDCAKFVLLSHFTVELPQIWLFHPMAQYFGLSTSIPFPTLWSMVY
+                     QIAIFFVMEDTWHYFLHRAFHWGPLYKAIHKIHHQYSAPFGLAAEYASPIEVMILGFG
+                     TVSCPIIWCAVTGHLHILTMYVWIILRLFQAIDAHSGYEFPWSLHHFLPFWAGADHHD
+                     LHHEKFIGNYASSFRWWDYVLDTEYTPEALKRRRAKQAEAKKAQ"
+ORIGIN      
+        1 atgggcccac cccaagtcac tttagccgca gtcaacagtc accagttaga ggacgcgaat
+       61 tctaccgtgc tgccccccgg cacctattgg ggccaatatg aggatatcac caaagccaat
+      121 gtccacctga gcgtgccgga gagattgtgg gttgcatggt atgcgtggat acagaatgac
+      181 gtcctggcta ccggtatcat gtccttcgcc gtgcacgagt tgttctactt cggccgctgt
+      241 cttccgtgga ttttcatcga cacgctggcc gaaatccacc caattccccc cgccatcgaa
+      301 actaatatcc tacttcagaa caaagtacct tcattacgcg agcaatggga ttgtgccaag
+      361 tttgtgcttc tgagccactt taccgtcgaa cttcctcaaa tctggctttt ccacccaatg
+      421 gcgcagtact tcggtctatc aacctcgatt cctttcccaa ctctctggag tatggtatat
+      481 cagattgcaa tctttttcgt gatggaagac acttggcact attttctcca ccgagcgttt
+      541 cactggggtc cactctacaa ggctattcac aaaatccacc atcagtattc cgcaccattc
+      601 ggcttggccg ccgaatatgc ttctcctatt gaagtgatga ttctcggctt cggaaccgtc
+      661 agctgcccga ttatctggtg tgctgttacc ggtcacttgc atattctgac tatgtatgtc
+      721 tggattatct tacgcttgtt ccaggccatc gatgcccata gtggctacga attcccatgg
+      781 agtcttcacc atttcttgcc tttctgggct ggtgctgatc atcacgacct tcaccatgag
+      841 aaattcattg ggaactatgc aagcagcttc cgctggtggg actacgtcct tgacaccgaa
+      901 tataccccgg aggccctgaa gcgccgaaga gcgaaacagg cggaggccaa gaaggcacaa
+      961 tga
+//
+

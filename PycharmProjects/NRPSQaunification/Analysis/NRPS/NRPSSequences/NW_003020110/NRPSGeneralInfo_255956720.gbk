@@ -1,0 +1,83 @@
+LOCUS       XM_002569067             996 bp    mRNA    linear   PLN 14-AUG-2009
+DEFINITION  Penicillium chrysogenum Wisconsin 54-1255 isopenicillin N synthase
+            ips/PcbC-Penicillium chrysogenum (ips) mRNA, complete cds.
+ACCESSION   XM_002569067
+VERSION     XM_002569067.1  GI:255956720
+KEYWORDS    RefSeq.
+SOURCE      Penicillium rubens Wisconsin 54-1255
+  ORGANISM  Penicillium rubens Wisconsin 54-1255
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 996)
+  AUTHORS   van den Berg,M.A., Albang,R., Albermann,K., Badger,J.H.,
+            Daran,J.M., Driessen,A.J., Garcia-Estrada,C., Fedorova,N.D.,
+            Harris,D.M., Heijne,W.H., Joardar,V., Kiel,J.A., Kovalchuk,A.,
+            Martin,J.F., Nierman,W.C., Nijland,J.G., Pronk,J.T., Roubos,J.A.,
+            van der Klei,I.J., van Peij,N.N., Veenhuis,M., von Dohren,H.,
+            Wagner,C., Wortman,J. and Bovenberg,R.A.
+  TITLE     Genome sequencing and analysis of the filamentous fungus
+            Penicillium chrysogenum
+  JOURNAL   Nat. Biotechnol. 26 (10), 1161-1168 (2008)
+   PUBMED   18820685
+REFERENCE   2  (bases 1 to 996)
+  AUTHORS   van den Berg,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2007) van den Berg M.A., DAI/INNO (624-0270), DSM
+            Anti-Infectives, Alexander Fleminglaan 1, Delftn, 2613 AX,
+            NETHERLANDS
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003020110).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..996
+                     /organism="Penicillium rubens Wisconsin 54-1255"
+                     /mol_type="mRNA"
+                     /strain="Wisconsin 54-1255"
+                     /db_xref="taxon:500485"
+                     /chromosome="1"
+                     /clone="Pc00c21"
+     gene            <1..>996
+                     /gene="ips"
+                     /locus_tag="Pc21g21380"
+                     /db_xref="GeneID:8310374"
+     CDS             1..996
+                     /gene="ips"
+                     /locus_tag="Pc21g21380"
+                     /inference="protein motif:COGS:COG3491"
+                     /inference="protein motif:PFAM:PF03171"
+                     /inference="similar to AA sequence:PIR:S04441"
+                     /citation=[PUBMED 2499766]
+                     /codon_start=1
+                     /product="isopenicillin N synthase ips/PcbC-Penicillium
+                     chrysogenum"
+                     /protein_id="XP_002569113.1"
+                     /db_xref="GI:255956721"
+                     /db_xref="GeneID:8310374"
+                     /translation="MASTPKANVPKIDVSPLFGDNMEEKMKVARAIDAASRDTGFFYA
+                     VNHGVDVKRLSNKTREFHFSITDEEKWDLAIRAYNKEHQDQIRAGYYLSIPEKKAVES
+                     FCYLNPNFKPDHPLIQSKTPTHEVNVWPDEKKHPGFREFAEQYYWDVFGLSSALLRGY
+                     ALALGKEEDFFSRHFKKEDALSSVVLIRYPYLNPYPPAAIKTAEDGTKLSFEWHEDVS
+                     LITVLYQSDVANLQVEMPQGYLDIEADDNAYLVNCGSYMAHITNNYYPAPIHRVKWVN
+                     EERQSLPFFVNLGFNDTVQPWDPSKEDGKTDQRPISYGDYLQNGLVSLINKNGQT"
+ORIGIN      
+        1 atggcttcca cccccaaggc caatgtcccc aagatcgacg tgtcgcccct gttcggcgac
+       61 aatatggagg agaagatgaa ggttgcccgc gcgattgacg ctgcctcgcg cgacaccggc
+      121 ttcttctacg cggtcaacca cggtgtggat gtgaagcgac tctcgaacaa gaccagggag
+      181 ttccactttt ctatcacaga cgaagagaag tgggacctcg cgattcgcgc ctacaacaag
+      241 gagcaccagg accagatccg tgccggatac tacctgtcca ttccggagaa aaaggccgtg
+      301 gaatccttct gctacctgaa ccccaacttc aagcccgacc accctctcat ccagtcgaag
+      361 actcccactc acgaggtcaa cgtgtggccg gacgagaaga agcatccggg cttccgcgag
+      421 ttcgccgagc aatactactg ggatgtgttc gggctctcgt ctgccttgct gcgaggctat
+      481 gctctggcgc tgggcaagga ggaggacttc tttagccgcc acttcaagaa ggaagacgcg
+      541 ctctcctcgg ttgttctgat tcgttacccg tacctgaacc cctacccacc tgccgccatt
+      601 aagacggcgg aggacggcac caaattgagt ttcgaatggc atgaggacgt gtcgctcatt
+      661 accgtcctgt accagtcaga cgtggcgaac ctgcaggtgg agatgcccca gggttacctc
+      721 gatatcgagg cggacgacaa cgcctacctg gtcaattgcg gcagctacat ggcacacatc
+      781 accaacaact actaccccgc tcccatccac cgggtcaagt gggtgaacga ggagcgccaa
+      841 tccctcccgt tcttcgtcaa tctgggattt aatgataccg tccagccgtg ggatcctagc
+      901 aaggaagacg gcaagaccga tcagcggcca atctcgtacg gcgactatct gcagaacgga
+      961 ttagttagtc taatcaacaa gaacggccag acatga
+//
+

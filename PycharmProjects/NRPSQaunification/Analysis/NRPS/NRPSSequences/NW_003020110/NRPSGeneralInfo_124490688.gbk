@@ -1,0 +1,71 @@
+LOCUS       EF041821                1160 bp    DNA     linear   PLN 14-JUL-2016
+DEFINITION  Penicillium nalgiovense pcbC-pcbAB intergenic spacer, partial
+            sequence; and PcbAB (pcbAB) gene, partial cds.
+ACCESSION   EF041821
+VERSION     EF041821.1  GI:124490688
+KEYWORDS    .
+SOURCE      Penicillium nalgiovense
+  ORGANISM  Penicillium nalgiovense
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+REFERENCE   1  (bases 1 to 1160)
+  AUTHORS   Kosalkova,K., Rodriguez-Saiz,M., Barredo,J.L. and Martin,J.F.
+  TITLE     Binding of the PTA1 transcriptional activator to the divergent
+            promoter region of the first two genes of the penicillin pathway in
+            different Penicillium species
+  JOURNAL   Curr. Genet. 52 (5-6), 229-237 (2007)
+   PUBMED   17924108
+REFERENCE   2  (bases 1 to 1160)
+  AUTHORS   Kosalkova,K., Rodriguez-Saiz,M., Barredo,J.L. and Martin,J.F.
+  TITLE     XbaI-NcoI fragment of the pcbAB-pcbC intergenic region
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1160)
+  AUTHORS   Kosalkova,K., Rodriguez-Saiz,M., Barredo,J.L. and Martin,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2006) INBIOTEC, Parque Cientifico de la Granja,
+            C/ Real, 1, Leon 24006, Spain
+FEATURES             Location/Qualifiers
+     source          1..1160
+                     /organism="Penicillium nalgiovense"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:60175"
+                     /note="XbaI-NcoI fragment"
+     misc_feature    <1..1012
+                     /note="pcbC-pcbAB intergenic spacer"
+     gene            <1013..>1160
+                     /gene="pcbAB"
+     mRNA            <1013..>1160
+                     /gene="pcbAB"
+                     /product="PcbAB"
+     CDS             1013..>1160
+                     /gene="pcbAB"
+                     /codon_start=1
+                     /product="PcbAB"
+                     /protein_id="ABN12761.1"
+                     /db_xref="GI:124490689"
+                     /translation="MTQLKPLNGTTPIGFSATTSLNASGSSSVKNGTIKPSNGIFKPS
+                     TGDIM"
+ORIGIN      
+        1 tctagaaaat caatagtaaa aacttgaggg cgtggacaac gacgaaaaga gggcttggaa
+       61 aagggacagt ggaagttctc ctacagatga caatgagtgc agagaatgga cgcaatggaa
+      121 acaatctgag ctctctttct ctgtgcctga acgggggcag ggggtgttta cgctgaggcc
+      181 ccctcgagac cttatacgct tgcagcgcag atgcttactg gatggtgccg ccggagccag
+      241 tctaagattc gtaaccttgt ctcgaagtcg gaaggtcttt ggtggtctga gatttcagtc
+      301 gatccgcaca gtgacatttg cagacggtgc gagcaggcca atcgttgatc ctcgggcagg
+      361 gcaacactcc cccgctcgaa gggctagtaa gtacccatca ttaccatggc ggaaaacggg
+      421 gcccgtaggt atccgtaaca ccgtcaagtc aattgggctc gtgggccctg gcaagccccg
+      481 agagactagg caacatgcac tcaacgacgg cgatgttcca aggtataccg gcacgaagaa
+      541 catgtccgga ccacattggc tctcgtcgca gcgtgttgaa tcttcagcca ccgtaagccg
+      601 atagcatcca gttagagtgc aacgtgggtc cgtctcattc ttctcggttc ctgacaccag
+      661 aatcgggcgt agtttggcca ctgccaagtc gcagcgccac ttggctgtcc ctgtggtggg
+      721 ttccccgatg caacatgcag atccatgtac ttcacagttg acagatccaa tggcatcgga
+      781 tctgccgtag accgtgctag atgaaagtct ccatcttgtc tgtgggcagt gtctcagtcg
+      841 cccagattct cgatggggat gggccaggtc agccatatat cccttccaat ggcggaccaa
+      901 tgcagccggc ccaatataag gaattcccct cgagcttgtc tgtgattgcg tctttttaaa
+      961 catttattgt tgcatccgat ccctccccac aaattattgg tcattgacag gcatgactca
+     1021 actgaagcca ctgaacggaa ccacgccgat aggcttctcg gccactactt ccctgaacgc
+     1081 cagtgggagt tcgagcgtga aaaatgggac cattaaaccc agcaatggca tcttcaaacc
+     1141 cagcactggg gacatcatgg
+//
+

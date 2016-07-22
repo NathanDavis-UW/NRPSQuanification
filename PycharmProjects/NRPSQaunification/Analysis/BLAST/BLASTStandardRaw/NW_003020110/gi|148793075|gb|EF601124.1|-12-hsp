@@ -1,0 +1,9 @@
+sequence: gi|148793075|gb|EF601124.1|-12
+length: 58
+description: Penicillium chrysogenum strain Wisconsin 54-1255 penicillin biosynthetic gene cluster, partial sequence
+e: 2.05149e-12
+weighted e: 2.05149e+25
+score: 100.0
+TGTAAGTGAATTTGGGCTCTGGACCAAATTCTCCGCCAAGGATAATCTTTCCGATAAACG
+|||||| ||||||||||||||||||||||||||||||||||||| || ||||||||||||
+TGTAAGGGAATTTGGGCTCTGGACCAAATTCTCCGCCAAGGATACTC-TTCCGATAAACG

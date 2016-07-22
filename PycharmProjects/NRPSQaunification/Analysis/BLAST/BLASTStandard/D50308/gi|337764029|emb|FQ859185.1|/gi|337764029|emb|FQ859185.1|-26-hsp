@@ -1,0 +1,9 @@
+sequence: gi|337764029|emb|FQ859185.1|-26
+length: 74
+description: Streptomyces cattleya str. NRRL 8057 main chromosome, partial genome
+e: 8.75977e-09
+weighted e: 8.75977e+28
+score: 84.0
+ACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCG
+||| |||||||| |||||||||||||||| | |||||||| ||||||| |||| |  ||   ||| |||||||||
+ACCCCGCCTACGTCATCTACACCTCCGGCTCGACCGGCCGCCCCAAGGGCGTGGTCGTCACCCACAGCGGCGTCG

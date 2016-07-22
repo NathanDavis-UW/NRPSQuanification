@@ -1,0 +1,9 @@
+sequence: gi|1036556009|gb|CP015851.1|-26
+length: 88
+description: Ralstonia solanacearum strain YC40-M plasmid, partial sequence
+e: 2.67963e-15
+weighted e: 2.67963e+22
+score: 108.0
+ACCAGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACC
+|||| |||| |||| |||||||  ||||||||||| ||| |||||||||| ||||||| |||| ||| ||| ||||| |||||||||||||
+ACCA-CACC-ACCTGGCCTACGTGATCTACACCTCGGGCTCCACCGGCCGCCCCAAGGGCGTGATGAACGAGCACCGTGGCGTCGTCAACC

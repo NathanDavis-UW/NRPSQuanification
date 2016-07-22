@@ -1,0 +1,64 @@
+LOCUS       AM944592                 900 bp    DNA     linear   BCT 05-MAR-2008
+DEFINITION  Streptomyces cattleya partial pcbAB gene for ACV synthetase, strain
+            NRRL8057.
+ACCESSION   AM944592
+VERSION     AM944592.1  GI:169635761
+KEYWORDS    .
+SOURCE      Streptomyces cattleya NRRL 8057 = DSM 46488
+  ORGANISM  Streptomyces cattleya NRRL 8057 = DSM 46488
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces.
+REFERENCE   1
+  AUTHORS   Rodriguez,M., Nunez,L., Brana,A., Mendez,C., Salas,J. and Blanco,G.
+  TITLE     Identification of transcriptional activators for thienamycin and
+            cephamycin C biosynthetic genes within the thienamycin gene cluster
+            from Streptomyces cattleya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 900)
+  AUTHORS   Blanco,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2008) Blanco G., Biologia Funcional, Universidad
+            de Oviedo, Julian Claveria s/n, 33006 Oviedo, SPAIN
+FEATURES             Location/Qualifiers
+     source          1..900
+                     /organism="Streptomyces cattleya NRRL 8057 = DSM 46488"
+                     /mol_type="genomic DNA"
+                     /strain="NRRL8057"
+                     /db_xref="taxon:1003195"
+     gene            <1..>900
+                     /gene="pcbAB"
+     CDS             <1..>900
+                     /gene="pcbAB"
+                     /function="essential for cephamycin C biosynthesis"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ACV synthetase"
+                     /protein_id="CAQ16371.1"
+                     /db_xref="GI:169635762"
+                     /db_xref="GOA:B1GXL3"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="UniProtKB/TrEMBL:B1GXL3"
+                     /translation="VLVPHRAVDSFRRQLTGRYFGGPDTSREGVLFLANYVFDFSVEQ
+                     LALSVLAGHALVVPPVSPADDDGFADYANRAGVTYLSGTPTQIQQLDLARLTGLRCVL
+                     VAGEAFHERHFAKIRAEFSGPIVNAYGTTETAVYNTVRRFEPGEPYRNSLGAPLGNTR
+                     LYVLGAGMRPLPPGAVGELYLAGECVTDGYLNRPELTRERFLPNPLRTEAERAAGRYP
+                     VVYRTGDLVRLTRDGELRYVGRNDAQVKIHGVRVEPGEVESVLAGCPGIGECAVVAAP
+                     DERSPDGRRLVAYYVAEPGAAVDE"
+ORIGIN      
+        1 gtgctggtcc cgcaccgggc ggtggacagc ttccggcggc agctgaccgg ccgctacttc
+       61 ggcggcccgg acacctcccg cgagggcgtg ctcttcctgg ccaactacgt cttcgacttc
+      121 tccgtcgagc agttggcgct gtcggtgctg gccggccacg cactcgtcgt tcccccggtc
+      181 tcccccgccg acgacgacgg tttcgccgac tacgccaacc gggccggggt gacgtacctg
+      241 agcggtacgc ccacccagat ccagcagctc gacctggcgc ggctgaccgg gctgcgctgc
+      301 gtgctggtcg ccggggaggc gttccacgag cgccacttcg ccaagatccg cgcggagttc
+      361 tccgggccga tagtcaacgc ctacgggacc acggagacgg ccgtgtacaa cacggtccgg
+      421 cgcttcgagc ccggtgagcc ctaccggaac agcctcggcg caccgctcgg caacacccgg
+      481 ctgtacgtgc tcggcgcagg catgcgtccg ctgcccccgg gggccgtcgg tgagctgtac
+      541 ctggccggtg agtgcgtcac cgacggatac ctcaaccggc cggaactcac ccgggaacgg
+      601 tttcttccca acccgctgcg caccgaggcc gagcgcgcgg ccggccggta cccggtggtc
+      661 taccgcaccg gtgacctggt acggctgacc cgggacggcg agctgcggta cgtggggcgc
+      721 aacgacgcgc aggtcaagat ccacggagtg cgggtcgagc ccggcgaggt ggagtcggtg
+      781 ctggccggct gcccggggat cggcgagtgc gccgtcgtcg ccgcgccgga cgaacgctca
+      841 ccggacggca ggcggctggt cgcctactac gtggcggagc ccggcgcggc cgtggacgaa
+//
+

@@ -1,0 +1,89 @@
+LOCUS       XM_002569075            1536 bp    mRNA    linear   PLN 14-AUG-2009
+DEFINITION  Penicillium chrysogenum Wisconsin 54-1255 hypothetical protein
+            (Pc21g21460) mRNA, complete cds.
+ACCESSION   XM_002569075
+VERSION     XM_002569075.1  GI:255956736
+KEYWORDS    RefSeq.
+SOURCE      Penicillium rubens Wisconsin 54-1255
+  ORGANISM  Penicillium rubens Wisconsin 54-1255
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 1536)
+  AUTHORS   van den Berg,M.A., Albang,R., Albermann,K., Badger,J.H.,
+            Daran,J.M., Driessen,A.J., Garcia-Estrada,C., Fedorova,N.D.,
+            Harris,D.M., Heijne,W.H., Joardar,V., Kiel,J.A., Kovalchuk,A.,
+            Martin,J.F., Nierman,W.C., Nijland,J.G., Pronk,J.T., Roubos,J.A.,
+            van der Klei,I.J., van Peij,N.N., Veenhuis,M., von Dohren,H.,
+            Wagner,C., Wortman,J. and Bovenberg,R.A.
+  TITLE     Genome sequencing and analysis of the filamentous fungus
+            Penicillium chrysogenum
+  JOURNAL   Nat. Biotechnol. 26 (10), 1161-1168 (2008)
+   PUBMED   18820685
+REFERENCE   2  (bases 1 to 1536)
+  AUTHORS   van den Berg,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2007) van den Berg M.A., DAI/INNO (624-0270), DSM
+            Anti-Infectives, Alexander Fleminglaan 1, Delftn, 2613 AX,
+            NETHERLANDS
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003020110).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..1536
+                     /organism="Penicillium rubens Wisconsin 54-1255"
+                     /mol_type="mRNA"
+                     /strain="Wisconsin 54-1255"
+                     /db_xref="taxon:500485"
+                     /chromosome="1"
+                     /clone="Pc00c21"
+     gene            <1..>1536
+                     /locus_tag="Pc21g21460"
+                     /db_xref="GeneID:8304973"
+     CDS             1..1536
+                     /locus_tag="Pc21g21460"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="XP_002569121.1"
+                     /db_xref="GI:255956737"
+                     /db_xref="GeneID:8304973"
+                     /translation="MASPSTLTLKQNRRKRPLFSPVMTRHSSLPPRARSKSPIVKTGE
+                     SAINSAYCIETSALDFNEFSLLDHDGSTPSLGDSCHDLLFEYLREHFGVEDMWVMQPF
+                     IFLRCSDRPDPGQRPFTISGCLAFWLGMDDPLPTLIPGSSGGETEIDKFVRVDQNLVQ
+                     DLKPYRMPKPETLLMVLTQHFPQAAAISFIFNTIVVEFDEIDEDTWRERVGALPCSFG
+                     NLALELSYSNGLLANTEWKQLIAPKPADLKTFVSDDSDYISATGCFNPGAMICSDQEH
+                     AASAGVLVEKDSEQRLTVACHCWDREFDESLNHLGDPNRFRVLQGKSRVGYVTERIDD
+                     TDIGLAKLDDTFAFSNRFLDIETAAKTLIPFTGVRTGDKFFIDSFVTGRQRLLCVGVR
+                     VLGRKRGQDFLRNRQENPPDGKYISVHHGIYATNDPVITTAPQLRAGICGSVLVRLQR
+                     AGEESICLEDGEVCGVMHWADLAMKSPTSANFFCFADPMDPLISNGWACVPVTEKRPN
+                     SSS"
+ORIGIN      
+        1 atggcgagcc catcaacttt gacattaaag cagaaccggc gaaagcgacc attattcagc
+       61 ccagttatga ctaggcattc atccctcccg cctcgggcca ggtccaagtc cccaatcgtg
+      121 aaaactgggg aatctgcaat caactcagcg tattgtattg aaacatccgc cctcgacttt
+      181 aacgagtttt cactgcttga tcatgatgga tcgacaccat ctttagggga tagttgtcat
+      241 gacttgctct ttgaatacct acgagagcat ttcggggtgg aagatatgtg ggttatgcag
+      301 ccatttatat tccttcgttg ctctgaccga ccggatcccg gtcaacgccc ttttaccata
+      361 tcgggctgct tagccttctg gctaggaatg gatgacccgc tgcccactct catacctggt
+      421 tcttctggag gggagacgga aatagacaag ttcgttcgcg tggaccaaaa tctggttcag
+      481 gacttgaaac cgtataggat gccaaagcca gaaacgctcc ttatggttct cacacaacat
+      541 tttccgcaag cggcagctat ctccttcata ttcaacacca ttgtggttga attcgacgag
+      601 atcgatgagg atacgtggag agagagagtc ggggctctac cgtgttcctt cgggaatctc
+      661 gcgctagaat taagctactc aaatgggttg ctcgctaata ccgagtggaa acagctcata
+      721 gcccctaagc cagcagattt gaaaaccttt gtttcagacg actccgacta catttctgct
+      781 acagggtgct ttaatcctgg agcgatgatt tgttctgatc aagagcatgc tgcctccgct
+      841 ggggtcttgg tggagaagga ttcggagcag aggcttaccg ttgcgtgtca ctgctgggat
+      901 cgggagttcg acgaaagctt gaatcaccta ggagatccga atcgtttccg agtgctacaa
+      961 ggaaagtcga gggtcggcta tgtgacggaa cgtatcgacg ataccgatat cggacttgcc
+     1021 aagctggacg atacttttgc gtttagcaat agattcttag atatcgaaac agcagctaaa
+     1081 accctcatcc cattcaccgg ggttcggaca ggagacaaat tcttcattga cagcttcgtt
+     1141 accggccggc agcgcctttt gtgtgtcgga gtgcgggtgc tgggacgcaa gagaggacag
+     1201 gatttcctcc gcaatagaca ggagaacccg cccgatggga aatatatctc cgtgcaccac
+     1261 ggcatttatg cgaccaacga ccccgtgatt acgactgccc cacaactacg tgcaggtatc
+     1321 tgtggctcag tccttgtacg gctacagcgt gcaggggagg aatcgatttg cctggaggat
+     1381 ggagaagtat gtggggttat gcattgggcc gatttggcca tgaagtcccc tacgagcgct
+     1441 aatttctttt gcttcgcgga cccgatggac cctttgattt cgaacggatg ggcatgcgtt
+     1501 cctgtcacag agaagcgccc caattcctct tcgtag
+//
+

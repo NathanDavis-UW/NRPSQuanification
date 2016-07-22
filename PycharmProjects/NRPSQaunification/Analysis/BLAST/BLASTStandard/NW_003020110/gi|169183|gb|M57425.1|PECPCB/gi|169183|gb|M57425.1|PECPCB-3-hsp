@@ -1,0 +1,9 @@
+sequence: gi|169183|gb|M57425.1|PECPCB-3
+length: 59
+description: P.chrysogenum alpha-aminoadypil-cysteinyl-valine synthetase (pcbAB) gene, partial cds
+e: 2.05149e-12
+weighted e: 2.05149e+25
+score: 100.0
+CGTTTATCGGAA-GAGTATCCTTGGCGGAGAATTTGGTCCAGAGCCCAAATTCCCTTACA
+|||||||||||| || ||||||||||||||||||||||||||||||||||||| ||||||
+CGTTTATCGGAAAGATTATCCTTGGCGGAGAATTTGGTCCAGAGCCCAAATTCACTTACA

@@ -1,0 +1,70 @@
+LOCUS       XM_002569077             663 bp    mRNA    linear   PLN 14-AUG-2009
+DEFINITION  Penicillium chrysogenum Wisconsin 54-1255 hypothetical protein
+            (Pc21g21480) mRNA, complete cds.
+ACCESSION   XM_002569077
+VERSION     XM_002569077.1  GI:255956740
+KEYWORDS    RefSeq.
+SOURCE      Penicillium rubens Wisconsin 54-1255
+  ORGANISM  Penicillium rubens Wisconsin 54-1255
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium; Penicillium chrysogenum complex.
+REFERENCE   1  (bases 1 to 663)
+  AUTHORS   van den Berg,M.A., Albang,R., Albermann,K., Badger,J.H.,
+            Daran,J.M., Driessen,A.J., Garcia-Estrada,C., Fedorova,N.D.,
+            Harris,D.M., Heijne,W.H., Joardar,V., Kiel,J.A., Kovalchuk,A.,
+            Martin,J.F., Nierman,W.C., Nijland,J.G., Pronk,J.T., Roubos,J.A.,
+            van der Klei,I.J., van Peij,N.N., Veenhuis,M., von Dohren,H.,
+            Wagner,C., Wortman,J. and Bovenberg,R.A.
+  TITLE     Genome sequencing and analysis of the filamentous fungus
+            Penicillium chrysogenum
+  JOURNAL   Nat. Biotechnol. 26 (10), 1161-1168 (2008)
+   PUBMED   18820685
+REFERENCE   2  (bases 1 to 663)
+  AUTHORS   van den Berg,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2007) van den Berg M.A., DAI/INNO (624-0270), DSM
+            Anti-Infectives, Alexander Fleminglaan 1, Delftn, 2613 AX,
+            NETHERLANDS
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003020110).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..663
+                     /organism="Penicillium rubens Wisconsin 54-1255"
+                     /mol_type="mRNA"
+                     /strain="Wisconsin 54-1255"
+                     /db_xref="taxon:500485"
+                     /chromosome="1"
+                     /clone="Pc00c21"
+     gene            <1..>663
+                     /locus_tag="Pc21g21480"
+                     /db_xref="GeneID:8304975"
+     CDS             1..663
+                     /locus_tag="Pc21g21480"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="XP_002569123.1"
+                     /db_xref="GI:255956741"
+                     /db_xref="GeneID:8304975"
+                     /translation="MEAPRANECYAVGEKTSSPPGDDIKENVYPDPIYGAIWTYFDHD
+                     QQQSQSTPSSPHHSFRELRRAISTSSMRPSTRSVFESSIFFPAFERVKDRGLRGSTSG
+                     GIDRVPDYWANRALIAPWARCYVIRLMPGFPGHYLLAILASFHLSENPSLPSSLSPLL
+                     ALPDHEGNKSEKNRGKPVISHGIHAAPSGPNLAGKRKEQQAEDGGRGTVRRPSWESPP
+                     YS"
+ORIGIN      
+        1 atggaagcac cgcgagcgaa cgagtgctat gctgtaggag agaagacatc ctctcctccg
+       61 ggcgacgata tcaaagagaa tgtatacccg gacccaatat atggagccat ttggacttac
+      121 ttcgatcatg atcaacaaca atcacaatcg actccctctt caccacatca ttcctttcgc
+      181 gaactacgac gagccatatc tacctcctca atgcgaccgt ccacccgctc cgtattcgaa
+      241 tcgtccattt tctttcctgc tttcgaacga gtgaaagacc gaggattacg gggatcaaca
+      301 agcggaggaa tcgacagggt gccggactac tgggcaaaca gagccctgat agccccgtgg
+      361 gcgaggtgtt atgtcatcag gctgatgcct ggtttcccag gtcactattt gctagctata
+      421 ttagctagct tccatctgtc agagaatcca tctcttcctt cttctctttc tccccttctg
+      481 gccttgccag atcacgaggg caacaaatca gagaaaaacc gcgggaagcc tgttatatca
+      541 catgggatcc atgccgctcc ttcgggaccc aaccttgcag gaaaacggaa agaacaacaa
+      601 gcggaagatg gtggacgggg aacagttcga cgcccaagtt gggagagccc gccatacagc
+      661 tga
+//
+

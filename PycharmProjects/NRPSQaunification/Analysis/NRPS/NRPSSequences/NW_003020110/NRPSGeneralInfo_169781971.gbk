@@ -1,0 +1,66 @@
+LOCUS       XM_001825397            1074 bp    mRNA    linear   PLN 03-MAR-2011
+DEFINITION  Aspergillus oryzae RIB40 acyl-coenzyme
+            A:6-aminopenicillanic-acid-acyltransferase subunit, mRNA.
+ACCESSION   XM_001825397
+VERSION     XM_001825397.1  GI:169781971
+KEYWORDS    RefSeq.
+SOURCE      Aspergillus oryzae RIB40
+  ORGANISM  Aspergillus oryzae RIB40
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus.
+REFERENCE   1  (bases 1 to 1074)
+  AUTHORS   Sawano,T., Tanaka,T., Machida,M. and Yamada,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUN-2004) Contact:Toshihiko Sawano National Institute
+            of Technology and Evaluation, Genome Analysis Center, Department Of
+            Biotechnology; 2-49-10 Nishihara, Shibuya-ku, Tokyo 151-0066, Japan
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_001884677).
+            Derived by automatic computational analysis using gene prediction
+            method: Multi-Genome Gnomon.
+FEATURES             Location/Qualifiers
+     source          1..1074
+                     /organism="Aspergillus oryzae RIB40"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:510516"
+     gene            1..1074
+                     /locus_tag="AOR_1_924074"
+                     /db_xref="GeneID:5997544"
+     CDS             1..1074
+                     /locus_tag="AOR_1_924074"
+                     /codon_start=1
+                     /product="acyl-coenzyme
+                     A:6-aminopenicillanic-acid-acyltransferase subunit"
+                     /protein_id="XP_001825449.1"
+                     /db_xref="GI:169781972"
+                     /db_xref="GeneID:5997544"
+                     /translation="MLQVTCQGNPFEIGYQHGSTAKAVIAKSINFAVGLIRGKTKKTE
+                     DELKQILMELGSVIEKRWPRYHEEIRGIAKGAERDVSEIIMLNTRTEFAYGLVEARDG
+                     CTTVYCKLSNGALQGQNWDFFSATKENLIQLTIRQPGLPTIKMITEAGIIGKVGFNSA
+                     GVAVNYNALHLQGLRPTGLPSHLALRMALESTSPSQAYDRIVEQGGMAASAFIMVGNG
+                     QEAYGLEFSPISLRKQVLDAKGRLVHTNHCLLNHGENAKELDPLPDSWSRHQRMENLL
+                     DRFDGTKEAFSRLWEDEDNYPFSICRAYEEGKSRGATLFNIMYDHARREATVRFGRPK
+                     NPDETFVLQFDDEDKRSALNAKL"
+ORIGIN      
+        1 atgcttcagg ttacttgcca aggcaacccc ttcgagattg ggtaccaaca tggctcgacc
+       61 gccaaagctg tgatcgccaa atctattaac ttcgccgtcg gtctcatccg agggaaaacg
+      121 aagaagacgg aggacgagct taagcagatt ctcatggagc tgggaagcgt gattgagaaa
+      181 agatggccca gatatcatga ggagattcgc ggtatcgcaa agggtgccga acgcgatgtt
+      241 tccgagatta ttatgctcaa tacccgcaca gaatttgcat atggcctggt cgaagcccgt
+      301 gatggctgca ctaccgttta ttgtaaactt tccaacggag cactacaggg tcaaaactgg
+      361 gatttcttct ccgccaccaa agagaatctg atccagttga ccatccgtca acccggcctg
+      421 cccaccatca agatgatcac ggaagctgga attatcggca aggttggatt caacagtgcg
+      481 ggagttgccg tcaactacaa tgctcttcac cttcagggcc ttcggcccac tggacttcct
+      541 tcgcatcttg ccctccgcat ggctcttgaa agcacgtctc cttcccaggc ctatgaccga
+      601 atcgtggagc aaggtggaat ggccgccagc gcctttatca tggtcggcaa cgggcaggag
+      661 gcatacgggc tggaattctc ccccatcagc ctccgaaagc aggtgctcga cgcaaagggc
+      721 agactggtgc acaccaacca ctgcttgctc aaccatggcg aaaatgcgaa agaactcgat
+      781 cctctaccgg actcgtggag tcgccatcag cgtatggaaa accttcttga ccggtttgat
+      841 ggtaccaaag aggcattttc ccggctctgg gaggatgaag acaactatcc ttttagcata
+      901 tgtcgagcat acgaggaagg taaaagtagg ggagccacct tgttcaacat tatgtacgat
+      961 cacgcccgcc gagaggcgac tgtgcgtttt ggccggccga agaacccgga tgagacgttt
+     1021 gtcttgcagt tcgacgatga ggacaaaagg tctgcgctca atgctaaact ttga
+//
+

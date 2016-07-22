@@ -1,0 +1,79 @@
+LOCUS       XM_002847120             924 bp    mRNA    linear   PLN 27-MAY-2010
+DEFINITION  Arthroderma otae CBS 113480 C4-methylsterol oxidase, mRNA.
+ACCESSION   XM_002847120
+VERSION     XM_002847120.1  GI:296813656
+KEYWORDS    RefSeq.
+SOURCE      Arthroderma otae CBS 113480 (anamorph: Microsporum canis CBS
+            113480)
+  ORGANISM  Arthroderma otae CBS 113480
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Onygenales; Arthrodermataceae;
+            Arthroderma.
+REFERENCE   1  (bases 1 to 924)
+  AUTHORS   Cuomo,C., Henn,M.R., Young,S.K., Kodira,C.D., Zeng,Q., Koehrsen,M.,
+            Alvarado,L., Berlin,A., Borenstein,D., Chen,Z., Engels,R.,
+            Freedman,E., Gellesch,M., Goldberg,J., Griggs,A., Gujja,S.,
+            Heiman,D., Hepburn,T., Howarth,C., Jen,D., Larson,L., Lewis,B.,
+            Mehta,T., Park,D., Pearson,M., Roberts,A., Saif,S., Shea,T.,
+            Shenoy,N., Sisk,P., Stolte,C., Sykes,S., Walk,T., White,J.,
+            Yandava,C., Guigo,R., Borodovsky,M., White,T.C., Oliver,B.G.,
+            Graser,Y., Abdel-Rahman,S., Gurr,S.J., Martinez-Rossi,N.,
+            Summerbell,R., Lander,E., Nusbaum,C., Galagan,J. and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of Microsporum canis strain CBS 113480
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 924)
+  AUTHORS   Cuomo,C., Henn,M.R., Jaffe,D., Young,S., Gnerre,S., Berlin,A.,
+            Heiman,D., Hepburn,T., Sykes,S., Alvarado,L., Kodira,C.D.,
+            White,T.C., Oliver,B.G., Graser,Y., Abdel-Rahman,S., Gurr,S.J.,
+            Martinez-Rossi,N., Summerbell,R., Lander,E., Nusbaum,C., Galagan,J.
+            and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2008) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NW_003299166).
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..924
+                     /organism="Arthroderma otae CBS 113480"
+                     /mol_type="mRNA"
+                     /strain="CBS 113480"
+                     /db_xref="taxon:554155"
+     gene            <1..>924
+                     /locus_tag="MCYG_04903"
+                     /db_xref="GeneID:9223771"
+     CDS             1..924
+                     /locus_tag="MCYG_04903"
+                     /codon_start=1
+                     /product="C4-methylsterol oxidase"
+                     /protein_id="XP_002847166.1"
+                     /db_xref="GI:296813657"
+                     /db_xref="GeneID:9223771"
+                     /translation="MSVSPPPGAWQRDCGSHGMRGCGMMSWPPASCPFAVHELFYFGR
+                     SLPWAFIDSLGFFKRYKIQSPKSTQFQPAIETNILLQSKVPSLREQWDCAKFVLLSHF
+                     TVELPQIWYVPALDGVVFYLTLFHPMAQFCGLSTSIPFPSPWTMTYQIAIFFVMEDTW
+                     HYFFHRALHWGPLYKAIHKIHHQYSAPFGLAAEYASPIEVMILGFGTVSCPILWCAFT
+                     GNLHILTMYIWIVLRLFQAIDAHSGYEFPCSLHHFLPFWAGADHHDLHHEKFIGNYSS
+                     SFRWWDYLLDTEYTPDALKRRRGEKVKAKKI"
+ORIGIN      
+        1 atgtctgtgt ctcccccccc gggtgcgtgg cagagagatt gtgggtcgca tggtatgcgt
+       61 ggatgcggaa tgatgtcctg gccaccggca tcatgtcctt tcgccgtcca cgagttgttc
+      121 tacttcggcc gctctcttcc gtgggccttc atcgatagct tgggtttctt caagagatac
+      181 aagattcaaa gtccgaaatc aacccaattc cagcccgcca tcgaaactaa cattctgctt
+      241 cagagcaaag taccttcatt acgcgagcaa tgggattgcg ccaagtttgt gcttctgagc
+      301 cacttcaccg tcgaacttcc tcaaatctgg tatgttcctg ccctcgacgg agtggtattc
+      361 tacctgacgc ttttccaccc aatggcccag ttctgcggtc tatcaacatc gattcctttt
+      421 ccgtctccct ggactatgac atatcagatt gcaatatttt tcgtgatgga ggacacttgg
+      481 cactattttt tccaccgagc tcttcattgg ggtccactct ataaggctat tcacaaaatt
+      541 caccatcagt attctgcacc atttggcttg gccgccgaat atgcttctcc tattgaagtg
+      601 atgattctcg gcttcgggac cgttagctgc ccgatcctct ggtgtgcttt taccggtaac
+      661 ctgcatattc tcactatgta tatctggatt gtattgcgct tgttccaggc tatcgatgcc
+      721 catagtggct acgaatttcc ttgcagtctt caccatttct tgcctttctg ggctggtgct
+      781 gatcatcacg acctccacca tgagaaattc attgggaact actcaagcag cttccgctgg
+      841 tgggactacc tccttgacac cgaatacact ccggatgccc tgaagcgccg aagaggggaa
+      901 aaggtaaagg caaagaagat ataa
+//
+
