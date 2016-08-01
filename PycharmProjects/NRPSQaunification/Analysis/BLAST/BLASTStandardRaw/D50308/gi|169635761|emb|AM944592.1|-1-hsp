@@ -1,8 +1,8 @@
 sequence: gi|169635761|emb|AM944592.1|-1
 length: 874
 description: Streptomyces cattleya partial pcbAB gene for ACV synthetase, strain NRRL8057
-e: 4.8278e-88
-weighted e: 4.8278e-51
+e: 4.86643e-88
+weighted e: 4.8664299999999994e-51
 score: 376.0
 GTGCTGGTCCGCCACCGCAACGTGCTGAGCTTCAGCGCCGGC--CTGGCCCAGCGCTACTTCGGCGACGCCGGCGCGGCGCGGCAGGCGATCCTGTTCCTGTCCAGCTACGTGTTCGACTTCTCGGTCGAGCAACTGGCCCTGTCGATCCTCAGCGGCAACGCCCTGCTGATTCC---GGAATCGTCGCTGCTGTTCGACGACGCCTTCTACCAGCGCATGAACCAGGAGCGGCTCAGCTACATCAGCGGCACGCCGACCCAACTGCAACTGTTCGACCTGGCGCGGCTGGACCATCTGCACGCCGTCCTGGTCGCGGGCGAGGCCTTCCGCGCCCACCACTTCGACAAGATCCGCGCCGAGTACCGCGGCCCCTTGTACAACGCTTACGGCACCACGGAGACCACGGTCTACAACCTGGTCAAACGCTTCGCGCCCGATGCGCCCTACCGCAACGATCTCGGC-CACGCCATCGCCAACACCGAGCTGCACATCCTCGACGGCGAGTTGCGCGAGCTTCCGCCGGGCGGCCTGGGCGAGATCTACATGGCCGGCGACTGCGTCGGCGCCGGCTATCTCAATCGCGACGAACTCAGCCGCGAGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACCGC-CGGCTCGGCCGCAACGACACGCTGTACAAGACCGGCGATCTGGTGCGCCGCCGCCACAG--CGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGCGGTCGCCG--CGGCGTTCCCCGGCGTCGCCCAGTGCGCCGTGGTCGCGCGCCACGACGGCGAGCGTT--CCGG-CGGCAGCCGTCTGGTCTGCTATTACGTCGC
 ||||||||||  |||||    |||   ||||||  || ||||  ||| ||   ||||||||||||| | | | | |  | ||  |||   | || |||||| ||| |||||| ||||||||||| ||||||||  |||| |||||| | ||   |||| |||| ||  |  ||||   ||  ||  | | || |  ||||||||  |||  | |   |   |||| ||   || | |  ||| | ||||| ||||| |||||  | || | | |||||||||||||||||  |   |||| |  ||| |||||||| || ||||| |||| ||  | |||||||| |||||||||||| |||| |  ||| ||  |   |||||| ||||| |||||||||||  | || ||||||  ||||   ||||||| ||||| || ||||||||| |||   |||||| ||| |  ||| |||||||  |||| || | |||| ||  |   ||||   ||| || ||||| | | | || ||| | ||| ||||||| || ||||||  || ||| || ||||| ||    ||||||| ||| || || ||  |  |||| ||| | |||| ||||| ||| ||| |||| ||||||  ||     | | |||   ||||| || ||||| ||  || | | | |  ||||||||||   | | | || |||||||||   ||||| |||||| |||| |||||  |||| |  |||||| | ||  |||| || |  |||| | ||| ||  ||| | |||||||||| ||||| |||  ||  | ||| || |  |||| |||||| || ||||||  ||| ||||| ||

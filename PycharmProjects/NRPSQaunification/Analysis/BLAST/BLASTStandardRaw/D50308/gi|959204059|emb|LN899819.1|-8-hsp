@@ -1,8 +1,8 @@
 sequence: gi|959204059|emb|LN899819.1|-8
 length: 126
 description: Ralstonia solanacearum genome assembly 9 genomes, chromosome : I
-e: 6.72856e-23
-weighted e: 672855999999999.9
+e: 6.78239e-23
+weighted e: 678239000000000.0
 score: 136.0
 GTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGC
 ||||||||||||||    |||||  | | |||||||||| ||||||||||  |||||||||||||||| |||| ||| ||||||||||||||| ||| | |||||||| || | || ||    ||||||||

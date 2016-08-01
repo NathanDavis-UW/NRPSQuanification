@@ -1,7 +1,7 @@
 import os
 
 from Bio import SeqIO
-
+# used as a secondary sorting system for more accurate decision trees
 fas_dir = "BLASTFASTARaw"
 records = []
 results = []

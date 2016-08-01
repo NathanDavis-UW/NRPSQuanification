@@ -1,8 +1,8 @@
 sequence: gi|755895103|gb|CP002580.1|-9
 length: 283
 description: Burkholderia glumae PG1 chromosome 1, partial sequence
-e: 7.67728e-16
-weighted e: 7.67728e+21
+e: 7.7387e-16
+weighted e: 7.738699999999999e+21
 score: 110.0
 GGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGG--AGAACGCGC--GGC--CGGC---CGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCGCGCGCGCTGG
 ||||||| |||||      |||||||||   |||| ||||||    || |||| ||| ||||||||||| || || || | |||||||   ||| ||||       |||  |  | ||||      || ||  |||  ||||    ||| |  ||| |||||||| ||||||||| ||  |   || ||| ||||||||   ||||||||| | |||||  ||||   |||| ||||| ||  |||  |||||||||| | |||||| |||||||   ||| |||||

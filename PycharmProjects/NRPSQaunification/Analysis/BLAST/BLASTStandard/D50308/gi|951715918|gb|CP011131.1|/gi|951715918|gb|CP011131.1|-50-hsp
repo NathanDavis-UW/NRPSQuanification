@@ -1,8 +1,8 @@
 sequence: gi|951715918|gb|CP011131.1|-50
 length: 183
 description: Lysobacter gummosus strain 3.2.11, partial genome
-e: 2.19958e-16
-weighted e: 2.1995799999999999e+21
+e: 2.21717e-16
+weighted e: 2.21717e+21
 score: 112.0
 CTACGCCGAACTCAACCGGCGCTGCAACCGGCTCGCGCACTGGCTGCTGCGCGAAGGCCTGACGCCCGGCGAGATCGTCGGCCTGTACCTGGACAAGAGCCACCGCATCGTCGTCGCCACGCTCGGCCTGTGGAAGGCCGGCGGCGCCTACATCCCGTTCGATCCGAGCTACCCGGCCGAACGC
 |||||||||||||||||| |||  |||||| ||||||||| | ||| |   ||  ||||||| ||||| |||   ||||| | | ||| ||||    |||  |   || ||||| | ||  |||| |  |   |||||||||||||||||| | ||| | ||||||  ||| ||| | || |||

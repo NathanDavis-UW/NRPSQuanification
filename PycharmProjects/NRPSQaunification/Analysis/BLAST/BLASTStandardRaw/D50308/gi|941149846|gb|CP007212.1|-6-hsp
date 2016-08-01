@@ -1,8 +1,8 @@
 sequence: gi|941149846|gb|CP007212.1|-6
 length: 356
 description: Burkholderia plantarii strain ATCC 43733 chromosome 1, partial sequence
-e: 2.86106e-21
-weighted e: 2.86106e+16
+e: 2.88395e-21
+weighted e: 2.8839499999999996e+16
 score: 130.0
 CAGCATCGGCCGGCCGCTGCGCAACGTGAAGTGCTACATCGTCAGCCAGAACATGAAGCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGC-ACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCGCGCGC-GCTGGAGTTCCCCGGCGTGCGCCA-GTGCGTGGTGGTCGCGCG
 |||||||||||||||| | |   |  ||  |  |||| | ||   |  |||| |||| | | ||||||||||||     || ||| ||| | | |||||  | ||| | ||  |||| || |||||||| || || || || ||  |||||||| |   ||||||||||    ||| |  ||||||||| |||                 |||| ||||||||||| |||||    |||||||||||||||  | |||| |   ||||||||| ||||   ||| | ||| |   |||| | ||| |||| |  ||||| ||||| ||| |||| |  ||   |   ||||||||| || |||| ||||| | |||||

@@ -1,8 +1,8 @@
 sequence: gi|930568023|gb|CP012687.1|-2
 length: 307
 description: Ralstonia solanacearum strain UY031, partial genome
-e: 3.4824e-39
-weighted e: 0.034823999999999994
+e: 3.51026e-39
+weighted e: 0.0351026
 score: 196.0
 AGCATCGGCCATCCGGTCGCCAACACCGCCTG-CTACGTGCTCAATC--CGGCCATGCAGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCCCAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGC
 ||||||||||  ||| | |||||||| ||  | |||  | ||| ||   ||||   |||||  || ||||| |||| |  |||||||||||||||||| |||   ||||| ||||||||||| || ||||  ||||| ||||| || || || ||| |  || |||| |||   |||| ||      |||||   |||      |||||| |||||  ||||||||| || |  |||||||||||| |||||    |||| || ||||||||||||||   |||||||||||||||||||   ||| |||| |  |||||| || ||||

@@ -1,8 +1,8 @@
 sequence: gi|772904020|gb|CP009323.1|-10
 length: 269
 description: Burkholderia gladioli strain ATCC 10248 chromosome 1, partial sequence
-e: 1.06622e-26
-weighted e: 106622000000.0
+e: 1.07475e-26
+weighted e: 107475000000.0
 score: 150.0
 ACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCT----CGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCG-----CGCGCGCTGGAGTTCCCCGGCGTGCGCCAGTGCGTGGTGGTCGCGCGCG
 |||||| ||||| |||  ||||  ||||||| |||||||| ||||  || | ||||||||||||| |   | |||| |||    || ||     ||||  ||||          ||||||| ||||||| |||||||||    |||||    |||||||||||||  | |||| | | | ||||||| |||    |||||||||||   |||| ||||  |||| |||||||| |||||||||     ||| |||      | || ||||||||| |   ||||||||| |||||||

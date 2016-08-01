@@ -1,8 +1,8 @@
 sequence: gi|1752727|dbj|D50308.1|-2
 length: 370
 description: Lysobacter lactamgenus DNA for alpha-aminoadipyl-cysteinyl-valine synthetase, partial cds
-e: 2.50529e-47
-weighted e: 2.5052899999999995e-10
+e: 2.52533e-47
+weighted e: 2.5253300000000003e-10
 score: 226.0
 TCGGCCACGCCATCGCCAACACCGAGCTGC-ACATCCTCGA--CGGCGAGTTGC-GCGAGCTTCCGCCGGGCGGCCTGGGCGAGATCTACATGGCCGGCGACTGCGTCGGCGC-CGGCTATCTCAATCGCGACGAACTCAGCCGCG-AGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACC--GCCGGCTCGGCCGCAACGACACGC-TGTACAAGACCGGCGATCTGGTGCGCCGCCGCCACAGCGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGCGGTCGCCGCGGCGTTCCCCGGCGTCGCCCAGTGCGC-CGTGGTCGCGCGC
 |||||||  |  ||||||||||||  |||| || | ||| |  |||| |  ||| ||| | | |||   |||||| |||||||| ||||||| | ||||  | |||| ||||| |||||||||||| |||  ||| || | ||||| |||| |||||| |||| |||||||  ||||  |  ||    |||  || |||  ||||| | ||| |||||||||||||||||||||||||| | |  | || |||||| || ||||   ||||||||||||||   ||||| ||||||  ||||  |||| |||||||||||||| |||| ||| ||  |||| | | ||| ||||| | || | ||||  ||| ||||||||

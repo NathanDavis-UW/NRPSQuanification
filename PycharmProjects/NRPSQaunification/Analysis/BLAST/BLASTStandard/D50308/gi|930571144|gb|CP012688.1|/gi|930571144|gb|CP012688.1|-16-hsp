@@ -1,8 +1,8 @@
 sequence: gi|930571144|gb|CP012688.1|-16
 length: 133
 description: Ralstonia solanacearum strain UY031 plasmid, partial sequence
-e: 1.80552e-17
-weighted e: 1.80552e+20
+e: 1.81997e-17
+weighted e: 1.81997e+20
 score: 116.0
 ACGTGCTCAATCCGGCCATGCAGCGCGTCCCGGTCGG--CGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTC
 |||||||| |  || | ||||| |  || ||| ||||  ||||  ||||||||||| ||||||||||  ||| || |||||||||||||| ||||| ||||  |||||||| || || |||||| || | || |||

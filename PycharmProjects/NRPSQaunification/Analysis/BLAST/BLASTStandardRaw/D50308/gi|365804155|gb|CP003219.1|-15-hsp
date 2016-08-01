@@ -1,8 +1,8 @@
 sequence: gi|365804155|gb|CP003219.1|-15
 length: 244
 description: Streptomyces cattleya DSM 46488, partial genome
-e: 3.26446e-14
-weighted e: 3.26446e+23
+e: 3.29058e-14
+weighted e: 3.29058e+23
 score: 104.0
 GGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGC-ACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGC---CCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGG
 ||| |||  |||| |   ||||||| ||||||||| |||  ||| | ||| || | ||||| |||  ||| ||||| || ||||| |  |||||| ||| | | || | | || | || ||                     ||||||||| |||||| |||||||||| |||     || ||   ||||||||||| | |||||||| |  |||  |||   |||| |||||||   |||| | ||  |||||| |||||| |||||||

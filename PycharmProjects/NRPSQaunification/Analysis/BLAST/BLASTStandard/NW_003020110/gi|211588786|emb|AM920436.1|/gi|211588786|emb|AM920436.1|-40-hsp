@@ -1,8 +1,8 @@
 sequence: gi|211588786|emb|AM920436.1|-40
 length: 65
 description: Penicillium chrysogenum Wisconsin 54-1255 complete genome, contig Pc00c21
-e: 2.49922e-11
-weighted e: 2.4992199999999998e+26
+e: 2.51922e-11
+weighted e: 2.51922e+26
 score: 96.0
 GCTTAAGTACGGCCAAGCAGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATATATCAGGCT
 |||| ||||||||  ||| ||||||||||||| || |||||||||||||||||||| |||||||||

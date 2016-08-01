@@ -1,8 +1,8 @@
 sequence: gi|52222852|gb|AY735112.1|-3
 length: 118
 description: Streptomyces hygroscopicus mannopeptimycin biosynthetic gene cluster, partial sequence
-e: 1.48206e-18
-weighted e: 1.48206e+19
+e: 1.49392e-18
+weighted e: 1.49392e+19
 score: 120.0
 GTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGG
 ||||||||||| |  |  ||||||||||||||||||||    ||| |||| |||||||| ||   ||||||||| ||||||||| |||| |||||| || ||||||| | || |||||||

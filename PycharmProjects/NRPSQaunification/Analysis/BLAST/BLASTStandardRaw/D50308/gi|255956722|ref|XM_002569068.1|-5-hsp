@@ -1,9 +1,0 @@
-sequence: gi|255956722|ref|XM_002569068.1|-5
-length: 98
-description: Penicillium chrysogenum Wisconsin 54-1255 alpha-aminoadipyl-cysteinyl-valine synthetase pcbAB/acvA-Penicillium chrysogenum [putative sequencing error] (pcbAB) mRNA, partial cds
-e: 1.38808e-12
-weighted e: 1.38808e+25
-score: 98.0
-ATCCTCGGCGTTTGGAAAGCCGGCGCGGCCTACGTGCCGATCGACCCGTCCTACCCGGACGACCGGATCCGTTTCATCTTCGAAGACACCCAGGCCCGG
-||||||||||| |||||| ||||||| ||||||||||| ||||||||| | || ||||| || ||  | || ||| |  | || |||||| |||| |||
-ATCCTCGGCGTGTGGAAATCCGGCGCCGCCTACGTGCCCATCGACCCGACTTATCCGGATGAGCGAGTGCGCTTCGTGCTGGATGACACCAAGGCACGG

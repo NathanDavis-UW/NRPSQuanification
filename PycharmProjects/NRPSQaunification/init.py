@@ -1,6 +1,6 @@
 import BlastSequenceSearch
 
 import TreeBuilder
-
-#BlastSequenceSearch.get_sequences()
+# base script that runs the two primary parts of the program
+BlastSequenceSearch.get_sequences()
 TreeBuilder.construct_tree()

@@ -1,8 +1,8 @@
 sequence: gi|259485327|tpe|BN001306.1|-2
 length: 557
 description: TPA_asm: Aspergillus nidulans FGSC A4 chromosome VI
-e: 6.30189e-17
-weighted e: 6.30189e+20
+e: 6.35231e-17
+weighted e: 6.35231e+20
 score: 114.0
 GAACACCGGATCAGCTACCTCAACGGCACCCGCTCGGTGCTGCAGCACTTCGACCTGAGCCAGTGCCGGTCGCTGAAGCGGATGCTGCTGGTCGGCGAGGAGCTGACCCCGTCGGGC---CTGCGCACCCTGCGCGAGCGTTTCCACGGCCGCATCATCAACGAATACGCGTTCACCGAAACCGCGTTCGTCACCGCGATCAAGGAGTACCCGCCGGGCGACGCCGAACGCAACGACCGCAGCATCGGCCGGCCGCTGCGCAACGTGAAGTGCTACATCGTCAGCCAGAACATGAAGCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCG-AGCGCTTCCTCGACAATCCGTTCCGCACG--CCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAG
 || |||  |||||  ||||||||||||||   ||| || |||||| | | |||| |   |   ||||  || || |||||  || |  ||||||| ||| |  ||||    ||  |    ||| ||||  | ||    | |||| |     ||||  | ||||| || |  ||||| ||| | || || || || ||| |||| |  | |   || |||  || ||  |||||  ||   ||  | ||  ||||| |||||||||| ||||| || ||| ||| | ||    | ||||  ||||| || || || |  || || ||  |||| |||||    ||  |  |||  ||||| || |||||||||||||| | ||||| | |||||| |   ||| || ||||  |||  ||  ||||| | ||   |||    ||| |||  || |||   ||||| || ||||||   |  || ||  ||||  ||||||||| | | ||||||   || |||||  |||||||    ||  | ||  |||| |||||||| || |||

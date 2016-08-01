@@ -17,11 +17,13 @@ hsp_name = "sequence"
 non_name = "non-specific sequence"
 
 
+# reads a csv file and returns it as a dataframe
 def get_blast_data(csv):
     if os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, csv)))):
         return pd.read_csv(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, csv))), sep='^')
 
 
+# encodes the names into a new target row of the csv dataframe and returns it
 def encode_blast(csv, target):
     alt_csv = csv.copy()
     targets = alt_csv[target].unique()
@@ -30,6 +32,7 @@ def encode_blast(csv, target):
     return alt_csv
 
 
+# generates a tree using the dataframe that was created
 def build_tree(alt_csv, file, factors, dir):
     print(factors)
     t = alt_csv["target"]
@@ -42,6 +45,7 @@ def build_tree(alt_csv, file, factors, dir):
         show_tree(d_tree, factors, file, alt_csv[non_name], dir)
 
 
+# creates a png of the tree that was generated and places it in a tree directory
 def show_tree(d_tree, factors, file, target, dir):
     with open(os.path.join(ana_dir, os.path.join(tree_dir, os.path.join(dot_dir, os.path.join(file[:len(file)-4],
                 os.path.join(dir, file[:len(file)-4] + "-" + str(factors)[2:len(str(factors))-2] +
@@ -56,6 +60,7 @@ def show_tree(d_tree, factors, file, target, dir):
     subprocess.check_call(command)
 
 
+# creates a png of table key for the tree and places it in a key directory
 def create_key(alt_csv, file, dir):
     fig, ax = plt.subplots(figsize=(66, len(alt_csv)/5.2))
     ax.xaxis.set_visible(False)

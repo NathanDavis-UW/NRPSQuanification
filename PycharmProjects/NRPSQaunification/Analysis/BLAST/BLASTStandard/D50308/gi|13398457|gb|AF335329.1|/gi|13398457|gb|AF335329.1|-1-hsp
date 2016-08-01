@@ -1,8 +1,8 @@
 sequence: gi|13398457|gb|AF335329.1|-1
 length: 854
 description: Kallichroma tethys isopenicillin N synthase (pcbC) and alpha-aminoadipyl-cysteinyl-valine synthetase (pcbAB) genes, partial cds
-e: 1.80075e-74
-weighted e: 1.8007499999999997e-37
+e: 1.81515e-74
+weighted e: 1.81515e-37
 score: 326.0
 GACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACCTGCACACCTCGCTGGAGCGCCTGTTCGACCTGAGCCGCGATCGCGG-CGACGAAGCCGTGCTGTCGTTCTCCAACTACGTGTTCGACCACTTCGTCGAGCAGATGACCGACGCCCTGCTGTCGGGGCAGACCCTGGTCATGCTCGACGACTCGATGCGCAGCGACCAGCAGCGGCTCTACGCCTACATGAACGCCAACGCCGTGACCTACCTGTCGGGCACGCCGTCGGTGCTGTCGCTGTACGAGTACGGGTCGATCCCCTCG----CTGAAGCGGATCGACGCGATCGGCGAGGACTTCACCACCCCGGTCTTCGACAAGATCCGCTCCAGCTTCGGCGGCCTGATCATCAACGGCTACGGGCCGACCGAAATCTCCATCACCAGCCACAAGCGCCTGTACCTCAAGCACGAGCCGCGGCTGGACAAGAGCATCGGCCATCCGGTCGCCAACACCGCCTGCTACGTGCTCAATCCGGCCATGCAGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGC------CCAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGCGATCCTCGCGTCCTAC
 || |||||||||| ||| |||||||||||||| || || | ||| |||| |||  || | |||||||  || || |||||||||     |||||| |  |   | |||| |||    || || | ||| |||||| |   |  ||||||||||||||||| | || ||||||||||| ||||| ||||| || || || ||    || |||||  ||||  |  |  | |||   |||||| | ||| || ||||||| |||   |||||  | | ||||   || ||||| || || ||||| ||||| ||  | ||  |||||||||   |  || | || | |     ||| ||| ||||||    | || || | |||||     || ||||||||||||||| |    |  |||   || ||  |||||||||||||||| || || ||| | |||||||| |    |||||| || ||||     | ||||| |||     ||||||| || ||   || |||  | |||| |    |||| || || |     | |||| ||||| | ||  | |||| | | || ||||| ||  |||||||    || || || ||||| || |  |||||||| |||||||| || ||||| |||  |   || || ||||| |  |     || |||  |  ||||   |||| ||| ||||||||||| || ||| |||| || ||| | |      |||| || ||| | ||||| || ||||| |||||| | |||||||||||| | || |||||| | || || || ||| | |||||  ||||| | || |||

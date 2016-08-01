@@ -1,8 +1,8 @@
 sequence: gi|317155915|ref|XM_001825395.2|-3
 length: 577
 description: Aspergillus oryzae RIB40 N-(5-amino-5-carboxypentanoyl)-L-cysteinyl-D-valine synthase, mRNA
-e: 1.80552e-17
-weighted e: 1.80552e+20
+e: 1.81997e-17
+weighted e: 1.81997e+20
 score: 116.0
 ATCAGCTACCTCAACGGCACCCGCTCGGTGCTGCAGCACTTCGACCTGAGCCAGTGCCGGTCGCTGAAGCGGATGCTGCTGGTCGGCGAGGAGCTGAC-----CCCGTCGGGCCTGCGCACCCTGCGCGAGCGTTTCCACGGCCGCATCATCAACGAATACGCGTTCACCGAAACCGCGTTCGTCACCGCGATCAAGGAGTACCCGCCGGGCGACGCCGAACGCAACGACCGCAGCATCGGCCGGCCGCTGCGCAACGTGAAGTGCTACATCGTCAGCCAGAACATGAAGCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGA-GCGCTTCCTCGACAATCCGTTCCGCACG--CCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCG-CGCGCGCTGGAGTTCCCCGGCGTGCG
 |||| ||||||||| || ||   ||| || || ||  | | |||| |   | | || | ||| |||||||| ||| | ||||| || ||| | || ||     ||||  |  ||||    |||||||| |||| ||| |   ||||||  | ||||| || |  ||||||||  | || ||||| || ||| |||||   |      |   |||| |    ||||| |||  |||  | ||  ||||  |||||||||| |||||||||||| |||  |    | | ||||  || || || || || |  |||||| || |||| || ||    ||  |  | |  || || || ||||||||||| |||||| |||| ||| ||| ||  ||| || || |  |||   |  |||||   ||   |||    |||| |   || |||   ||||||||||| |||   |  || ||   |||| |  | || |   |||| |||   ||||| ||| ||||| |    ||| | ||  |||| |||||||| || |||||| |    |||  ||| ||||||||| ||

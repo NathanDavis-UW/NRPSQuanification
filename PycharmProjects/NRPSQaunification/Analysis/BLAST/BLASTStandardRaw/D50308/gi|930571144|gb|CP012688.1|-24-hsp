@@ -1,8 +1,8 @@
 sequence: gi|930571144|gb|CP012688.1|-24
 length: 479
 description: Ralstonia solanacearum strain UY031 plasmid, partial sequence
-e: 7.19046e-10
-weighted e: 7.190459999999999e+27
+e: 7.24798e-10
+weighted e: 7.24798e+27
 score: 88.0
 CGACGACCTCGCCGTGGCGTTCG--GCG-ATACGCGCCTGAGCTACCGCGAGCTCGACGCGCGCGCGAACCGTCTGGCCCGCTCGCTGCTGGCGAGCCGCACGCTCGCGCCGGGCGATTTCGTCGCGCTCGTGCTCGACAAGAGCGAATGGACCG--TGGTCGCGATCCTGGCCGTGTGGAAGGCCGGGGCCGCCTACGTGCCGATCGATCCGGGCTACCCCGACGAGCGCATCGCGTTCATGCTCGAGGATACCG-GCGCGCGCGCCGTGATCGCCGACGAGGCCAGCTACCCGCGCATCAGCGCGCTG--GCCGGGCA-CGCCGCCCGGCCGGTGCTGAACGTGC-----ACGC--GCACGCAT---CCGCGT--CCGC-ATCGGAGCTGCTACCGGCTC-CGGCGAGCGCCGCCG--GCGGC-GACGATTTCGCT-TACGCGATCTACACCTCCGGCACCACCGGGCGGCCCAAGGCCGTGCTGGTCCGCCACCGCAACGT
 ||||| | ||||||||| || ||  ||| | ||   ||||| ||||  ||| ||| ||   ||||| ||||| ||||| | |   ||  | |||  | |   || ||  || ||| | ||||||||  |||  || | |  | | |  | ||||   |||| ||| | || || |||   ||| |||| || |||||| ||||| ||||||||| ||||||  | || ||  | || |||||| |||| ||| |   ||  | |||  |||||| || ||| ||||| |       ||     || ||||  |||||||  ||| || |||  | ||||| ||| ||     || |  |||||| |   |||| |  |||| |||| | | |  || | | | |  ||  ||| ||||  || || | ||  | || | |||| |||||||||||||||| | ||||| |||||||||| |||| || ||   |||||||| ||

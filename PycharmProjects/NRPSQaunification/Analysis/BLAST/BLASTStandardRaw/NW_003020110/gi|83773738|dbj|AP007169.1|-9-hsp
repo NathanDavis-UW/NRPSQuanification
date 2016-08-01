@@ -1,8 +1,8 @@
 sequence: gi|83773738|dbj|AP007169.1|-9
 length: 62
 description: Aspergillus oryzae RIB40 DNA, SC038
-e: 2.05149e-12
-weighted e: 2.05149e+25
+e: 2.0679e-12
+weighted e: 2.0679e+25
 score: 100.0
 GCTTAAGTACGGCCAAGCAGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATATATCAG
 |||||||||||||  ||| ||||||||||||||||||||||||||||||||||||| || |||

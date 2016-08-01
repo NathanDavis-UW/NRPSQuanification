@@ -1,8 +1,8 @@
 sequence: gi|299073288|emb|FP885907.1|-8
 length: 253
 description: Ralstonia solanacearum CFBP2957 plasmid RCFBPv3_mp, partial genome
-e: 5.17291e-18
-weighted e: 5.17291e+19
+e: 5.2143e-18
+weighted e: 5.2143e+19
 score: 118.0
 ATGCAGCGCGTCCCGGTCGG--CGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCCCAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGC
 ||||| |  || ||| ||||  ||||  ||||||||| | |||||| |||  ||| || ||||||||||||||||| |||||||  |||||||| || || || ||| || | || || | |  | |||||                     ||||| || ||     |||||||||||| ||||||||  | | |||||    |||  |  ||||| |||| ||||   ||||||||||||||||||   ||| |||| | ||| || ||  ||||

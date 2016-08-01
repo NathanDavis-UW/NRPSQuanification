@@ -1,8 +1,8 @@
 sequence: gi|238498819|ref|XM_002380604.1|-1
 length: 862
 description: Aspergillus flavus NRRL3357 ACV synthetase PcbAB, mRNA
-e: 1.06339e-83
-weighted e: 1.06339e-46
+e: 1.0719e-83
+weighted e: 1.0719e-46
 score: 360.0
 AGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACCTGCACACCTCGCTGGAGCGCCTGTTCGACCTGAGCCGCGATCGCGGCGACGAAGCCGTGCTGTCGTTCTCCAACTACGTGTTCGACCACTTCGTCGAGCAGATGACCGACGCCCTGCTGTCGGGGCAGACCCTGGTCATGCTCGACGACTCGATGCGCAGCGACCAGCAGCGGCTCTACGCCTACATGAACGCCAACGCCGTGACCTACCTGTCGGGCACGCCGTCGGTGCTGTCGCTGTACGAGTACGGGTCGATC-----CCCTCGCTGAAGCGGATCGAC-GCGATCGGCGAGGACTTCACCACCCCGGTCTTCGACAAGATCCGCTCCAGCTTCGGCGGCCTGATCATCAACGGCTACGGGCCGACCGAAATCTCCATCACCAGCCACAAGCGCCTGTACCTCAAGCACGAGCCGCGGCTGGACAAGAGCATCGGCCATCCGGTCGCCAACACCGCCTGCTACGTGCTCAATCCGGCCATGCAGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCC------CAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGCGATCCTCGCGTCCTACCC
 ||||| ||||| || ||   |||||| || || ||||| || || |||||||||| |||     | || || |  || || |||||||||||    |||||        | || | |||   ||| | |   | |||||| |   | || || || |||||||| || |||||||| || || |||||||||||||||||| | ||    || || || ||  |  | ||| | ||    |||||| | ||| |  || | || ||    |||||  |    |||   |||||||||||||| ||||| || || ||| | ||  ||||||||| | |     ||     || || | |  | | |  ||| ||| |||| ||||  ||||     ||||||||||||||||| |||   |  |||   |||||| |||||||||||||||| || || ||  |||| ||||||| |||||| || || ||||     |  |||| |||   ||||||||| |||||||| | ||||   || | | |  |||| ||||| ||   || |||| ||||||| ||  |||| |   | |||||||||||| | || ||    || ||||| || || |||| ||| ||||||||  ||||||||||||| ||| |  |||||||||| ||||  |  | ||||| |      |||   ||  | || || |||||||| || ||| |||| |||||| | ||      |||||| ||  | ||||| || |||||||| ||| | ||||||||||| |||||   |||| ||||||| || ||| ||||||| |||||  | || |||||

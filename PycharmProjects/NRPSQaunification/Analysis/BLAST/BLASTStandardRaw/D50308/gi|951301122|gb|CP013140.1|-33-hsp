@@ -1,8 +1,8 @@
 sequence: gi|951301122|gb|CP013140.1|-33
 length: 254
 description: Lysobacter enzymogenes strain C3 genome
-e: 1.58241e-24
-weighted e: 15824100000000.0
+e: 1.59506e-24
+weighted e: 15950600000000.0
 score: 142.0
 GCCGGGCGGCCTGG---GCGAGATCTACATGGCCGGCGACTGCGTCGGCGC-CGGCTATCTCAATCGCGACGAACTCAGCCGCGAGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACCGCCGGCTCGGCCGCAACGACACGCTGTACAAGACCGGCGATCTGGTGCGCCGCCGCCACAGCGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGCGG---TCGCCGCGGC
 ||||| |||| |||   ||||| | ||||| |||||||   || | ||||| |||||| |||   |||| ||  ||||||  |||||||||||||||| ||||||||                ||||   ||| || |||| ||   |||||   | |||||| |||| |||| | ||| ||  |||| |||| |||| | |||||||| |||||   ||||| ||| |   |||| | |||||||| || ||||||||||| ||||   ||||||||||

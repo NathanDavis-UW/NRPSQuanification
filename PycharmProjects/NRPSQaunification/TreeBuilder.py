@@ -19,8 +19,11 @@ hsp_dir = "HSP-specific"
 non_dir = "non-specific"
 seq_dir = "NRPSSequences"
 
+
+# generates csv files with csv generator and then uses them to create dataframes and graphical representations of those
+# dataframes
 def construct_tree():
-    #csvGenerator.create_csv()
+    csvGenerator.create_csv()
     csvGenerator.create_dir(seq_dir, nrps_dir)
     if os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
         csvGenerator.create_dir(dot_dir, tree_dir)
@@ -40,9 +43,11 @@ def construct_tree():
                 sequence = sequence[sequence.index("|")+1:]
                 alt_sequence += sequence[:sequence.index("|")]
                 SeqGrabber.get_seq(alt_sequence, file[:len(file) -  4])
-            #create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, hsp_target), file)
-            #create_tree(non_dir, DecTreeGenerator.encode_blast(csv, non_target), file)
+            create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, hsp_target), file)
+            create_tree(non_dir, DecTreeGenerator.encode_blast(csv, non_target), file)
 
+
+# takes the dataframe data that has been created and turn it into a graphical representation of trees
 def create_tree(dir, alt_csv, file):
     csvGenerator.create_dir(os.path.join(png_dir, os.path.join(file[:len(file) - 4], dir)), tree_dir)
     csvGenerator.create_dir(os.path.join(key_dir, dir), tree_dir)

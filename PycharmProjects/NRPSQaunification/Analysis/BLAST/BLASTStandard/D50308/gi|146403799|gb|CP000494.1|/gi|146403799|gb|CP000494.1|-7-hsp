@@ -1,8 +1,8 @@
 sequence: gi|146403799|gb|CP000494.1|-7
 length: 230
 description: Bradyrhizobium sp. BTAi1, partial genome
-e: 8.75204e-28
-weighted e: 8752040000.0
+e: 8.82205e-28
+weighted e: 8822050000.0
 score: 154.0
 GGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCCCAACGGCGAAC--TCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGCG
 |||||| |||||||||||||    ||||| ||||| |||||||| ||||| ||||||||||| |||||||| |||||     ||| ||||       |||| ||   |||    || |     ||||| ||||||  |||||| ||||| | ||| |||||   | ||||  |||  |||  |||||||| ||||||||| | ||||| ||||||||||||   ||  |||| || || ||| ||||||||

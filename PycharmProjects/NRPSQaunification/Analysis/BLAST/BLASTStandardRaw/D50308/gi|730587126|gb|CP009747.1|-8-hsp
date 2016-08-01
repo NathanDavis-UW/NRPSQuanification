@@ -1,8 +1,8 @@
 sequence: gi|730587126|gb|CP009747.1|-8
 length: 172
 description: Pseudomonas parafulva strain CRS01-1, partial genome
-e: 1.21655e-19
-weighted e: 1.21655e+18
+e: 1.22628e-19
+weighted e: 1.22628e+18
 score: 124.0
 CGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCCCAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGCGATCCTCGCGTCCT-ACCCGGGCGTGACCCGCGCGCTGGTGCTCGCGCGCGA
 |||||||||   ||||||||||||| ||||||||||||  ||||||| || |||||  |||| || | ||||   ||||| ||||| ||||| || ||| |||| ||||  ||  |||| ||   ||| || || | | |||||||||  |   | | ||||| ||||||||||

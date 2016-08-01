@@ -9,6 +9,7 @@ seq_dir = "NRPSSequences"
 ana_dir = "Analysis"
 
 
+# searches for a sequence based on ID and returns its info
 def get_seq(alignment, root_dir):
     search_term = alignment
     handle = Entrez.esearch(db=search_database, term=search_term)
@@ -23,4 +24,20 @@ def get_seq(alignment, root_dir):
             out_handle.close()
             new_handle.close()
 
-def process_seq(seqs):
+
+# processes the sequences name to see if it is a match
+def process_seq(seqs, comp_rec):
+    results = []
+    rec_num = 0
+    for rec in seqs:
+        if not rec.name == comp_rec.name:
+            Cseq = ""
+            for i in range(len(rec.seq)):
+                Cseq += rec.seq(i)
+                if i > len(comp_rec.seq):
+                    results[rec_num] += 0
+                elif rec.seq(i) == comp_rec.seq(i):
+                    results[rec_num] += 2
+                else:
+                    results[rec_num] -= 1
+        rec_num += 1

@@ -1,8 +1,8 @@
 sequence: gi|255956708|ref|XM_002569061.1|-5
 length: 49
 description: Penicillium chrysogenum Wisconsin 54-1255 hypothetical protein (Pc21g21310) mRNA, partial cds
-e: 2.05149e-12
-weighted e: 2.05149e+25
+e: 2.0679e-12
+weighted e: 2.0679e+25
 score: 100.0
 TCATGGGCGATTAAGATCCATGAATAGAGCATGTTTCACTTCTCTTGATG
 ||||||||||||||||||||||||||||||||||||||||||||||||||

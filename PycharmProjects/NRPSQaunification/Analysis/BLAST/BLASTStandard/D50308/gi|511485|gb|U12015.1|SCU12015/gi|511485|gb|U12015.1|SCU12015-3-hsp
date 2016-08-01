@@ -1,8 +1,8 @@
 sequence: gi|511485|gb|U12015.1|SCU12015-3
 length: 341
 description: Streptomyces clavuligerus lysine e-aminotransferase (lat) gene, complete cds, and delta-(L-alpha-aminoadipyl)-L-cysteinyl-D- valine synthetase (pcbAB) gene, partial cds
-e: 2.67963e-15
-weighted e: 2.67963e+22
+e: 2.70107e-15
+weighted e: 2.70107e+22
 score: 108.0
 GGCGAGATCTACATGGCCGGCGACTGCGTCGGCGCCGG-CTATCTCAATCGCGACGAACTCAGCCGCGAGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACCGCCGGCTCGGCCGCAACGACACGCTGTACAAGACCGGCGATCTGGTGCG----CCGCCGCCACAGCGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGCGGTCGCCGCGGCGTTCCCCGGCGTCGCCCAGTGCGCCGTGGTCGCGCGCCACGACGGCGAGC-GTTCCGGCGGCAGCCGTCTGGTCTGCTATTAC
 |||||| | ||||| | ||||  | | || |||||||| |||||| || |||||||| || |    |||||| ||| |  ||||||||| |  |   ||| | |||||   || |||    |||| |  | | |||  |||||| || |||| |||    | |||| |    ||||||| | || ||| | ||||||| ||||   ||| | ||| | ||||| || ||  | || | |||||||||||| |||   ||| | | ||   | || |||  | ||||||  ||  |||| ||  | |  |||| || |   | ||| | ||| ||||||| |||| |||

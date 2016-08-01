@@ -1,8 +1,8 @@
 sequence: gi|288912043|dbj|AP010947.1|-6
 length: 223
 description: Azospirillum sp. B510 plasmid pAB510a DNA, partial genome
-e: 9.35284e-15
-weighted e: 9.35284e+22
+e: 9.42767e-15
+weighted e: 9.42767e+22
 score: 106.0
 CGCCTGAGCTACCGCGAGCTCGACGCGCGCGCGAACCGTCTGGCCCGCTCGCTGCTGGCGAGCCGCACGCTCGCGCCGGGCGATTTCGTCGCGCTCGTGCTCGACAAGAGCGAATGG-ACCGTGGTCGCGATCCTGGCCGTGTGGAAGGCCGGGGCCGCCTACGTGCCGATCGATCCGGGCTACCCCGACGAGCGCATCGCGT-TCATGCTCGAGGATAC-CGGCGCGC
 ||| ||| |||   ||| ||||| ||   ||| ||||| || || | | ||||  | ||| || ||    ||||  | |||||| | ||||  || |||| ||   | | | |  |  ||||| || ||||| ||||| |||  |||||||||||| |||||||||||| |||| |||   || || | |||||||||| ||| | ||| |||||||| | |||| |||

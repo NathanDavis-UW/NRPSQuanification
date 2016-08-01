@@ -1,8 +1,8 @@
 sequence: gi|689271676|gb|CP003811.1|-9
 length: 485
 description: Methylobacterium oryzae CBMB20, partial genome
-e: 1.58101e-43
-weighted e: 1.58101e-06
+e: 1.59366e-43
+weighted e: 1.5936599999999998e-06
 score: 212.0
 GCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCGCGCGCGCTGGAGTTCCCCGGCGTGCGCCAGTGCGTGGTGGTCGCGCGCGGCGAATCGGTGGAAACCGGCAACTGGCGCCTGATCGGCTATTACGTCGCCGACGGC-GACGAGCCGATACCCGAAGCGGATCTGCTG-GCGTTCCTCGAATCG--CGCCTGATCCGGGT-CATGGTGCCGGCGCGCATGGTGCAGATGGATCGCCTGCCGGTCAACGTCAACGGCAAGGTCGACCGGCGCGCGTTGCCGGA
 || ||||||| | |||||  | |||||| |||||||||||||| | ||||| ||| | ||||| || ||||| |||||||| |||||||||||||||||  |  | |||||| ||   |||| |          |||| |||     ||| || ||||| |||||||| || |||   | ||||||||||||| | ||||||||| | || |||| |||    ||| ||||| ||  |||| | ||  |||| || ||||| ||||||||||||  |   ||   | ||| ||||||| ||  ||  || ||||| || |||||       |    ||||  |  ||||||| ||| |||    || |||| || | || |||  ||| | ||   |||||| |||| |||  | ||  | ||  ||||||  |||  | |||||| |||||   | | ||||   | ||   ||||||| ||| |  |||||||||| | ||||| |||||| |||||||

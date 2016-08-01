@@ -1,8 +1,8 @@
 sequence: gi|1015624003|gb|AH000059.3|-1
 length: 847
 description: Aspergillus nidulans acv synthetase (acvA) gene, partial cds
-e: 1.29662e-63
-weighted e: 1.29662e-26
+e: 1.307e-63
+weighted e: 1.307e-26
 score: 286.0
 ACCAGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACCTGCACACCTCGCTGG--AGCGCCTGTTCGACCTGAGCCGCGATCGCGGCGACGAAGCCGTGCTGTCGTTCTCCAACTACGTGTTCGACCACTTCGTCGAGCAGATGACCGACGCCCTGCTGTCGGGGCAGACCCTGGTCATGCTCGACGACTCGATGCGCAGCGACCAGCAGCGGCTCTACGCCTACATGAACGCCAACGCCGTGACCTACCTGTCGGGCACGCCGTCGGTGCTGTCGCTGTACGAGTACGGGTCGAT--------CCCCT-CGCTGAAGCGGATCGAC-GCGATCGGCGAGGACTTCA-CCACCCCGGTCTTCGACAAGATCCGCTCCAGCTTCGGCGGCCTGATCATCAACGGCTACGGGCCGACCGAAATCTCCATCACCAGCCACAAGCGCCTGTACCTCAAGCACGAGCCGCGGCTGGACAAGAGCATCGGCCATCCGGTCGCCAACACCGCCTGCTACGTGCTCAATCCGGCCATGCAGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGC--CCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCC------CAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGC
 || ||||| || || || ||    |||||||| || || || || ||   ||| |||| |||  || | || |||| ||| || || || ||||| |  ||||||   |   |||  |||  |||   ||||||   |  ||||| |   | || || |||||||||||||| || ||||| ||||| || |||||||| || ||| | ||    || || ||  | || |||||| ||||  | |||||||| ||| |  |||| ||||||   || ||  |  | ||    || || |||||||| || || || || ||  | ||  |||| |||| | | |||||        | ||| |||     ||  ||||| ||| | || || |  || | ||| |||| |||| ||  | |||||   ||  |||   || ||||| |||||||||||||| || || || ||||||||||| |  |||||||| |||||||     |  |||| |||    || |||||||||||||| | | | | |||||   |  |||||||||| ||| | | |||| | ||||| ||  | || |   | || ||||||||  | || ||    ||||| ||||| || ||||  ||||| || ||  |||| || ||||| ||  |   ||| |||||||| |  | | | | || |||    |||||  ||||   ||| |||||| |||||| ||  |||| |||||| | ||       ||||| ||| | |||||| | || ||||| ||| | ||||||||||| ||||| |  ||  ||||| |||| ||| | |||||

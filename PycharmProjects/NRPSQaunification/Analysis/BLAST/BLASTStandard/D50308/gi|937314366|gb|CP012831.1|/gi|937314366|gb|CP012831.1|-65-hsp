@@ -1,8 +1,8 @@
 sequence: gi|937314366|gb|CP012831.1|-65
 length: 241
 description: Pseudomonas fluorescens strain FW300-N2C3, partial genome
-e: 7.19046e-10
-weighted e: 7.190459999999999e+27
+e: 7.24798e-10
+weighted e: 7.24798e+27
 score: 88.0
 GGCGAGATCTACATGGCCGGCGACTGCGTCGGCGCCGGCTATCTCAATCGCGACG-AACTCAGCCGCGAGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACCGCCGGCTCGGCCGCAACGACACGCTGTACAAGACCGGCGATCTGGTGCGC-CGCCGCCACAGCGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGCGG---TCGCCGC
 ||||||||| | || | ||| | | | || | |  ||| || ||||| |  | || ||||||||  ||| |||||| ||||| | ||||||  | || ||| ||||             |||    | | ||||||||||||||||| || |  |||  || |||  | ||||    || | | | | || ||||| ||| ||||||||||||||   ||  ||||  |||||||||| || |||||||| |   |||||||

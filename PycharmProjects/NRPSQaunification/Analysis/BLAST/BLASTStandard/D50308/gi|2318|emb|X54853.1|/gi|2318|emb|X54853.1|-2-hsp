@@ -1,8 +1,8 @@
 sequence: gi|2318|emb|X54853.1|-2
 length: 557
 description: Aspergillus nidulans acvA gene
-e: 6.30189e-17
-weighted e: 6.30189e+20
+e: 6.35231e-17
+weighted e: 6.35231e+20
 score: 114.0
 GAACACCGGATCAGCTACCTCAACGGCACCCGCTCGGTGCTGCAGCACTTCGACCTGAGCCAGTGCCGGTCGCTGAAGCGGATGCTGCTGGTCGGCGAGGAGCTGACCCCGTCGGGC---CTGCGCACCCTGCGCGAGCGTTTCCACGGCCGCATCATCAACGAATACGCGTTCACCGAAACCGCGTTCGTCACCGCGATCAAGGAGTACCCGCCGGGCGACGCCGAACGCAACGACCGCAGCATCGGCCGGCCGCTGCGCAACGTGAAGTGCTACATCGTCAGCCAGAACATGAAGCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCG-AGCGCTTCCTCGACAATCCGTTCCGCACG--CCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAG
 || |||  |||||  ||||||||||||||   ||| || |||||| | | |||| |   |   ||||  || || |||||  || |  ||||||| ||| |  ||||    ||  |    ||| ||||  | ||    | |||| |     ||||  | ||||| || |  ||||| ||| | || || || || ||| |||| |  | |   || |||  || ||  |||||  ||   ||  | ||  ||||| |||||||||| ||||| || ||| ||| | ||    | ||||  ||||| || || || |  || || ||  |||| |||||    ||  |  |||  ||||| || |||||||||||||| | ||||| | |||||| |   ||| || ||||  |||  ||  ||||| | ||   |||    ||| |||  || |||   ||||| || ||||||   |  || ||  ||||  ||||||||| | | ||||||   || |||||  |||||||    ||  | ||  |||| |||||||| || |||

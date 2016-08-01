@@ -1,8 +1,8 @@
 sequence: gi|342298470|emb|FR831800.1|-3
 length: 223
 description: Myxococcus xanthus althiomycin biosynthetic gene cluster (almEDCABF genes), strain DK897
-e: 3.48548e-20
-weighted e: 3.48548e+17
+e: 3.51336e-20
+weighted e: 3.51336e+17
 score: 126.0
 TGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCA-ACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAG
 |||| |||  ||| ||||| ||| ||| | | |||||   |||  | ||  | || |||||||| || ||||| ||||||||  |||||||| ||  ||| || |||  | | ||  | || ||||  |||  ||||  |||   || ||||||||||||||||||| | |   |  ||||| |||||| |  |||||| | | ||||||| ||| |||||| |||||

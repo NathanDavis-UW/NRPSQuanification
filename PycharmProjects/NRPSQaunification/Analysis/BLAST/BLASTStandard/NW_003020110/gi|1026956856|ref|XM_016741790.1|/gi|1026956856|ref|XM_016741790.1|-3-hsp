@@ -1,8 +1,8 @@
 sequence: gi|1026956856|ref|XM_016741790.1|-3
 length: 140
 description: Penicillium expansum Fatty acid hydroxylase mRNA
-e: 1.5744e-45
-weighted e: 1.5744000000000002e-08
+e: 1.58699e-45
+weighted e: 1.58699e-08
 score: 222.0
 CTAGCCGAAATCAACCCAATTCCAGCCGCCATCGAAAATAACATTCTGCTTCAGAGCAAAGTACCTTCATTACGCGAGCAATGGGATTGCGCCAAGTTCGTGCTTCTGAGCCACTTCACCGTCGAACTTCCTCAAATCTGG
 || ||||||||| ||||||||||  |||||||||||| ||| || || ||||||| ||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||| ||||||||||||||||||||||||

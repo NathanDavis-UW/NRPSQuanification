@@ -8,6 +8,7 @@ nrps_dir = "NRPS"
 bla_dir = "BLAST"
 
 
+# creates csv files from blast standard info files and places them in a csv directory
 def create_csv():
     create_dir(csv_dir, nrps_dir)
     main_dir = []
@@ -37,11 +38,13 @@ def create_csv():
             f.write(Sf_text[3][3:len(Sf_text[3])-1] + '\n')
 
 
+# creates a directory that does sit inside a non-major sub-directory
 def create_dir(file, dir):
     if not os.path.exists(os.path.join(ana_dir, os.path.join(dir, file))):
         os.makedirs(os.path.join(ana_dir, os.path.join(dir, file)))
 
 
+# creates a directory that does not sit inside a non-major sub-directory
 def simple_dir(d):
     if not os.path.exists(os.path.join(ana_dir, d)):
         os.makedirs(os.path.join(ana_dir, d))

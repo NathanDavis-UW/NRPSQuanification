@@ -1,8 +1,8 @@
 sequence: gi|365804155|gb|CP003219.1|-27
 length: 69
 description: Streptomyces cattleya DSM 46488, partial genome
-e: 8.75977e-09
-weighted e: 8.75977e+28
+e: 8.82985e-09
+weighted e: 8.82985e+28
 score: 84.0
 ACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGG
 ||| |||||||| |||||||||||||||| |||||||||| ||||||| |||  || ||   ||||||||

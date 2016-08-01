@@ -1,8 +1,8 @@
 sequence: gi|45005|emb|X57310.1|-4
 length: 615
 description: Nocardia lactamdurans pcbAB and pcbC genes for alpha-aminoadipyl-L-cysteinyl-D-valine synthetase and isopenicillin N synthase
-e: 3.71817e-45
-weighted e: 3.71817e-08
+e: 3.74792e-45
+weighted e: 3.74792e-08
 score: 218.0
 CCGGACCCTGCACGCCGG-CTTCGAGATCGCCGCCGAGCGCTGGCCCGACGCCATCGCGGTGGTTTCCGGCGAGAACCGGCTCAGCTATCGCGAACTCAACGAGCGCGCCAACCGCATCGCCGGCTTCCTCGCCG-CGCGGGTCGCGCCGAAGCCCGACGAGTTCATCGGCCTGGTGGTCGAAAAAAGCGAATGGATGATCGCGGCGATCCTCGGCGTTTGGAAAGCCGGCGCGGCCTACGTGCCGATCGACCCGTCCTACCCGGACGACCGGATCCGTTTCATCTTCGAAGACACCCAGGCCCG--GCTGGTGCTGACCGACCGCGCCTATGCCGAGCGCCTCGACCGGGTCGCCGACGGCCTGCCCT---GCGAAGTGTTCGGCGT------GCAGGACCTGCCGCTGGAACCCTACCCGGCCGCCAATCCGCGCAGCGCCGCGACCAGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACCTGCACACCTCGCTG---GAGCGCCTGTTCGACCTGAGCCGCGATCGCG-GCGACGAAGCCGTGCTGTCGTTCTCCAACTACGTGTTCGACCACTTCGTCGAGCA
 |||||| |||||||| |  |||||||   |  || | |  |||||| |||    |||| |||||   ||| ||    ||||| | ||| |||||| | |||||||| ||||||||| |||||  |  ||| || | ||  || ||  |||  | |||||||| | ||||  |||||| | || ||   |||   ||   ||| |||||||||||  || ||||| ||||| ||||| ||| |||||||||| |||  |||||| ||||||||||||   |||||  |    ||||||  ||| ||   ||||||||   || ||| |   | ||  | || ||||  ||||| ||   ||||||| |||   |||| ||| ||| | |      ||  |||||| |    ||||||      || |  || |||  || ||   | ||||||||||| || |||||||| ||||||||||||||||||||||||  ||||||||| |||||  ||   ||| ||   |||| || | | | | |   ||||   | ||||   |||| |    |||| || || |  || |||||||||| |||   |  | |||||||||||||||  || |||||||||

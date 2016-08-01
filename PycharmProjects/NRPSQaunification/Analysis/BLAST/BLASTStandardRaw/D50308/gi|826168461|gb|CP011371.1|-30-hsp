@@ -1,8 +1,8 @@
 sequence: gi|826168461|gb|CP011371.1|-30
 length: 304
 description: [Polyangium] brachysporum strain DSM 7029, partial genome
-e: 2.3485e-22
-weighted e: 2348500000000000.0
+e: 2.36729e-22
+weighted e: 2367290000000000.0
 score: 134.0
 TCGGCCACGCCATCGCCAACACCGAGCTGCACATCCTCGACGGCGAGTTGCGCGAGC---TTCCGC-CGGGCGGCCTGGGCGAGATCTACATGGCCGGCGACTGCGTCGGCGCCGGCTATCTCAATCGCGACGAACTCAGCCGCGAGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACCGCCGGCTCGGCCGCAACGACACGCTGTACAAGACCGGCGATCTGGTGCGCCGCCGCCACAGCGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGCG
 |||||| | | |||||||||||  || |  || |||||||||   ||   ||  |||   | |||  ||||  ||| ||| ||||||||||| | ||||| | | ||||    ||| || || || ||    ||| | | |  |||||| |||||  |  | ||||||   |||||||               |||| ||||  | ||| |||||||||||||| ||||  ||| | ||   |  |||| | || |||| | |||||||||||||||||||||| ||||||   ||| | ||| |||| || |||||||||||||||

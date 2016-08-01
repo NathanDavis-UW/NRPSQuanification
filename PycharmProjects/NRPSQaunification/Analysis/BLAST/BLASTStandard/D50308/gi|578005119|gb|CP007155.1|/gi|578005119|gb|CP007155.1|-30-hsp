@@ -1,8 +1,8 @@
 sequence: gi|578005119|gb|CP007155.1|-30
 length: 249
 description: Kutzneria albida DSM 43870, partial genome
-e: 1.38808e-12
-weighted e: 1.38808e+25
+e: 1.39919e-12
+weighted e: 1.39919e+25
 score: 98.0
 GCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCG
 || ||||||| |||| ||  |||| ||| ||||| |||  |||   ||| | ||| | || || ||| |||| || |  || |||||||| || ||||| | | |||||||| || ||            ||||      ||| |   || || ||||||||||||||||||||   |  |  | | ||||| ||| | |||||| |||| ||   |||   |||| ||||| ||  |||  | ||||| || |  || ||  ||||||||

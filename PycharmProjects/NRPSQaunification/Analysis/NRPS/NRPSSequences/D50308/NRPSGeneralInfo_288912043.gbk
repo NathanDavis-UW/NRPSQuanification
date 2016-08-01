@@ -1,4 +1,4 @@
-LOCUS       AP010947             1455109 bp    DNA     circular BCT 22-DEC-2010
+LOCUS       AP010947             1455109 bp    DNA     circular BCT 25-JUL-2016
 DEFINITION  Azospirillum sp. B510 plasmid pAB510a DNA, complete genome.
 ACCESSION   AP010947
 VERSION     AP010947.1  GI:288912043
@@ -3870,7 +3870,7 @@ FEATURES             Location/Qualifiers
      CDS             261883..263055
                      /gene="ivd"
                      /locus_tag="AZL_a02230"
-                     /EC_number="1.3.99.10"
+                     /EC_number="1.3.8.4"
                      /codon_start=1
                      /transl_table=11
                      /product="isovaleryl-CoA dehydrogenase"
@@ -15229,7 +15229,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1110323..1111279)
                      /gene="citG"
                      /locus_tag="AZL_a08460"
-                     /EC_number="2.7.8.25"
+                     /EC_number="2.4.2.52"
                      /codon_start=1
                      /transl_table=11
                      /product="triphosphoribosyl-dephospho-CoA synthase"
@@ -15457,7 +15457,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1125069..1126007)
                      /gene="dapA"
                      /locus_tag="AZL_a08590"
-                     /EC_number="4.2.1.52"
+                     /EC_number="4.3.3.7"
                      /codon_start=1
                      /transl_table=11
                      /product="dihydrodipicolinate synthase"
@@ -15857,7 +15857,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1153974..1154489)
                      /gene="hpaC"
                      /locus_tag="AZL_a08820"
-                     /EC_number="1.14.13.3"
+                     /EC_number="1.14.14.9"
                      /codon_start=1
                      /transl_table=11
                      /product="4-hydroxyphenylacetate-3-hydroxylase small
@@ -17219,7 +17219,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1242944..1244209)
                      /gene="dadA"
                      /locus_tag="AZL_a09630"
-                     /EC_number="1.4.99.1"
+                     /EC_number="1.4.99.6"
                      /codon_start=1
                      /transl_table=11
                      /product="D-amino-acid dehydrogenase"

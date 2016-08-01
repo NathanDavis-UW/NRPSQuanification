@@ -1,8 +1,8 @@
 sequence: gi|83773738|dbj|AP007169.1|-1
 length: 862
 description: Aspergillus oryzae RIB40 DNA, SC038
-e: 5.50852e-81
-weighted e: 5.50852e-44
+e: 5.55259e-81
+weighted e: 5.552589999999999e-44
 score: 350.0
 AGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACCTGCACACCTCGCTGGAGCGCCTGTTCGACCTGAGCCGCGATCGCGGCGACGAAGCCGTGCTGTCGTTCTCCAACTACGTGTTCGACCACTTCGTCGAGCAGATGACCGACGCCCTGCTGTCGGGGCAGACCCTGGTCATGCTCGACGACTCGATGCGCAGCGACCAGCAGCGGCTCTACGCCTACATGAACGCCAACGCCGTGACCTACCTGTCGGGCACGCCGTCGGTGCTGTCGCTGTACGAGTACGGGTCGATC-----CCCTCGCTGAAGCGGATCGAC-GCGATCGGCGAGGACTTCACCACCCCGGTCTTCGACAAGATCCGCTCCAGCTTCGGCGGCCTGATCATCAACGGCTACGGGCCGACCGAAATCTCCATCACCAGCCACAAGCGCCTGTACCTCAAGCACGAGCCGCGGCTGGACAAGAGCATCGGCCATCCGGTCGCCAACACCGCCTGCTACGTGCTCAATCCGGCCATGCAGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCC------CAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGCGATCCTCGCGTCCTACCC
 ||||| ||||| || ||   |||||| || || ||||| || || |||||||||| |||     | || || |  || || |||||||||||    |||||        | || | |||   |||   |   | |||||| |   | || || || |||||||| || |||||||| || || |||||||||||||||||| | ||    || || || ||  |  | ||| | ||    |||||| | ||| |  || | || ||    |||||  |    |||   |||||||||||||| ||||| || || ||| | ||  ||||||||| | |     ||     || || | |  | | |  ||| ||| |||| ||||  ||||     ||||||||||||||||| |||   |  |||   |||||| |||||||||||||||| || || ||  |||| ||||||| |||||| || || ||||     |  |||| |||   ||||||||| |||||||| | ||||   || | | |  |||| ||||| ||   || |||| ||||||| ||  |||| |   | |||||||||||| | || ||    || ||||| || || |||| ||| ||||||||  ||||||| ||||| ||| |  |||||||||| ||||  |  | ||||| |      |||   ||  | || || |||||||| || ||| |||| |||||| | ||      |||||| ||  | ||||| || |||||||| ||| | ||||||||||| |||||   |||| ||||||| || ||| ||||||| |||||  | || |||||

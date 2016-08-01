@@ -1,8 +1,8 @@
 sequence: gi|77377679|gb|DQ192518.1|-7
 length: 338
 description: Penicillium chrysogenum strain AS-P-78 hypothetical protein genes, complete cds; penicillin gene cluster, complete sequence; and hypothetical protein genes, partial cds
-e: 4.20608e-135
-weighted e: 4.2060799999999994e-98
+e: 4.23973e-135
+weighted e: 4.23973e-98
 score: 552.0
 GAGGGCTTCAGCTGCTGTTTTGATATCTAGGAATCTATTGCTAAACGCAACAGTATCGTC-AGCTTGGCAAGTCCGATATCGGTTTCGTCGATACGTTCCATCACATAGCC---CCTCGACTTTCCTTGTAGCACTCGCAAATGATTCGGATCTCCTAGGTGATTTAACCTTTCGCCGAACTCCCGATCCCAGCAGTGACACGCAACGGTAAGCCTCTGCTCCGAATCCTTCTCCACCAAGTCCCTAGCGGAGACAGGATCCTCTTGATCAGAACAAATCATCGCTCCAGGA-TAAAGCACCCTGTAGCAGAAATGTAGTCGGAGCCGTCTGAAACAAA
 ||||| || ||||||||||| |||||||| |||||||||||||||||||| ||||||||| ||||||||||||||||||||||| ||||||||||||||| ||||||||||   |||||||||||||||||||||||| ||| |||||||||||||||||||||| || |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||| ||| || ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||

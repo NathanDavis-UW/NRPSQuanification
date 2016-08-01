@@ -1,8 +1,8 @@
 sequence: gi|520999024|gb|CP003969.1|-2
 length: 296
 description: Sorangium cellulosum So0157-2, partial genome
-e: 1.92606e-42
-weighted e: 1.92606e-05
+e: 1.94147e-42
+weighted e: 1.94147e-05
 score: 208.0
 AGCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCATGGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGCGCGCGCGCTGGAGTTCCCC-GGCGTGCGCCA-GTGCGTGGTGGTCGCGCGCG
 ||| ||||||| ||||||  | ||||||| | ||| |||||||| ||||||| ||  ||||||| |||  ||  ||||| |||||||||||||| |||||||| || |||||||      |||| |     ||||||||| |             ||||||||||||||||| ||       ||||||||||||    |||||| | ||||||||| ||| |||||| ||||| ||  |||| | || ||||| | |||||||||||||||| || |  | | |  |||| ||||||||| | ||| || || ||||||||||

@@ -10,7 +10,8 @@ csv_dir = "NRPSCSV"
 hsp_name = "sequence"
 non_name = "non-specific sequence"
 
-
+# reads through a dataframe of a csv file and returns things that match the user input, executes seperatly from the
+# rest of the program
 query = input("Search Query: (RootNRPS^Table Type^Target Code)\n")
 if os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, query[:query.index("^")] + ".csv")))):
     df = pd.read_csv(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, query[:query.index("^")] + ".csv"))), sep='^')

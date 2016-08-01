@@ -1,8 +1,8 @@
 sequence: gi|299068436|emb|FP885896.1|-26
 length: 303
 description: Ralstonia solanacearum CMR15 plasmid CMR15_mp, partial genome
-e: 4.84489e-12
-weighted e: 4.84489e+25
+e: 4.88365e-12
+weighted e: 4.883649999999999e+25
 score: 96.0
 TCGGCCACGCCATCGCCAACACCGAGCTGCACATCCTCGACGGCGA-GTTGCGCGAGCTTCCGCCGGGCGGCCTGGGCGAGATCTACATGGCCGGCGACTGCGTCGGCGC-CGGCTATCTCAATCGCGACGAACTCAGCCGCGAGCGCTTCGTCGCCAATCCGTTCCGCAGCGAGGACGACCGCCGGCTCGGCCGCAACGACACGCTGTACAAGACCGGCGATCTGGTGCGCCGCCGCCA--CAG-CGGCGAGCTGGAATTCTTCGGCCGCAACGACCATCAGGTGAAGATCAACGGCGTGCGCATCGAACTGGGCGAGATCGAAGC
 ||||||   | |||||||| ||  || |  |||| |||||||   | | |||||  |   ||  |||   ||| |||||| ||  || ||| |||||   |||| ||||| |||||| ||  |||||  ||  || | |  |||||| ||||| ||| ||||||| |   ||||   || ||||  || ||||             |||||||||||||||| ||||   || || | ||  | | |||| |  | |  | | | || |||||||| |||||||||||| |   |||| | |||||||| |  ||||||||||| ||

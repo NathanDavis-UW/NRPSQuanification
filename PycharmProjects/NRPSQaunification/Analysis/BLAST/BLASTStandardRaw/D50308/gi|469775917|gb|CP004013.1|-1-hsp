@@ -1,8 +1,8 @@
 sequence: gi|469775917|gb|CP004013.1|-1
 length: 307
 description: Ralstonia solanacearum FQY_4 megaplasmid, partial sequence
-e: 1.92606e-42
-weighted e: 1.92606e-05
+e: 1.94147e-42
+weighted e: 1.94147e-05
 score: 208.0
 AGCATCGGCCATCCGGTCGCCAACACCGCCTGCTACGTGCTCAATCCG-GCCATGCAGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCCCAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGC
 ||||||||||  ||| | ||||||||   |  |||  | ||| |  || | || |||||  || ||||| |||| |  ||||||||||||||||||||||   ||||| ||||||||||| || ||||| || ||||||||||| || || ||| |  || ||||||||   |||| ||      |||||  ||       ||||||  |||||   |||||||| || |  |||||||||||| |||||    ||||||| |||||||||||||||   ||||||||||||||||||   ||| |||| |  |||||  || ||||

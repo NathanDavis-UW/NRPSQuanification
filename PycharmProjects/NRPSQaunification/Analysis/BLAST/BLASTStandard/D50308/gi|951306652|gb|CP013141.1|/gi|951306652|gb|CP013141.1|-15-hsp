@@ -1,8 +1,8 @@
 sequence: gi|951306652|gb|CP013141.1|-15
 length: 359
 description: Lysobacter antibioticus strain ATCC 29479 genome
-e: 1.38686e-31
-weighted e: 1386860.0
+e: 1.39795e-31
+weighted e: 1397950.0
 score: 168.0
 GAGCATCGGCCATCCGGTCGCCAACACCGCCTGCTACGTGCTCAATCCGGCCATGC-AGCGCGTCCCGGTCGGCGGCATGGGCGAGCTCTACATCGGCGGCATCGGCGTGGCGCGCGGCTATCTCAACCGCCCCGAGCTGACCGCGGAGCGTTTCGTCTCCAACCCGTTCCAGAGCGCCGGGGAAAAGGCCCTGGGCAACAACGCGCGCCTGTACAAGACCGGCGATCTGGTGCGCTGGCTGCCCAACGGCGAACTCGAATATCTCGGCCGCAACGACATGCAGGTCAAGATCCGCGGCCAGCGCGTCGAACTGGGCGAGGTCGAGGCGATCCTCGCGTCCTACCCGGGCGTGACCCGCGCGCTGGTGCTCGCGCGCGA
 || |||||||| |||| | || || ||| |    ||| ||||| | | | |   || |||  || ||||||||||    ||||||||| | | |||||||| |    || || |||||||||||  | || || ||||||||||||||||| ||| |   | | | ||||    |||        || |        || || |||||| |||||||||||||||| || |  |||||||   || |||||    ||||||| || |||||||||||| | ||||||||||||||||||   ||| |||| || |||||| |||| |||  |||  |  ||| |   ||||||  |   ||| ||||| |||| |||||

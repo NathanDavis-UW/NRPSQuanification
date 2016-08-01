@@ -1,8 +1,8 @@
 sequence: gi|347668095|gb|JN596952.1|-36
 length: 223
 description: Lysobacter enzymogenes strain OH11 WAPS biosynthetic gene cluster, partial sequence
-e: 5.90229e-11
-weighted e: 5.9022899999999996e+26
+e: 5.94951e-11
+weighted e: 5.94951e+26
 score: 92.0
 GGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTCCTCGACAATCCGTTCCGCACGCCCGGAGAACGCGCGGCCGGCCGCAACGAGCGCATCTACCGCACCGGCGACCTCGCCAAGTTCCTGCCCGACGGCCAGATCGAGTTCAT--GGGCCGCAGCGATTTCCAGCTCAAGCTCAACGGCGTGCGGGTCGAACCCGGCGAAATCGAGGC
 |||||| ||||||||| ||||  | || ||||| |||| |||||   |||  |||  |||| ||||||||||||| ||| | ||||||||               ||| |||||          ||||||| |||||  |||||||||| ||  | |  |     ||||||  ||||  || |||   ||||||  |||   |||| ||||| |   |||| ||||  |||| |  ||||||||||||||

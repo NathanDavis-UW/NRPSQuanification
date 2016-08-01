@@ -1,8 +1,8 @@
 sequence: gi|992085629|ref|XM_015553178.1|-2
 length: 156
 description: Aspergillus nomius NRRL 13137 acyl-coenzyme A:Isopenicillin N acyltransferase PenDE mRNA
-e: 9.93553e-42
-weighted e: 9.935530000000001e-05
+e: 1.0015e-41
+weighted e: 0.00010015
 score: 208.0
 GTACATCCCAGTTTTGGCCCTGGAGGGCTCCATTTGGAAGTTGACAATAGGCAGTGGTGCAGCCATCACGGGCTGCCTTGAGCCCGTATGCAAATTCCGTGCGGGTATTAAGCATGACAATCTCGGAGACATCGCGTTCAGCGCCCTTTGCAATACC
 ||||||||||||| |||||||| || |||||||| | ||| |  |||||| | ||||||||||||||||||||  |   ||| || ||||||||||||||||| ||||| |||||||| |||||||||||||||||||| |||||||||||||||||
