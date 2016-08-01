@@ -4,6 +4,7 @@ description: Penicillium chrysogenum Wisconsin 54-1255 complete genome, contig P
 e: 3.73885e-09
 weighted e: 3.7388499999999996e+28
 score: 88.0
+adjusted score: 1.5172413793103448
 GCTTAAGTACGGCCAAGCAGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATATA
 |||||| ||||||  ||| |||||||||||||||| |||||||||||||||||||| ||
 GCTTAAATACGGCTGAGCGGACGGGAAGCCCTGTTTTCCACACCCTATGGTCGTATGTA

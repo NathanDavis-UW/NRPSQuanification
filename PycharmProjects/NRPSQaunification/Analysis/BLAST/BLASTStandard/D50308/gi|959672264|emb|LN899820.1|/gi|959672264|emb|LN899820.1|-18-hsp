@@ -4,6 +4,7 @@ description: Ralstonia solanacearum genome assembly 9 genomes, chromosome : II
 e: 4.00875e-13
 weighted e: 4.00875e+24
 score: 100.0
+adjusted score: 1.0309278350515463
 AGCAGGTGCCGATCGGCGCAATCGGCGAGTTGTACATCGGCGGCACCGGCGTCGCCAGCGGCTATCTGAACCGTCCCGACCTCACCGCCGAGCGCTTC
 ||| ||||||| | |||| || ||| ||| | || ||||||||| | ||||| ||  ||||||||||||||||||| || || || || |||||||||
 AGCCGGTGCCGTTGGGCGTAACCGGTGAGATTTATATCGGCGGCGCTGGCGTGGCACGCGGCTATCTGAACCGTCCGGAGCTGACGGCAGAGCGCTTC

@@ -27,7 +27,7 @@ def get_sequences():
     for file in main_dir:
         if file[0:len(file)-4] not in os.listdir(os.path.join(ana_dir, os.path.join(bla_dir, stan_dir))):
             record = SeqIO.read(os.path.join(root_dir, file), format="gb")
-            BLASTExecute.blast_execute(record)
+            #BLASTExecute.blast_execute(record)
             result_handle = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(xml_dir, "BLAST-" + record.name + ".xml"))))
             blast_record = NCBIXML.read(result_handle)
             k = 0

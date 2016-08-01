@@ -4,6 +4,7 @@ description: Ralstonia solanacearum genome assembly 9 genomes, chromosome : IX
 e: 2.52979e-09
 weighted e: 2.52979e+28
 score: 86.0
+adjusted score: 0.9347826086956522
 GTCGCGATCCTGGCCGTGTGGAAGGCCGGGGCCGCCTACGTGCCGATCGATCCGGGCTACCCCGACGAGCGCATCGCGTTCATGCTCGAGGAT
 ||||| || |||||| | |  |||||||| |||| |||| ||||  |||||||   |||||| | ||||||  |||| ||||||||||| |||
 GTCGCCATGCTGGCCATCTTCAAGGCCGGCGCCGTCTACCTGCCCGTCGATCCCAACTACCCTGCCGAGCGTGTCGCCTTCATGCTCGACGAT

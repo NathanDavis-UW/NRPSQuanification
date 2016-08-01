@@ -4,6 +4,7 @@ description: Burkholderia plantarii strain ATCC 43733 chromosome 1, partial sequ
 e: 8.82985e-09
 weighted e: 8.82985e+28
 score: 84.0
+adjusted score: 1.2727272727272727
 CCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGC
 |||||||||||  ||||||||||| ||| | ||||| | |||||||| |||| ||||||| ||||||
 CCTCGCCTACGTGATCTACACCTCGGGCTCGACCGGTCAGCCCAAGGGCGTGATGATCGAGCACCGC

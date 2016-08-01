@@ -35,6 +35,7 @@ def write_blast_standard(i, alignment, hsp, rec_dir):
     f.append("e: " + str(hsp.expect) + '\n')
     f.append("weighted e: " + str(hsp.expect * (pow(10, 37))) + '\n')
     f.append("score: " + str(hsp.score) + '\n')
+    f.append("adjusted score: " + str(hsp.score/abs(hsp.sbjct_end-hsp.sbjct_start)) + '\n')
     f.append(str(hsp.query) + '\n')
     f.append(str(hsp.match) + '\n')
     f.append(str(hsp.sbjct) + '\n')

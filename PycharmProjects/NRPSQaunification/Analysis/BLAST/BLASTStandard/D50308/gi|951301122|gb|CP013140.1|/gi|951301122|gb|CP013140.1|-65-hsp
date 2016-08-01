@@ -4,6 +4,7 @@ description: Lysobacter enzymogenes strain C3 genome
 e: 2.70107e-15
 weighted e: 2.70107e+22
 score: 108.0
+adjusted score: 1.4794520547945205
 CTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAACC
 ||||| |||||||||||||||| |||||||||||||||||| |||| | | ||| ||||||||||| |||||||
 CTACGTCATCTACACCTCCGGCTCCACCGGCCGGCCCAAGGGCGTGGTCAACGAGCACCGCGGCGTGGTCAACC

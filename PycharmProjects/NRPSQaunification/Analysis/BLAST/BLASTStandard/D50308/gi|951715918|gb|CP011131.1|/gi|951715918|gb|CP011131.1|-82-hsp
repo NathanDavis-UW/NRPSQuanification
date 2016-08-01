@@ -4,6 +4,7 @@ description: Lysobacter gummosus strain 3.2.11, partial genome
 e: 8.82985e-09
 weighted e: 8.82985e+28
 score: 84.0
+adjusted score: 1.105263157894737
 CTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCGTCGTCAA
 || ||||| |  ||||||||||||||| | ||||| | |||||||| || | ||| ||||||||| ||||| |||||
 CTGGCCTATGTGATCTACACCTCCGGCTCGACCGGTCAGCCCAAGGGCGCGATGAACGAACACCGGGGCGTGGTCAA

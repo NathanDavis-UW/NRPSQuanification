@@ -4,6 +4,7 @@ description: Eleftheria terrae teixobactin gene cluster, partial sequence
 e: 8.82985e-09
 weighted e: 8.82985e+28
 score: 84.0
+adjusted score: 1.037037037037037
 ATCTACACCTCCGGCACCACCGGGCGGCCCAAGGCCGTGCTGGTCCGCCACCGCAACGTGCTGAGCTTCAGCGCCGGCCTGG
 ||||||||||||||| ||||||| |||||||||| |||| |||||   || ||| | ||||||| | || |   ||||||||
 ATCTACACCTCCGGCTCCACCGGCCGGCCCAAGGGCGTGATGGTCGAGCATCGCCAGGTGCTGAACCTCTGGCACGGCCTGG

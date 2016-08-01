@@ -4,6 +4,7 @@ description: Streptomyces cattleya str. NRRL 8057 main chromosome, partial genom
 e: 2.70107e-15
 weighted e: 2.70107e+22
 score: 108.0
+adjusted score: 1.255813953488372
 GCGCCGCGACCAGCACCGACCTCGCCTACGCCATCTACACCTCCGGCACCACCGGCCGGCCCAAGGCCGTGCTGATCGAACACCGCGGCG
 || ||||| || ||  | ||| |||||||| || ||||||||||||| |||||||||| |||||||||||| ||||||||||||| ||||
 GCCCCGCGTCCGGC--CAACCCCGCCTACGTCACCTACACCTCCGGCTCCACCGGCCGCCCCAAGGCCGTGGTGATCGAACACCG-GGCG

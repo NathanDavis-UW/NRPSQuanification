@@ -22,6 +22,7 @@ def create_csv():
         f.write("description^")
         f.write("weighted e value^")
         f.write("score^")
+        f.write("adjusted score^")
         f.write("e value" + '\n')
         sub_dir = []
         for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(Sraw_dir, file[:len(file)-4])))):
@@ -35,6 +36,7 @@ def create_csv():
             f.write(Sf_text[2][13:len(Sf_text[2])-1] + "^")
             f.write(Sf_text[4][12:len(Sf_text[4])-1] + "^")
             f.write(Sf_text[5][7:len(Sf_text[5])-1] + "^")
+            f.write(Sf_text[6][16:len(Sf_text[6])-1] + "^")
             f.write(Sf_text[3][3:len(Sf_text[3])-1] + '\n')
 
 

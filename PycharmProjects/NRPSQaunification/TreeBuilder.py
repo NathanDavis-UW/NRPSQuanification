@@ -53,6 +53,9 @@ def create_tree(dir, alt_csv, file):
     csvGenerator.create_dir(os.path.join(key_dir, dir), tree_dir)
     csvGenerator.create_dir(os.path.join(dot_dir, os.path.join(file[:len(file) -4], dir)), tree_dir)
     DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4]], dir)
+    #DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[6]], dir)
     DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[5]], dir)
-    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[5], alt_csv.columns[2]], dir)
+    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[6]], dir)
+    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[6], alt_csv.columns[5],
+                                    alt_csv.columns[2]], dir)
     DecTreeGenerator.create_key(alt_csv, file, dir)

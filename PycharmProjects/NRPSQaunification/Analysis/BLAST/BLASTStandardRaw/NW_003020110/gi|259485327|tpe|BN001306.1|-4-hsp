@@ -4,6 +4,7 @@ description: TPA_asm: Aspergillus nidulans FGSC A4 chromosome VI
 e: 7.21768e-12
 weighted e: 7.21768e+25
 score: 98.0
+adjusted score: 1.6896551724137931
 GCTTAAGTACGGCCAAGCAGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATATA
 |||||||||||||  ||| ||||||||||||||||||||||||||||||||||||| ||
 GCTTAAGTACGGCTGAGCGGACGGGAAGCCCTGTTCTCCACACCCTATGGTCGTATGTA
