@@ -23,7 +23,6 @@ seq_dir = "NRPSSequences"
 # generates csv files with csv generator and then uses them to create dataframes and graphical representations of those
 # dataframes
 def construct_tree():
-    csvGenerator.create_csv()
     csvGenerator.create_dir(seq_dir, nrps_dir)
     if os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
         csvGenerator.create_dir(dot_dir, tree_dir)
