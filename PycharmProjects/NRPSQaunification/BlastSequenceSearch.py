@@ -8,7 +8,7 @@ import BLASTExecute
 
 
 # creates all the directories and info files in the blast section of the analysis
-def get_sequences():
+def get_sequences(blast_analysis):
     ana_dir = "Analysis"
     bla_dir = "BLAST"
     BLASTWriter.simple_dir(bla_dir)
@@ -25,9 +25,10 @@ def get_sequences():
     for [dirpath, dirname, filename] in os.walk(root_dir):
         main_dir.extend(filename)
     for file in main_dir:
-        if file[0:len(file)-4] not in os.listdir(os.path.join(ana_dir, os.path.join(bla_dir, stan_dir))):
+        if file[0:len(file)-4] not in os.listdir(os.path.join(ana_dir, os.path.join(bla_dir, stan_dir))) and file[0:len(file)-4] in blast_analysis:
             record = SeqIO.read(os.path.join(root_dir, file), format="gb")
-            #BLASTExecute.blast_execute(record)
+            if ("BLAST-" + file[0:len(file)-4] + ".xml") not in os.listdir(os.path.join(ana_dir, os.path.join(bla_dir, xml_dir))):
+                BLASTExecute.blast_execute(record)
             result_handle = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(xml_dir, "BLAST-" + record.name + ".xml"))))
             blast_record = NCBIXML.read(result_handle)
             k = 0

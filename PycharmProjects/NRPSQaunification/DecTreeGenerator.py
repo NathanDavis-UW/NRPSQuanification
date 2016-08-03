@@ -34,7 +34,6 @@ def encode_blast(csv, target):
 
 # generates a tree using the dataframe that was created
 def build_tree(alt_csv, file, factors, dir):
-    print(factors)
     t = alt_csv["target"]
     f = alt_csv[factors]
     d_tree = DecisionTreeClassifier(min_samples_split=1, random_state=99, criterion='gini')
