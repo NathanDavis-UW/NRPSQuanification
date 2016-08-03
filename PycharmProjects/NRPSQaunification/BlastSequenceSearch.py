@@ -9,6 +9,7 @@ import BLASTExecute
 
 # creates all the directories and info files in the blast section of the analysis
 def get_sequences(blast_analysis):
+    # statement of constants
     ana_dir = "Analysis"
     bla_dir = "BLAST"
     BLASTWriter.simple_dir(bla_dir)

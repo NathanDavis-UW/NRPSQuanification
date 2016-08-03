@@ -1,4 +1,6 @@
 import os
+
+# statement of constants
 root_dir = "NRPSRoot"
 csv_dir = "NRPSCSV"
 Sraw_dir = "BLASTStandardRaw"

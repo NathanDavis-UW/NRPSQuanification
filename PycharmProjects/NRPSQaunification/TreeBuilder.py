@@ -4,6 +4,7 @@ import DecTreeGenerator
 import csvGenerator
 import SeqGrabber
 
+# statement of constants
 csv_dir = "NRPSCSV"
 hsp_target = "sequence"
 non_target = "non-specific sequence"

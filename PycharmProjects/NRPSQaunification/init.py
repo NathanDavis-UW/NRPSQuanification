@@ -14,7 +14,7 @@ xml_dir = "BLASTXML"
 csv_dir = "NRPSCSV"
 
 
-# taken from code.activestate.com/recipes/52549
+# taken from code.activestate.com/recipes/52549 this is not mine
 class curry:
     def __init__(self, fun, *args, **kwargs):
         self.fun = fun
