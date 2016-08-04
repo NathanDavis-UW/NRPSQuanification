@@ -23,7 +23,7 @@ seq_dir = "NRPSSequences"
 
 # generates csv files with csv generator and then uses them to create dataframes and graphical representations of those
 # dataframes
-def construct_tree():
+def construct_tree(tree_analysis, tree_type):
     csvGenerator.create_dir(seq_dir, nrps_dir)
     if os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
         csvGenerator.create_dir(dot_dir, tree_dir)
@@ -33,29 +33,31 @@ def construct_tree():
         for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
             csv_files.extend(filename)
         for file in csv_files:
-            csvGenerator.create_dir(os.path.join(png_dir, file[:len(file) - 4]), tree_dir)
-            csvGenerator.create_dir(os.path.join(seq_dir, file[:len(file) - 4]), nrps_dir)
-            csv = DecTreeGenerator.get_blast_data(file)
+            if file[0:len(file) - 4] not in os.listdir(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))) and file[
+                   0:len(file) - 4] in tree_analysis:
+                csvGenerator.create_dir(os.path.join(png_dir, file[:len(file) - 4]), tree_dir)
+                csvGenerator.create_dir(os.path.join(seq_dir, file[:len(file) - 4]), nrps_dir)
+                csv = DecTreeGenerator.get_blast_data(file)
 
-            for sequence in csv[non_target].unique():
-                alt_sequence = ""
-                alt_sequence += sequence[:sequence.index("|")+1]
-                sequence = sequence[sequence.index("|")+1:]
-                alt_sequence += sequence[:sequence.index("|")]
-                SeqGrabber.get_seq(alt_sequence, file[:len(file) -  4])
-            create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, hsp_target), file)
-            create_tree(non_dir, DecTreeGenerator.encode_blast(csv, non_target), file)
+                # this cuts down the name of the sequence to a more readable format for the tree
+                for sequence in csv[non_target].unique():
+                    alt_sequence = ""
+                    alt_sequence += sequence[:sequence.index("|")+1]
+                    sequence = sequence[sequence.index("|")+1:]
+                    alt_sequence += sequence[:sequence.index("|")]
+                    SeqGrabber.get_seq(alt_sequence, file[:len(file) - 4])
+
+                # this creates the trees proper
+                create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, hsp_target), file, tree_type)
+                create_tree(non_dir, DecTreeGenerator.encode_blast(csv, non_target), file, tree_type)
 
 
 # takes the dataframe data that has been created and turn it into a graphical representation of trees
-def create_tree(dir, alt_csv, file):
+def create_tree(dir, alt_csv, file, tree_type):
     csvGenerator.create_dir(os.path.join(png_dir, os.path.join(file[:len(file) - 4], dir)), tree_dir)
     csvGenerator.create_dir(os.path.join(key_dir, dir), tree_dir)
     csvGenerator.create_dir(os.path.join(dot_dir, os.path.join(file[:len(file) -4], dir)), tree_dir)
-    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4]], dir)
-    #DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[6]], dir)
-    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[5]], dir)
-    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[6]], dir)
-    DecTreeGenerator.build_tree(alt_csv, file, [alt_csv.columns[4], alt_csv.columns[6], alt_csv.columns[5],
-                                    alt_csv.columns[2]], dir)
-    DecTreeGenerator.create_key(alt_csv, file, dir)
+    topics = []
+    for topic in tree_type:
+        topics.append(alt_csv[topic])
+    DecTreeGenerator.build_tree(alt_csv, file, topics, dir)

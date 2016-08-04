@@ -35,12 +35,16 @@ def get_sequences(blast_analysis):
             k = 0
             e_threshold = .00000001
             rec_dir = record.name
+            # creates all the directories that are needed that have not been made already
             BLASTWriter.create_dir(os.path.join(stan_dir, rec_dir), bla_dir)
             BLASTWriter.create_dir(Sraw_dir, bla_dir)
             BLASTWriter.create_dir(os.path.join(Sraw_dir, rec_dir), bla_dir)
             BLASTWriter.create_dir(os.path.join(fas_dir, rec_dir), bla_dir)
             BLASTWriter.create_dir(Fraw_dir, bla_dir)
             BLASTWriter.create_dir(os.path.join(Fraw_dir, rec_dir), bla_dir)
+
+            # goes through all the alingments that were found in the BLAST Search and creates files for them within the
+            # Analysis/BLAST file system
             for alignment in blast_record.alignments:
                 k += 1
                 i = 0

@@ -18,6 +18,7 @@ def create_csv(tree_analysis):
         main_dir.extend(filename)
     for file in main_dir:
         if file[0:len(file)-4] in tree_analysis:
+            # this defines all the columns of the csv file
             f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, file[:len(file)-4] + ".csv"))), 'w')
             f.write("sequence^")
             f.write("non-specific sequence^")
@@ -27,6 +28,8 @@ def create_csv(tree_analysis):
             f.write("score^")
             f.write("adjusted score^")
             f.write("e value" + '\n')
+
+            # this fills all the the columns of the csv file
             sub_dir = []
             for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(Sraw_dir, file[:len(file)-4])))):
                 sub_dir.extend(filename)
