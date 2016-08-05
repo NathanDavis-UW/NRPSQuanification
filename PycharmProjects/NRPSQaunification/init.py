@@ -48,6 +48,7 @@ class MyApp:
         self.tree_frame = []
         self.titles = []
         self.d_var = []
+        self.one_time = 0
 
         # definition of all primary frames
         self.myParent = root
@@ -92,6 +93,9 @@ class MyApp:
         self.type_text_frame = Frame(self.tree_type_frame, relief=RIDGE)
         self.type_text_frame.pack(side=LEFT, fill=BOTH, expand=YES)
 
+        self.hsp_frame = Frame(self.top_container, relief=RIDGE)
+        self.hsp_frame.pack(side=LEFT, fill=BOTH, expand=YES)
+
         # creation of the title for the whole things and the analysis section
         Label(self.analysis_title, text="Pre-Decision Tree Analysis", font=("Courier", 15)).pack(side=LEFT)
         Label(self.title_container, text="NRPS Analysis with Decision Trees", font=("Courier", 22)).pack(side=TOP)
@@ -103,11 +107,8 @@ class MyApp:
         for [dirpath, dirname, filename] in os.walk(root_dir):
             self.gbk_files.extend(filename)
 
-        space = ""
-        for file in self.gbk_files:
-            while len(file) > len(space):
-                space += "  "
-        Label(self.gbk_select_frame, text=space).pack(side=TOP)
+        # title of checkbuttons below
+        Label(self.gbk_select_frame, text="BLAST", font=("Courier", 10)).pack(side=TOP)
 
         i = 0
         for file in self.gbk_files:
@@ -117,17 +118,13 @@ class MyApp:
             i += 1
 
         # 2 tree buttons
-
         self.c_var = []
         self.csv_files = []
         for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
             self.csv_files.extend(filename)
 
-        space = ""
-        for file in self.csv_files:
-            while len(file) > len(space):
-                space += "  "
-        Label(self.tree_select_frame, text=space).pack(side=TOP)
+        # title of checkbuttons below
+        Label(self.tree_select_frame, text="Tree", font=("Courier", 10)).pack(side=TOP)
 
         k = 0
         for file in self.csv_files:
@@ -137,15 +134,13 @@ class MyApp:
             k += 1
 
         # creation of labels for tree formatting buttons
+        self.hsp_files = [IntVar(), IntVar()]
         self.data_files = []
         f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, self.csv_files[0]))), 'r')
         s = f.readline()
 
-        space = ""
-        for file in s.split("^"):
-            while len(file) > len(space):
-                space += "  "
-        Label(self.type_text_frame, text=space).pack(side=TOP)
+        # title of checkbuttons in check_click_tree
+        Label(self.type_text_frame, text="Type", font=("Courier", 10)).pack(side=TOP)
 
         for file in s.split("^"):
             if not file == "description" and not file == "sequence" and not file == "non-specific sequence":
@@ -168,7 +163,7 @@ class MyApp:
 
         if len(self.tree_analysis) > 0 and self.tree_analysis.count(None) is not len(self.tree_analysis):
             if len(self.tree_type) > 0 and self.tree_type.count(None) is not len(self.tree_type):
-                TreeBuilder.construct_tree(self.tree_analysis, self.tree_type)
+                TreeBuilder.construct_tree(self.tree_analysis, self.tree_type, self.hsp_files)
 
     # the action handler for the Blast check boxes; adds and removes their values based on whether the button was turned
     # on or off
@@ -182,13 +177,22 @@ class MyApp:
     # on or off and then creates tree formatting buttons for further fine tuning
     def check_click_tree(self, i):
         if self.c_var[i].get() == 1:
+            # creates the hsps choice buttons if they have not already been created
+            if self.one_time == 0:
+                self.one_time = 1
+                Label(self.hsp_frame, text="Specificity", font=("Courier", 10)).pack(side=TOP)
+                Checkbutton(self.hsp_frame, text="specfic sequence", variable=self.hsp_files[0], onvalue=1, offvalue=0,
+                            pady=2).pack(side=TOP)
+                Checkbutton(self.hsp_frame, text="non-specific sequence", variable=self.hsp_files[1], onvalue=1,
+                            offvalue=0, pady=2).pack(side=TOP)
+
             # while sets to make sure values exsist for all csvs before the choosen one
             while len(self.tree_type)-1 < i:
                 self.tree_type.append([])
             while len(self.tree_analysis) - 1 < i:
                 self.tree_analysis.append(None)
             self.tree_analysis[i] = self.csv_files[i][0:len(self.csv_files[i])-4]
-            while len(self.tree_frame) - 1 < i:
+            while len(self.tree_frame)-1 < i:
                 self.tree_frame.append(Frame(self.tree_type_frame, relief=RIDGE))
                 self.tree_frame[len(self.tree_frame)-1].pack(side=LEFT, fill=BOTH, expand=YES)
             while len(self.d_var) - 1 < i:
@@ -214,6 +218,12 @@ class MyApp:
             self.tree_frame[i].pack(side=LEFT, fill=BOTH, expand=YES)
             self.titles[i].destroy()
             self.titles[i] = Label()
+
+            # destroys the hsp choice buttons if there are no selected tree choices
+            if not any(self.tree_analysis):
+                self.one_time = 0
+                for widget in self.hsp_frame.winfo_children():
+                    widget.destroy()
 
     # the action handler for the check boxes adds and removes their values based on whether the button was turned on or
     # off

@@ -32,6 +32,16 @@ def encode_blast(csv, target):
     return alt_csv
 
 
+# builds a tre like build_tree but rather than passing it to show_tree to have a png exported it instead just returns
+# the tree to the function  that called it
+def build_tree_exc(alt_csv, factors):
+    t = alt_csv["target"]
+    f = alt_csv[factors]
+    d_tree = DecisionTreeClassifier(min_samples_split=1, random_state=99, criterion='gini')
+    d_tree.fit(f, t)
+    return d_tree
+
+
 # generates a tree using the dataframe that was created
 def build_tree(alt_csv, file, factors, dir):
     t = alt_csv["target"]
@@ -51,11 +61,11 @@ def show_tree(d_tree, factors, file, target, dir):
                     "-" + "_tree.dot"))))), 'w') as f:
         export_graphviz(d_tree, out_file=f, feature_names=factors, class_names=target, rounded=True)
     command = ["dot", "-Tpng", os.path.join(ana_dir, os.path.join(tree_dir, os.path.join(dot_dir,
-                os.path.join(file[:len(file)-4], os.path.join(dir, file[:len(file)-4] + "-" +
-                    str(factors)[2:len(str(factors))-2] + "-" + "_tree.dot"))))), "-o", os.path.join(ana_dir,
-                        os.path.join(tree_dir, os.path.join(png_dir, os.path.join(file[:len(file)-4],
-                            os.path.join(dir, file[:len(file)-4] + "-" + str(factors)[2:len(str(factors))-2] +
-                                "-" + "_tree.png")))))]
+                   os.path.join(file[:len(file)-4], os.path.join(dir, file[:len(file)-4] + "-" +
+                       str(factors)[2:len(str(factors))-2] + "-" + "_tree.dot"))))), "-o", os.path.join(ana_dir,
+                           os.path.join(tree_dir, os.path.join(png_dir, os.path.join(file[:len(file)-4],
+                               os.path.join(dir, file[:len(file)-4] + "-" + str(factors)[2:len(str(factors))-2] +
+                                   "-" + "_tree.png")))))]
     subprocess.check_call(command)
 
 
