@@ -56,7 +56,8 @@ def write_blast_fasta(i, alignment, hsp, rec_dir):
 
 # writes a full summary of an alignment rather than being hsp specific like other blast standard  info files.
 def write_full_standard(k, alignment, record):
-    f = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(stan_dir, os.path.join(record.name, record.name + "-" + str(k) + "-alignment-" + alignment.title[:alignment.title.index(" ")])))), 'w')
+    f = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(stan_dir, os.path.join(record.name, record.name +
+                "-" + str(k) + "-alignment-" + alignment.title[:alignment.title.index(" ")])))), 'w')
     f.write("sequence: " + str(alignment.title[:alignment.title.index(" ")]) + '\n')
     f.write("length: " + str(abs(alignment.length)) + '\n')
     f.write("description: " + str(alignment.hit_def) + '\n')

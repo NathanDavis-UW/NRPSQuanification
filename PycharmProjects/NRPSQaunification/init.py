@@ -62,13 +62,6 @@ class MyApp:
         self.analysis_container = Frame(self.full_container, relief=RIDGE)
         self.analysis_container.pack(side=TOP, fill=BOTH, expand=YES)
 
-        # this creates a black line between the post and pre analysis
-        self.line = Frame(self.full_container, relief=RIDGE, height=2, bg="black")
-        self.line.pack(side=TOP, fill=BOTH, expand=YES)
-
-        self.post_container = Frame(self.full_container, relief=RIDGE)
-        self.post_container.pack(side=TOP, fill=BOTH, expand=YES)
-
         self.analysis_title = Frame(self.analysis_container, relief=RIDGE)
         self.analysis_title.pack(side=TOP, fill=BOTH, expand=YES)
 
@@ -96,6 +89,22 @@ class MyApp:
         self.hsp_frame = Frame(self.top_container, relief=RIDGE)
         self.hsp_frame.pack(side=LEFT, fill=BOTH, expand=YES)
 
+        # this creates a black line between the post and pre analysis
+        self.line = Frame(self.full_container, relief=RIDGE, height=2, bg="black")
+        self.line.pack(side=TOP, fill=BOTH, expand=YES)
+
+        self.post_container = Frame(self.full_container, relief=RIDGE)
+        self.post_container.pack(side=TOP, fill=BOTH, expand=YES)
+
+        self.ana_name_frame = Frame(self.post_container, relief=RIDGE)
+        self.ana_name_frame.pack(side=LEFT, fill=BOTH, expand=YES)
+
+        self.ana_type_frame = Frame(self.post_container, relief=RIDGE)
+        self.ana_type_frame.pack(side=LEFT, fill=BOTH, expand=YES)
+
+        self.ana_sample_frame = Frame(self.post_container, relief=RIDGE)
+        self.ana_sample_frame.pack(side=LEFT, fill=BOTH, exapnd=YES)
+        
         # creation of the title for the whole things and the analysis section
         Label(self.analysis_title, text="Pre-Decision Tree Analysis", font=("Courier", 15)).pack(side=LEFT)
         Label(self.title_container, text="NRPS Analysis with Decision Trees", font=("Courier", 22)).pack(side=TOP)
@@ -181,9 +190,9 @@ class MyApp:
             if self.one_time == 0:
                 self.one_time = 1
                 Label(self.hsp_frame, text="Specificity", font=("Courier", 10)).pack(side=TOP)
-                Checkbutton(self.hsp_frame, text="specfic sequence", variable=self.hsp_files[0], onvalue=1, offvalue=0,
+                Checkbutton(self.hsp_frame, text="HSP-Specific", variable=self.hsp_files[0], onvalue=1, offvalue=0,
                             pady=2).pack(side=TOP)
-                Checkbutton(self.hsp_frame, text="non-specific sequence", variable=self.hsp_files[1], onvalue=1,
+                Checkbutton(self.hsp_frame, text="Non-Specific", variable=self.hsp_files[1], onvalue=1,
                             offvalue=0, pady=2).pack(side=TOP)
 
             # while sets to make sure values exsist for all csvs before the choosen one

@@ -50,9 +50,9 @@ def construct_tree(tree_analysis, tree_type, hsp_files):
 
                 # This checks whether the user wanted specific sequence non-specific sequences or both, then creates
                 # the trees proper
-                if hsp_files[0] == 1:
+                if hsp_files[0].get() == 1:
                     create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, hsp_target), file, tree_type[i])
-                if hsp_files[1] == 1:
+                if hsp_files[1].get() == 1:
                     create_tree(non_dir, DecTreeGenerator.encode_blast(csv, non_target), file, tree_type[i])
             i += 1
 
@@ -66,3 +66,4 @@ def create_tree(dir, alt_csv, file, tree_type):
     for topic in tree_type:
         topics.append(topic)
     DecTreeGenerator.build_tree(alt_csv, file, topics, dir)
+    DecTreeGenerator.create_key(alt_csv, file, dir)
