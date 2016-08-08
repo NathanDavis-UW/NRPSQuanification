@@ -44,6 +44,7 @@ def post_analyze(post_analysis, post_type, factors, samples):
                 f.append("Class: " + result[0] + "\n")
                 f.appned("Probabilities: " + result[1] + "\n")
 
+
 # predict class value of a sample based on the Decision tree
 def predict_class(d_tree, samples):
     return d_tree.predict(samples)

@@ -2,6 +2,7 @@ import BlastSequenceSearch
 from tkinter import *
 import TreeBuilder
 import csvGenerator
+import DecisionAnalyze
 import os
 # base script that runs the two primary parts of the program
 ana_dir = "Analysis"
@@ -46,6 +47,7 @@ class MyApp:
         self.tree_analysis = []
         self.tree_type = []
         self.tree_frame = []
+        self.post_analysis = []
         self.titles = []
         self.d_var = []
         self.one_time = 0
@@ -96,28 +98,45 @@ class MyApp:
         self.post_container = Frame(self.full_container, relief=RIDGE)
         self.post_container.pack(side=TOP, fill=BOTH, expand=YES)
 
-        self.ana_name_frame = Frame(self.post_container, relief=RIDGE)
+        self.post_top = Frame(self.post_container, relief=RIDGE)
+        self.post_top.pack(side=TOP, fill=BOTH, expand=YES)
+
+        self.post_bottom = Frame(self.post_container, relief=RIDGE)
+        self.post_bottom.pack(side=TOP, fill=BOTH, expand=YES)
+
+        self.post_title_frame = Frame(self.post_top, relief=RIDGE)
+        self.post_title_frame.pack(side=TOP, fill=BOTH, expand=YES)
+
+        self.ana_name_frame = Frame(self.post_top, relief=RIDGE)
         self.ana_name_frame.pack(side=LEFT, fill=BOTH, expand=YES)
 
-        self.ana_type_frame = Frame(self.post_container, relief=RIDGE)
+        self.ana_type_frame = Frame(self.post_top, relief=RIDGE)
         self.ana_type_frame.pack(side=LEFT, fill=BOTH, expand=YES)
 
-        self.ana_sample_frame = Frame(self.post_container, relief=RIDGE)
-        self.ana_sample_frame.pack(side=LEFT, fill=BOTH, exapnd=YES)
-        
+        self.ana_sample_frame = Frame(self.post_top, relief=RIDGE)
+        self.ana_sample_frame.pack(side=LEFT, fill=BOTH, expand=YES)
+
+        self.post_button_container = Frame(self.post_bottom, relief=RIDGE)
+        self.post_button_container.pack(side=RIGHT, fill=BOTH, expand=YES)
+
+        # ---------------------------------------------Title_Container--------------------------------------------------
+        # --------------------------------------------------------------------------------------------------------------
         # creation of the title for the whole things and the analysis section
         Label(self.analysis_title, text="Pre-Decision Tree Analysis", font=("Courier", 15)).pack(side=LEFT)
         Label(self.title_container, text="NRPS Analysis with Decision Trees", font=("Courier", 22)).pack(side=TOP)
-        Label(self.post_container, text="Post Decision Tree Analysis", font=("Courier", 15)).pack(side=LEFT)
+        Label(self.post_title_frame, text="Post Decision Tree Analysis", font=("Courier", 15)).pack(side=LEFT)
 
+        # ---------------------------------------------Analysis_Container-----------------------------------------------
+        # --------------------------------------------------------------------------------------------------------------
         # creation of check buttons: 1 blast buttons
+
+        # title of check buttons below
+        Label(self.gbk_select_frame, text="BLAST", font=("Courier", 10)).pack(side=TOP)
+
         self.g_var = []
         self.gbk_files = []
         for [dirpath, dirname, filename] in os.walk(root_dir):
             self.gbk_files.extend(filename)
-
-        # title of checkbuttons below
-        Label(self.gbk_select_frame, text="BLAST", font=("Courier", 10)).pack(side=TOP)
 
         i = 0
         for file in self.gbk_files:
@@ -127,19 +146,20 @@ class MyApp:
             i += 1
 
         # 2 tree buttons
+
+        # title of check buttons below
+        Label(self.tree_select_frame, text="Tree", font=("Courier", 10)).pack(side=TOP)
+
         self.c_var = []
         self.csv_files = []
         for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
             self.csv_files.extend(filename)
 
-        # title of checkbuttons below
-        Label(self.tree_select_frame, text="Tree", font=("Courier", 10)).pack(side=TOP)
-
         k = 0
         for file in self.csv_files:
             self.c_var.append(IntVar())
-            Checkbutton(self.tree_select_frame, text=file[0:len(file)-4], variable=self.c_var[k], onvalue=1, offvalue=0,
-                            pady=2, command=curry(self.check_click_tree, k)).pack(side=TOP)
+            Checkbutton(self.tree_select_frame, text=file[0:len(file) - 4], variable=self.c_var[k], onvalue=1,
+                            offvalue=0, pady=2, command=curry(self.check_click_tree, k)).pack(side=TOP)
             k += 1
 
         # creation of labels for tree formatting buttons
@@ -148,7 +168,7 @@ class MyApp:
         f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, self.csv_files[0]))), 'r')
         s = f.readline()
 
-        # title of checkbuttons in check_click_tree
+        # title of check buttons in check_click_tree
         Label(self.type_text_frame, text="Type", font=("Courier", 10)).pack(side=TOP)
 
         for file in s.split("^"):
@@ -163,6 +183,51 @@ class MyApp:
         self.x_button.configure(width=button_width, padx=button_padx, pady=button_pady, highlightbackground="dark gray",
                                     highlightcolor="dark gray", foreground="dark blue")
         self.x_button.pack(side=RIGHT)
+
+        # ------------------------------------------------Post_Container------------------------------------------------
+        # --------------------------------------------------------------------------------------------------------------
+        # creates a title and checkbuttons for set of data you want to do Analysis with
+        Label(self.ana_name_frame, text="Data Set", font=("Courier", 10)).pack(side=TOP)
+
+        self.n_var = []
+        self.name_files = []
+        for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
+            self.name_files.extend(filename)
+
+        j = 0
+        for file in self.name_files:
+            self.n_var.append(IntVar())
+            Checkbutton(self.ana_name_frame, text=file[0:len(file) - 4], variable=self.n_var[j], onvalue=1, offvalue=0,
+                            pady=2, command=curry(self.check_click_name, j)).pack(side=TOP)
+            j += 1
+
+        # creates a title and check buttons for the type of post-decision tree analysis you want to do
+        Label(self.ana_type_frame, text="Analysis Type", font=("Courier", 10)).pack(side=TOP)
+
+        self.t_var = []
+        self.type_files = []
+        l = 0
+        self.t_var.append(IntVar())
+        Checkbutton(self.ana_type_frame, text="Class", variable=self.t_var[0], onvalue=1, offvalue=0, pady=2).pack(
+                        side=TOP)
+        self.t_var.append(IntVar())
+        Checkbutton(self.ana_type_frame, text="Probabilities", variable=self.t_var[1], onvalue=1, offvalue=0, pady=2).pack(side=TOP)
+
+        # Creates a title and input zone for the sample to be analyzed
+        Label(self.ana_sample_frame, text="Sample", font=("Courier", 10)).pack(side=TOP)
+
+        v = StringVar()
+        Entry(self.ana_sample_frame, textvariable=v).pack(side=TOP)
+
+        #define the button that is used for post analysis
+
+        self.post_button = Button(self.post_button_container, command=self.post_button_click, text="Analyze",
+                                    background="pink", activebackground="red")
+        self.post_button.focus_force()
+        self.post_button.configure(width=button_width, padx=button_padx, pady=button_pady,
+                                       highlightbackground="dark gray", highlightcolor="dark gray",
+                                           foreground="dark red")
+        self.post_button.pack(side=RIGHT)
 
     # the action handler for the analysis button; this checks which aspects of analysis should be undertaken
     def x_button_click(self):
@@ -241,8 +306,16 @@ class MyApp:
             self.tree_type[i].insert(z, self.data_files[z])
         else:
             self.tree_type[i].remove(self.data_files[z])
-        print(self.tree_type)
 
+    def check_click_name(self, j):
+        if self.n_var[j].get() == 1:
+            self.post_analysis.insert(j, self.name_files[j])
+
+        else:
+            self.post_analysis.remove(self.name_files[j])
+
+    def post_button_click(self):
+        DecisionAnalyze.post_analyze(self.post_analysis, self.t_var, self.tree_type, self.z)
 
 # the body which is executed raw
 root = Tk()
