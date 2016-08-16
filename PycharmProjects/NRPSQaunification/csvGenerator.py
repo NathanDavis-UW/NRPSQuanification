@@ -14,8 +14,8 @@ bla_dir = "BLAST"
 def create_csv(tree_analysis):
     create_dir(csv_dir, nrps_dir)
     main_dir = []
-    for [dirpath, dirname, filename] in os.walk(root_dir):
-        main_dir.extend(filename)
+    for arr in os.walk(root_dir):
+        main_dir.extend(arr[2])
     for file in main_dir:
         if file[0:len(file)-4] in tree_analysis:
             # this defines all the columns of the csv file
@@ -31,8 +31,8 @@ def create_csv(tree_analysis):
 
             # this fills all the the columns of the csv file
             sub_dir = []
-            for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(Sraw_dir, file[:len(file)-4])))):
-                sub_dir.extend(filename)
+            for arr in os.walk(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(Sraw_dir, file[:len(file)-4])))):
+                sub_dir.extend(arr[2])
             for fil in sub_dir:
                 sub_f = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(Sraw_dir, os.path.join(file[:len(file)-4], fil)))), 'r')
                 Sf_text = sub_f.readlines()

@@ -23,8 +23,8 @@ def get_sequences(blast_analysis):
     main_dir = []
     Fraw_dir = "BLASTFASTARaw"
 
-    for [dirpath, dirname, filename] in os.walk(root_dir):
-        main_dir.extend(filename)
+    for arr in os.walk(root_dir):
+        main_dir.extend(arr[2])
     for file in main_dir:
         if file[0:len(file)-4] not in os.listdir(os.path.join(ana_dir, os.path.join(bla_dir, stan_dir))) and file[0:len(file)-4] in blast_analysis:
             record = SeqIO.read(os.path.join(root_dir, file), format="gb")

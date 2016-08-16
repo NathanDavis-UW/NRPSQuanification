@@ -8,6 +8,7 @@ import SeqGrabber
 csv_dir = "NRPSCSV"
 hsp_target = "sequence"
 non_target = "non-specific sequence"
+classifier = "NRPS Classifier"
 tree_dir = "Tree"
 csvGenerator.simple_dir(tree_dir)
 nrps_dir = "NRPS"
@@ -30,8 +31,8 @@ def construct_tree(tree_analysis, tree_type, hsp_files):
         csvGenerator.create_dir(png_dir, tree_dir)
         csvGenerator.create_dir(key_dir, tree_dir)
         csv_files = []
-        for [dirpath, dirname, filename] in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
-            csv_files.extend(filename)
+        for arr in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))):
+            csv_files.extend(arr[2])
         i = 0
         for file in csv_files:
             if file[0:len(file) - 4] not in os.listdir(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))) and file[
@@ -51,9 +52,11 @@ def construct_tree(tree_analysis, tree_type, hsp_files):
                 # This checks whether the user wanted specific sequence non-specific sequences or both, then creates
                 # the trees proper
                 if hsp_files[0].get() == 1:
-                    create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, hsp_target), file, tree_type[i])
+                    csv = SeqGrabber.filter_csv(csv, file[0: len(file) - 4])
+                    create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, classifier), file, tree_type[i])
                 if hsp_files[1].get() == 1:
-                    create_tree(non_dir, DecTreeGenerator.encode_blast(csv, non_target), file, tree_type[i])
+                    csv = SeqGrabber.filter_csv(csv, file[0: len(file) - 4])
+                    create_tree(non_dir, DecTreeGenerator.encode_blast(csv, classifier), file, tree_type[i])
             i += 1
 
 
