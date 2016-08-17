@@ -9,6 +9,7 @@ csv_dir = "NRPSCSV"
 hsp_target = "sequence"
 non_target = "non-specific sequence"
 classifier = "NRPS Classifier"
+dual_classifier = "NRPS-PKS Classifier"
 tree_dir = "Tree"
 csvGenerator.simple_dir(tree_dir)
 nrps_dir = "NRPS"
@@ -47,13 +48,14 @@ def construct_tree(tree_analysis, tree_type, hsp_files):
                     alt_sequence += sequence[:sequence.index("|")+1]
                     sequence = sequence[sequence.index("|")+1:]
                     alt_sequence += sequence[:sequence.index("|")]
-                    SeqGrabber.get_seq(alt_sequence, file[:len(file) - 4])
+                    if not os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, seq_dir))):
+                        SeqGrabber.get_seq(alt_sequence, file[:len(file) - 4])
 
                 # This checks whether the user wanted specific sequence non-specific sequences or both, then creates
                 # the trees proper
                 if hsp_files[0].get() == 1:
                     csv = SeqGrabber.filter_csv(csv, file[0: len(file) - 4])
-                    create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, classifier), file, tree_type[i])
+                    create_tree(hsp_dir, DecTreeGenerator.encode_blast(csv, dual_classifier), file, tree_type[i])
                 if hsp_files[1].get() == 1:
                     csv = SeqGrabber.filter_csv(csv, file[0: len(file) - 4])
                     create_tree(non_dir, DecTreeGenerator.encode_blast(csv, classifier), file, tree_type[i])
@@ -64,7 +66,7 @@ def construct_tree(tree_analysis, tree_type, hsp_files):
 def create_tree(dir, alt_csv, file, tree_type):
     csvGenerator.create_dir(os.path.join(png_dir, os.path.join(file[:len(file) - 4], dir)), tree_dir)
     csvGenerator.create_dir(os.path.join(key_dir, dir), tree_dir)
-    csvGenerator.create_dir(os.path.join(dot_dir, os.path.join(file[:len(file) -4], dir)), tree_dir)
+    csvGenerator.create_dir(os.path.join(dot_dir, os.path.join(file[:len(file) - 4], dir)), tree_dir)
     topics = []
     for topic in tree_type:
         topics.append(topic)

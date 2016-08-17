@@ -72,20 +72,44 @@ def process_seq(seqs, comp_rec):
 # Analyzes A csv to see if the included proteins are experimentally known nrpss based on a comparison of accension codes
 # from the nrps_arr list
 def filter_csv(alt_csv, file):
+    dp_name = []
     dp_arr = []
-    seq_arr = []
-    for arr in os.walk(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(seq_dir, file)))):
-        seq_arr.extend(arr[2])
-
-    for dp in seq_arr:
-        f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(seq_dir, os.path.join(file, dp)))), 'r')
+    p_name = []
+    p_arr = []
+    for dp in alt_csv["non-specific sequence"]:
+        f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(seq_dir, os.path.join(file,
+                    "NRPSGeneralInfo_" + dp[3:dp[3:len(dp) - 1].index("|")+3] + ".gbk")))), 'r')
+        count = len(dp_arr)
         for s in f.readlines():
-            if s[0:9] == "ACCESSION" and (s[12:len(s)]) in hybrid_arr:
+            cat = s[11:len(s)-1]
+            if s[0:9] == "ACCESSION" and (s[12:len(s)-1]) in hybrid_arr:
                 dp_arr.append(2)
-            elif s[0:9] == "ACCESSION" and (s[12:len(s)]) in nrps_arr:
+                dp_name.append("NRPS-PKS Hybrid")
+                p_arr.append(1)
+                p_name.append("NRPS")
+                break
+            elif s[0:9] == "ACCESSION" and (s[12:len(s)-1]) in nrps_arr:
+                p_arr.append(1)
+                p_name.append("NRPS")
                 dp_arr.append(1)
+                dp_name. append("NRPS")
+                break
             elif s[0:9] == "ACCESSION":
                 dp_arr.append(0)
-    alt_csv["NRPS Classifier"] = pd.Series(dp_arr, index=alt_csv.index)
+                dp_name.append("NRPS")
+                p_name.append("Non-NRPS")
+                p_arr.append(0)
+                break
+        if count == len(dp_arr):
+            dp_arr.append(0)
+            dp_arr.append(0)
+            dp_name.append("NRPS")
+            p_name.append("Non-NRPS")
+        print(str(dp_arr))
+    alt_csv["NRPS Classifier"] = pd.Series(p_arr, index=alt_csv.index)
+    alt_csv["NRPS-PKS Classifier"] = pd.Series(dp_arr, index=alt_csv.index)
+    alt_csv["NRPS Classifier Name"] = pd.Series(p_name, index=alt_csv.index)
+    alt_csv["NRPS-PKS Classifier Name"] = pd.Series(dp_name, index=alt_csv.index)
+    return alt_csv
 
 

@@ -15,7 +15,8 @@ tree_dir = "Tree"
 key_dir = "TreeKey"
 hsp_name = "sequence"
 non_name = "non-specific sequence"
-
+classifier = "NRPS Classifier Name"
+dual_classifier = "NRPS-PKS Classifier Name"
 
 # reads a csv file and returns it as a dataframe
 def get_blast_data(csv):
@@ -49,9 +50,9 @@ def build_tree(alt_csv, file, factors, dir):
     d_tree = DecisionTreeClassifier(min_samples_split=1, random_state=99, criterion='gini')
     d_tree.fit(f, t)
     if dir[0] == "H":
-        show_tree(d_tree, factors, file, alt_csv[hsp_name], dir)
+        show_tree(d_tree, factors, file, alt_csv[dual_classifier], dir)
     if dir[0] == "n":
-        show_tree(d_tree, factors, file, alt_csv[non_name], dir)
+        show_tree(d_tree, factors, file, alt_csv[classifier], dir)
 
 
 # creates a png of the tree that was generated and places it in a tree directory

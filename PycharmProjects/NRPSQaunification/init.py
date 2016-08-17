@@ -51,6 +51,7 @@ class MyApp:
         self.titles = []
         self.d_var = []
         self.one_time = 0
+        self.one_time_b = 0
 
         # definition of all primary frames
         self.myParent = root
@@ -162,19 +163,8 @@ class MyApp:
                             offvalue=0, pady=2, command=curry(self.check_click_tree, k)).pack(side=TOP)
             k += 1
 
-        # creation of labels for tree formatting buttons
         self.hsp_files = [IntVar(), IntVar()]
         self.data_files = []
-        f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, self.csv_files[0]))), 'r')
-        s = f.readline()
-
-        # title of check buttons in check_click_tree
-        Label(self.type_text_frame, text="Type", font=("Courier", 10)).pack(side=TOP)
-
-        for file in s.split("^"):
-            if not file == "description" and not file == "sequence" and not file == "non-specific sequence":
-                self.data_files.append(file)
-                Label(self.type_text_frame, text=file, pady=3).pack(side=TOP)
 
         # creation of analysis button
         self.x_button = Button(self.button_container, command=self.x_button_click, text="Analyze", background="light blue",
@@ -233,7 +223,7 @@ class MyApp:
     def x_button_click(self):
         if len(self.blast_analysis) > 0 and self.blast_analysis.count(None) is not len(self.blast_analysis):
             BlastSequenceSearch.get_sequences(self.blast_analysis)
-            csvGenerator.create_csv(self.tree_analysis)
+            csvGenerator.create_csv(self.blast_analysis)
 
         if len(self.tree_analysis) > 0 and self.tree_analysis.count(None) is not len(self.tree_analysis):
             if len(self.tree_type) > 0 and self.tree_type.count(None) is not len(self.tree_type):
@@ -255,7 +245,7 @@ class MyApp:
             if self.one_time == 0:
                 self.one_time = 1
                 Label(self.hsp_frame, text="Specificity", font=("Courier", 10)).pack(side=TOP)
-                Checkbutton(self.hsp_frame, text="HSP-Specific", variable=self.hsp_files[0], onvalue=1, offvalue=0,
+                Checkbutton(self.hsp_frame, text="BC-Specific", variable=self.hsp_files[0], onvalue=1, offvalue=0,
                             pady=2).pack(side=TOP)
                 Checkbutton(self.hsp_frame, text="Non-Specific", variable=self.hsp_files[1], onvalue=1,
                             offvalue=0, pady=2).pack(side=TOP)
@@ -276,6 +266,20 @@ class MyApp:
             self.titles[i] = Label(self.tree_frame[i], text=self.tree_analysis[i])
             self.titles[i].pack(side=TOP)
 
+            if self.one_time_b == 0:
+                self.one_time_b = 1
+                # creation of labels for tree formatting buttons
+                f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, self.csv_files[0]))), 'r')
+                s = f.readline()
+
+                # title of check buttons in check_click_tree
+                Label(self.type_text_frame, text="Type", font=("Courier", 10)).pack(side=TOP)
+
+                for file in s.split("^"):
+                    if not file == "description" and not file == "sequence" and not file == "non-specific sequence":
+                        self.data_files.append(file)
+                        Label(self.type_text_frame, text=file, pady=3).pack(side=TOP)
+
             # creation of tree formatting buttons
             z = 0
             while len(self.d_var[i]) < len(self.type_text_frame.winfo_children()):
@@ -285,6 +289,16 @@ class MyApp:
                                 command=curry(self.check_click_type, i, z, self.d_var[i])).pack(side=TOP)
                 z += 1
         else:
+            # destroys the tree format choice lables if there are no selected tree choices
+            if not any(self.tree_analysis):
+                self.type_text_frame.destroy()
+                self.type_text_frame = Frame(self.tree_type_frame, relief=RIDGE)
+                self.type_text_frame.pack(side=LEFT, fill=BOTH, expand=YES)
+                self.one_time = 0
+                self.one_time_b = 0
+                for widget in self.hsp_frame.winfo_children():
+                    widget.destroy()
+
             # removes all parts of a tree choice
             self.tree_analysis[i] = None
             self.tree_frame[i].destroy()

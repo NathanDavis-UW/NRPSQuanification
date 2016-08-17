@@ -20,7 +20,6 @@ def create_csv(tree_analysis):
         if file[0:len(file)-4] in tree_analysis:
             # this defines all the columns of the csv file
             f = open(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(csv_dir, file[:len(file)-4] + ".csv"))), 'w')
-            f.write("sequence^")
             f.write("non-specific sequence^")
             f.write("length^")
             f.write("description^")
@@ -36,7 +35,6 @@ def create_csv(tree_analysis):
             for fil in sub_dir:
                 sub_f = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(Sraw_dir, os.path.join(file[:len(file)-4], fil)))), 'r')
                 Sf_text = sub_f.readlines()
-                f.write(Sf_text[0][10:len(Sf_text[0])-1] + "^")
                 f.write(Sf_text[0][10:Sf_text[0].index("-")] + "^")
                 f.write(Sf_text[1][8:len(Sf_text[1])-1] + "^")
                 f.write(Sf_text[2][13:len(Sf_text[2])-1] + "^")
