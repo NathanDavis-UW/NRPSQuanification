@@ -206,8 +206,8 @@ class MyApp:
         # Creates a title and input zone for the sample to be analyzed
         Label(self.ana_sample_frame, text="Sample", font=("Courier", 10)).pack(side=TOP)
 
-        v = StringVar()
-        Entry(self.ana_sample_frame, textvariable=v).pack(side=TOP)
+        self.v = StringVar()
+        Entry(self.ana_sample_frame, textvariable=self.v).pack(side=TOP)
 
         #define the button that is used for post analysis
 
@@ -329,7 +329,7 @@ class MyApp:
             self.post_analysis.remove(self.name_files[j])
 
     def post_button_click(self):
-        DecisionAnalyze.post_analyze(self.post_analysis, self.t_var, self.tree_type, self.z)
+        DecisionAnalyze.post_analyze(self.post_analysis, self.t_var, self.tree_type, self.v)
 
 # the body which is executed raw
 root = Tk()

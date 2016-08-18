@@ -96,14 +96,14 @@ def filter_csv(alt_csv, file):
                 break
             elif s[0:9] == "ACCESSION":
                 dp_arr.append(0)
-                dp_name.append("NRPS")
+                dp_name.append("Non-NRPS")
                 p_name.append("Non-NRPS")
                 p_arr.append(0)
                 break
         if count == len(dp_arr):
             dp_arr.append(0)
             dp_arr.append(0)
-            dp_name.append("NRPS")
+            dp_name.append("Non-NRPS")
             p_name.append("Non-NRPS")
         print(str(dp_arr))
     alt_csv["NRPS Classifier"] = pd.Series(p_arr, index=alt_csv.index)

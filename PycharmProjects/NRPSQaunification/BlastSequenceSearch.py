@@ -33,7 +33,7 @@ def get_sequences(blast_analysis):
             result_handle = open(os.path.join(ana_dir, os.path.join(bla_dir, os.path.join(xml_dir, "BLAST-" + record.name + ".xml"))))
             blast_record = NCBIXML.read(result_handle)
             k = 0
-            e_threshold = .00000001
+            e_threshold = pow(10, -25)
             rec_dir = record.name
             # creates all the directories that are needed that have not been made already
             BLASTWriter.create_dir(os.path.join(stan_dir, rec_dir), bla_dir)

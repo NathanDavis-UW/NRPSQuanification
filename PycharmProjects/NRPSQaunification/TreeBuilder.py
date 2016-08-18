@@ -39,16 +39,20 @@ def construct_tree(tree_analysis, tree_type, hsp_files):
             if file[0:len(file) - 4] not in os.listdir(os.path.join(ana_dir, os.path.join(nrps_dir, csv_dir))) and file[
                    0:len(file) - 4] in tree_analysis:
                 csvGenerator.create_dir(os.path.join(png_dir, file[:len(file) - 4]), tree_dir)
-                csvGenerator.create_dir(os.path.join(seq_dir, file[:len(file) - 4]), nrps_dir)
+
                 csv = DecTreeGenerator.get_blast_data(file)
 
                 # this cuts down the name of the sequence to a more readable format for the tree
+                onetime = False
                 for sequence in csv[non_target].unique():
                     alt_sequence = ""
                     alt_sequence += sequence[:sequence.index("|")+1]
                     sequence = sequence[sequence.index("|")+1:]
                     alt_sequence += sequence[:sequence.index("|")]
-                    if not os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, seq_dir))):
+                    if not os.path.exists(os.path.join(ana_dir, os.path.join(nrps_dir, os.path.join(seq_dir,
+                                             file[:len(file)-4])))) or onetime == True:
+                        csvGenerator.create_dir(os.path.join(seq_dir, file[:len(file) - 4]), nrps_dir)
+                        onetime = True
                         SeqGrabber.get_seq(alt_sequence, file[:len(file) - 4])
 
                 # This checks whether the user wanted specific sequence non-specific sequences or both, then creates
